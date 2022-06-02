@@ -6,69 +6,64 @@ Presented by
 ## Table of Contents
 ```
 TOC fixme
-Number AFTER we finish editing
-1.
-  a.
-    i.
-    ...
 ```
 
 
 
-## Overview
+## 1. Overview
 
-### About Diversity Cyber Council
-#### Site
+### a. About Diversity Cyber Council
+#### i. Site
 https://diversitycybercouncil.com/ (fixme link)
 
-#### Mission
+#### ii. Mission
 Diversity Cyber Council is a 501c3 Non-Profit that serves under-represented demographics in the tech industry by facilitating education, training, and staffing opportunities to establish a sustainable and diverse talent pipeline to the workforce.
 
-### Vision
+### b. Vision
 Our vision is to enhance inclusion and representation in the tech industry through training, mentoring, networking, and visibility programs.
 
-### Kata Project Goal
+### c. Kata Project Goal
 Our goal is to establish a sustainable and diverse talent pipeline that extends career equity to underrepresented demographics by providing access to competent training programs that lead to direct employment opportunities. 
 
-## Kata Program
+## 2. Kata Program
 
-### Program Name
+### a. Program Name
 Spotlight App/Platform
 
-### Program Summary
+### b. Program Summary
 The Spotlight App Project is a sustained effort to amass a coalition of nonprofits in order to address specific needs within the communities we serve by leveraging a centralized platform as the base of operations to collaborate and make a collective impact. 												
 Problem Statement #1: The decentralization and lack of support between nonprofits create gaps of service and overall impact. 												
 Problem Statement #2: The lack of visibility of nonprofit groups and offerings creates a barrier of access to the people we aim to serve.
 
-### Technology Solution Description
+### c. Technology Solution Description
 Nonprofit Networking Hub & Diverse Candidate Career Case Management Tool 	
 
-## About Team
+## 3. About Team
 ```diff
 - Donald
 ```
 
-### Team Name
+### a. Team Name
 TheGlobalVariables
 
-### Tagline
+### b. Tagline
 Illuminate Possibilities
 
-### Technology Proposal Summary
+### c. Technology Proposal Summary
 A technology solution that serves the purpose of enhancing visibility, support, and collaboration of nonprofits serving similar needs in the community and operate as a candidate case management platform.
 
-### Team Members
+### d. Team Members
 ```diff
 - Donald QUESTION MARK per kata page "No personal information please. Don’t include team member names or email addresses. Your GitHub repo should not include your team’s names or workplaces."
 ```
 
-## Captured Requirements
-### Users Personas & Cohorts
+## 4. Captured Requirements
+### a. Users Personas & Cohorts
  -	Non-Profit with offering (“Non-Profit”) - group with a platform integration offering
  -	Candidate - consumer of non-profit offerings, delivered via the platform
  -	Administrators - Management of the platform, registering Non-Profits
 
-### Platform Feature Characteristics
+### b. Platform Feature Characteristics
  - The Platform must establish a way to incentivize engagement such as sharing of resources, collaboration, networking, facilitating introductions, and partnerships
  - The Platform must categorize/tag nonprofit support services to match candidate needs identified in the onboarding assessment to include but not limited to
  - The Platform must provide a way to allow Non-Profits to publicize offerings to the platform that can provide some level of automatic matching for Candidate requests.
@@ -86,12 +81,12 @@ A technology solution that serves the purpose of enhancing visibility, support, 
    - Daycare/Child Care Services
    - Mentorship/Career Advocate Services	
 
-### Hard Platform Requirements
+### c. Hard Platform Requirements
  - End-Use Ease of Use is a hard requirement
  - Tracking candidate progress is a hard requirement
  - Tracking engagement is a hard requirement
 
-## Implied Requirements
+## 5. Implied Requirements
 ```diff
 - Samira
 - Scott
@@ -100,79 +95,79 @@ A technology solution that serves the purpose of enhancing visibility, support, 
 Add relevant sections
 ```
 
-### Operability
+### ?TBD?. Operability
 fixme NOW
 
-### Supportability
+### ?TBD?. Supportability
 fixme NOW
 
-### Availabilty of Resources
+### ?TBD?. Availabilty of Resources
 fixme phase 2
 
-### Future-proofing
+### ?TBD?. Future-proofing
 fixme phase 2
 
-### Total Cost of Ownership
+### ?TBD?. Total Cost of Ownership
 fixme phase 2
 
-#### Operational Costs
+#### i. Operational Costs
 fixme now, + to be defined later for detail
 
-#### Infrastructure & Cloud Costs
+#### ii. Infrastructure & Cloud Costs
 fixme phase 2...list what would be required
 
-#### Security Update Costs
+#### iii. Security Update Costs
 fixme now, + to be defined later for detail
 
-### High Availability
+### ?TBD?. High Availability
 fixme phase 2, future item (post traffic)
 
-### Scalability
+### ?TBD?. Scalability
 fixme phase 2, future item (post traffic)
 
-### Security
+### ?TBD?. Security
 fixme now, + to be defined later for detail
 
-### Performance characteristics
+### ?TBD?. Performance characteristics
 fixme now, + to be defined later for detail
 
-### User Platform Support
+### ?TBD?. User Platform Support
 
-## Proposed Solution
-### Overview & Value Proposition
+## 6. Proposed Solution
+### a. Overview & Value Proposition
 ```diff
 - Samira
 ```
 
-### High Level Archecture Diagram
+### b. High Level Archecture Diagram
 ![Architecture Diagram](docs/architecture.png)
 ```diff
 Review FRIDAY last before submit
 ```
 
-#### HLD Components
+#### i. HLD Components
 For a detailed breakout of components from the HLD, and their handling, see [here](docs/Components.md)
 ```diff
 - Donald to review sub page
 ```
 
-### Report & Business Intelligence (BI)
+### c. Report & Business Intelligence (BI)
 ```diff
 - ????
 ```
 
-### Deployments
+### d. Deployments
   TODO statement on handling amplify/CICD process here
 ```diff
 - Donald
 ```
 
-### User interactions
+### e. User interactions
 
-### Sequence Diagram
+### f. Sequence Diagram
 ![Diagram](docs/sequence_diagram.jpg)
 
-#### Processes
+#### i. Processes
   [click here for processes fixme](docs/Processes.md)
   TODO Sameria
 ```diff
@@ -180,48 +175,46 @@ For a detailed breakout of components from the HLD, and their handling, see [her
 - Donald - Add Phase 2 statement RE refinement
 ```
   
-#### UI Wireframes
+#### ii. UI Wireframes
 UI Wireframes will be expanded at if this proposal endures its self into the semifinals, and afterwards refined significantly with stakeholder feedback rounds as required if selected past the semi-finals/finals.
 
-#### Editable/Markdown fields
+#### iii. Editable/Markdown fields
 Editable/Markdown fields will be expanded at if this proposal endures its self past the semi-finals/finals. When the schema and data fields are created, we'll work with the stakeholders to define which fields require rich editing capabilities, and utilize visual  markdown editors and viewers as much as possbile and where appropriate.
 
-### Backlog
+### g. Backlog
 The Backlog refinement and entries will begin if this proposal endures its self into the semifinals, with refinement at each stage into the and past the finals.
 
-#### Epics & Milestones
+#### i. Epics & Milestones
 To be defined if a semifinalist, if appropriate.
 
-#### Defined User Stories & Epics
+#### ii. Defined User Stories & Epics
 Epics with some known stories to be flushed out in the semifinalist stage, with additional refinement post-finalist, if appropriate, and then on a milestone start and sprint start basis, milestone by milestone and sprint by sprint.
 
-### Active Design Reviews (ADRs)
+### h. Active Design Reviews (ADRs)
 
-#### ADR 0001 - Choice of Serverless
+#### i. ADR 0001 - Choice of Serverless
 [ADR 0001](ADR/ADR%200001-Choice%20of%20Serverless.md)
 
-#### ADR 0002 - Choice of Cloud Provider
+#### ii. ADR 0002 - Choice of Cloud Provider
 [ADR 0002](ADR/ADR%200002-Choice%20of%20Cloud%20Provider.md)
 
-#### ADR 0003 - Process Modeling
+#### iii. ADR 0003 - Process Modeling
 [ADR 0003](ADR/ADR%200003-Process%20Modeling.md)
 
-#### ADR 0004 - Observability
+#### iv. ADR 0004 - Observability
 [ADR 0004](ADR/ADR%200004-Observability.md)
 
-#### ADR 0005 - Amplify Frontend
+#### v. ADR 0005 - Amplify Frontend
 ```diff
 - Donald RE vue vs. hugo vs react and nodejs (aka Runtime)
 ```
 
-#### ADR 0006 - Amplify Backend
+#### vi. ADR 0006 - Amplify Backend
 ```diff
 - Scott RE Amplify Backend
-```
+``` 
 
-#### 
-
-## Definitions / Glossary
+## 7. Definitions / Glossary
 ```diff
 - Marc (add words by everyone, he'll define)
 ```
