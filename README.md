@@ -43,7 +43,9 @@ Problem Statement #2: The lack of visibility of nonprofit groups and offerings c
 Nonprofit Networking Hub & Diverse Candidate Career Case Management Tool 	
 
 ## About Team
-TODO DD
+```diff
+- Donald
+```
 
 ### Team Name
 TheGlobalVariables
@@ -55,7 +57,9 @@ Illuminate Possibilities
 A technology solution that serves the purpose of enhancing visibility, support, and collaboration of nonprofits serving similar needs in the community and operate as a candidate case management platform.
 
 ### Team Members
-TODO DD
+```diff
+- Donald
+```
 
 ## Captured Requirements
 ### Users Personas & Cohorts
@@ -87,7 +91,13 @@ TODO DD
  - Tracking engagement is a hard requirement
 
 ## Implied Requirements
-FIXME Everyone add statements to parts you think relevant
+```diff
+- Samira
+- Scott
+- Marc
+- Donald
+Add relevant sections
+```
 
 ### Operability
 fixme NOW
@@ -129,21 +139,32 @@ fixme now, + to be defined later for detail
 
 ## Proposed Solution
 ### Overview & Value Proposition
-fixme now
-TODO: Sameria
+```diff
+- Samira
+```
 
 ### High Level Archecture Diagram
 ![Architecture Diagram](docs/architecture.png)
-fixme do a final export of this Friday, still misc changes/cleanup
+```diff
+Review FRIDAY last before submit
+```
 
 #### HLD Components
 For a detailed breakout of components from the HLD, and their handling, see [here](docs/Components.md)
+```diff
+- Donald to review sub page
+```
 
 ### Report & Business Intelligence (BI)
+```diff
+- ????
+```
 
 ### Deployments
   TODO statement on handling amplify/CICD process here
-TODO: DD
+```diff
+- Donald
+```
 
 ### User interactions
 
@@ -151,25 +172,39 @@ TODO: DD
 ![Diagram](docs/sequence_diagram.jpg)
 
 #### Processes
-  TODO list
-  fixme phase 2
   [click here for processes fixme](docs/Processes.md)
   TODO Sameria
+```diff
+- Samira - Processes doc
+- Donald - Add Phase 2 statement RE refinement
+```
   
 #### UI Wireframes
-  fixme phase 2
-  
+```diff
+- Donald Phase 2 statement
+```
+
 #### Editable/Markdown fields
- fixme phase 3...can allow editing
+```diff
+- Donald Phase 3 statement RE editing
+```
+
 
 ### Backlog
-fixme phase 2
+```diff
+- Donald Phase 2 statement
+```
 
 #### Epics & Milestones
-fixme phase 2
+```diff
+- Donald Phase 2 statement
+```
+
 
 #### Defined User Stories & Epics
-fixme phase 3, if selected
+```diff
+- Donald Phase 3 statement
+```
 
 ### Active Design Reviews (ADRs)
 
@@ -185,9 +220,20 @@ fixme phase 3, if selected
 #### ADR 0004 - Observability
 [ADR 0004](ADR/ADR%200004-Observability.md)
 
-#### TODO Runtime vue hugo react, and nodejs  (Amplify Frontend) TODO DD
-#### TODO Amplify backend TODO Scott
+#### ADR 0005 - Amplify Frontend
+```diff
+- Donald RE vue vs. hugo vs react and nodejs (aka Runtime)
+```
+
+#### ADR 0006 - Amplify Backend
+```diff
+- Scott RE Amplify Backend
+```
+
 #### 
 
-## Definitions
-TODO Marc
+## Definitions / Glossary
+```diff
+- Marc (add words by everyone, he'll define)
+```
+
