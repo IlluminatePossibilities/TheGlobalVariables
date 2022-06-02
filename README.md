@@ -43,6 +43,7 @@ Problem Statement #2: The lack of visibility of nonprofit groups and offerings c
 Nonprofit Networking Hub & Diverse Candidate Career Case Management Tool 	
 
 ## About Team
+TODO DD
 
 ### Team Name
 TheGlobalVariables
@@ -54,7 +55,7 @@ Illuminate Possibilities
 A technology solution that serves the purpose of enhancing visibility, support, and collaboration of nonprofits serving similar needs in the community and operate as a candidate case management platform.
 
 ### Team Members
-fixme
+TODO DD
 
 ## Captured Requirements
 ### Users Personas & Cohorts
@@ -85,7 +86,9 @@ fixme
  - Tracking candidate progress is a hard requirement
  - Tracking engagement is a hard requirement
 
-## Presumed Requirements
+## Implied Requirements
+FIXME Everyone add statements to parts you think relevant
+
 ### Operability
 fixme NOW
 
@@ -110,11 +113,11 @@ fixme phase 2...list what would be required
 #### Security Update Costs
 fixme now, + to be defined later for detail
 
-### Future High Availability
-fixme phase 2
+### High Availability
+fixme phase 2, future item (post traffic)
 
-### Future Scalability
-fixme phase 2
+### Scalability
+fixme phase 2, future item (post traffic)
 
 ### Security
 fixme now, + to be defined later for detail
@@ -123,9 +126,11 @@ fixme now, + to be defined later for detail
 fixme now, + to be defined later for detail
 
 ### User Platform Support
+
 ## Proposed Solution
 ### Overview & Value Proposition
 fixme now
+TODO: Sameria
 
 ### High Level Archecture Diagram
 ![Architecture Diagram](docs/architecture.png)
@@ -134,21 +139,32 @@ fixme do a final export of this Friday, still misc changes/cleanup
 #### HLD Components
 For a detailed breakout of components from the HLD, and their handling, see [here](docs/Components.md)
 
-### Sequence Diagram
-![Diagram](docs/sequence_diagram.jpg)
-
-### UI Wireframes
-  fixme phase 2
+### Report & Business Intelligence (BI)
 
 ### Deployments
   TODO statement on handling amplify/CICD process here
+TODO: DD
 
-### User interactions (processes)
+### User interactions
+
+### Sequence Diagram
+![Diagram](docs/sequence_diagram.jpg)
+
+#### Processes
   TODO list
   fixme phase 2
+  [click here for processes fixme](docs/Processes.md)
+  TODO Sameria
+  
+#### UI Wireframes
+  fixme phase 2
+  
+#### Editable/Markdown fields
+ fixme phase 3...can allow editing
 
 ### Backlog
 fixme phase 2
+
 #### Epics & Milestones
 fixme phase 2
 
@@ -169,78 +185,9 @@ fixme phase 3, if selected
 #### ADR 0004 - Observability
 [ADR 0004](ADR/ADR%200004-Observability.md)
 
+#### TODO Runtime vue hugo react, and nodejs  (Amplify Frontend) TODO DD
+#### TODO Amplify backend TODO Scott
+#### 
+
 ## Definitions
-
-
-
-
-												
-											
- 												
-
-
-## TODO (placement)
-```
-Networking Hub Functionality & Process
-
-Operational Process - Registration & Intake (Non-Profit)						
-Step 1	New Non-Profit registers on platform 					
-Step 2	New Non-Profit completes community profile 					
-Step 3	New Non-Profit completes service capabilities assessment					
-Step 4	Completion of profile and assessment automatically starts intake				
-Step 5	New Non-Profit assignment created					
-Operational Process - Mentor Assignment & Roadmap						
-Step 6	New Non-Profit assigned a community leader					
-Step 7	Email sent to new Non-Profit introducing community leader					
-Step 8	Introductory meeting is schedule within 1-2 weeks to discuss non profit service capabilities, responsibilities, & expectations					
-Step 9	Regular cadence touchpoints scheduled between new non-profit and community leader	
-Step 10 Platform Role based training is assigned to new Non-Profit				
-Step 11 New Non-Profit is invited to monthly community meetings				
-
-Career Case Management Functionality & Process
-
-Operational Process - Registration & Intake & Career Assessment	
-Step 1	Candidate registers on platform	
-Step 2	Candidate completes a career profile	
-Step 3	Candidate completes a career assessment	
-Step 4	Completion of profile and assessment automatically starts intake	
-Step 5	New candidate assignment created	
-
-Operational Process - Mentor Assignment & Roadmap		
-Step 6	New candidate assigned a career mentor	
-Step 7	Email sent to new candidate introducing career mentor	
-Step 8	Introductory meeting is schedule within 1-2 weeks to discuss candidate needs and develop career roadmap	
-Step 9	Regular cadence touchpoints scheduled between new candidate and career mentor 	
-Step 10	Career mentor uploads new candidate career roadmap in platform	
-Step 11	Career mentor updates candidate assignment in platform to reflect career roadmap	
-
-Operational Process - Candidate Services		
-Resume Writing Services	
-Interview Prep	Free Business Attire
-Apprenticeship Program Registration	
-Training Program Registration 	
-College & University Registration 
-Free Grocery & Meal Services	
-Discounted Rent & Housing Services	
-Daycare/Child Care Services
-Mentorship/Career Advocate Services		
-
-Technical Details
-Domain areas:
-Non-Profit Community 
-NonProfit Profiles
-Open Community - No Connection Requests
-Due to the open community please ensure volume of posts will not cause missing important content, maybe a separate forum for posts the nonprofit opts into?
-Engagement Enhancers - how can engagement be enhanced based on app/platform design and functionality? Weekly NonProfit Spotlights for Engagement? How else to incentivize? 
-
-
-Candidate Onboarding Community
-Registration 
-Needs Assessment
-Career Roadmap
-Candidate / Non-Profit Matching 
-What is the most efficient and effective process to meet the need?
-How will candidate progress be tracked
-How will nonprofit gain value?
-Integration (extranet)
-```
+TODO Marc
