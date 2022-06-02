@@ -5,7 +5,53 @@ Presented by
 
 ## Table of Contents
 ```
-TOC fixme
+1. Overview
+ a. About Diversity Cyber Council
+  i. Site
+  ii. Mission
+ b. Vision
+ c. Kata Project Goal
+2. Kata Program
+ a. Program Name
+ b. Program Summary
+ c. Technology Solution Description
+3. About Team
+ a. Team Name
+ b. Tagline
+ c. Technology Proposal Summary
+ d. Team Members
+4. Captured Requirements
+ a. Users Personas & Cohorts
+ b. Platform Feature Characteristics
+ c. Hard Platform Requirements
+5. Implied Requirements
+ ?fixme update TBDs?
+ ?fixme TBD?. Total Cost of Ownership
+  i. Operational Costs
+  ii. Infrastructure & Cloud Costs
+  iii. Security Update Costs
+6. Proposed Solution
+ a. Overview & Value Proposition
+ b. High Level Archecture Diagram
+  i. HLD Components
+ c. Report & Business Intelligence (BI)
+ d. Deployments
+ e. User interactions
+ f. Sequence Diagram
+  i. Processes
+  ii. UI Wireframes
+  iii. Editable/Markdown fields
+ g. Backlog
+  i. Epics & Milestones
+  ii. Defined User Stories & Epics
+ h. Active Design Reviews (ADRs)
+  i. ADR 0001 - Choice of Serverless
+  ii. ADR 0002 - Choice of Cloud Provider
+  iii. ADR 0003 - Process Modeling
+  iv. ADR 0004 - Observability
+  v. ADR 0005 - Amplify Frontend
+  vi. ADR 0006 - Amplify Backend
+7. Definitions / Glossary
 ```
 
 
