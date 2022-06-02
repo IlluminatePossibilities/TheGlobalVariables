@@ -58,7 +58,7 @@ A technology solution that serves the purpose of enhancing visibility, support, 
 
 ### Team Members
 ```diff
-- Donald
+- Donald QUESTION MARK per kata page "No personal information please. Don’t include team member names or email addresses. Your GitHub repo should not include your team’s names or workplaces."
 ```
 
 ## Captured Requirements
@@ -180,31 +180,19 @@ For a detailed breakout of components from the HLD, and their handling, see [her
 ```
   
 #### UI Wireframes
-```diff
-- Donald Phase 2 statement
-```
+UI Wireframes will be expanded at if this proposal endures its self into the semifinals, and afterwards refined significantly with stakeholder feedback rounds as required if selected past the semi-finals/finals.
 
 #### Editable/Markdown fields
-```diff
-- Donald Phase 3 statement RE editing
-```
-
+Editable/Markdown fields will be expanded at if this proposal endures its self past the semi-finals/finals. When the schema and data fields are created, we'll work with the stakeholders to define which fields require rich editing capabilities, and utilize visual  markdown editors and viewers as much as possbile and where appropriate.
 
 ### Backlog
-```diff
-- Donald Phase 2 statement
-```
+The Backlog refinement and entries will begin if this proposal endures its self into the semifinals, with refinement at each stage into the and past the finals.
 
 #### Epics & Milestones
-```diff
-- Donald Phase 2 statement
-```
-
+To be defined if a semifinalist, if appropriate.
 
 #### Defined User Stories & Epics
-```diff
-- Donald Phase 3 statement
-```
+Epics with some known stories to be flushed out in the semifinalist stage, with additional refinement post-finalist, if appropriate, and then on a milestone start and sprint start basis, milestone by milestone and sprint by sprint.
 
 ### Active Design Reviews (ADRs)
 
