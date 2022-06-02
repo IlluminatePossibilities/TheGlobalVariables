@@ -42,7 +42,6 @@
 
 
 #### AWS Lambda
-FIXME https://aws.amazon.com/solutions/implementations/cognito-user-profiles-export-reference-architecture/
 ##### Overview
 ##### Operations (handling/actions)
 ##### Observability (Monitoring, loggin, Alarms, APM)
@@ -85,6 +84,7 @@ FIXME https://aws.amazon.com/solutions/implementations/cognito-user-profiles-exp
 ##### Security posture
 
 #### AWS Cognito
+FIXME https://aws.amazon.com/solutions/implementations/cognito-user-profiles-export-reference-architecture/
 ##### Overview
 ##### Operations (handling/actions)
 ##### Observability (Monitoring, loggin, Alarms, APM)
