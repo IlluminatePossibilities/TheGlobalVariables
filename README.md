@@ -163,6 +163,9 @@ For a detailed breakout of components from the HLD, and their handling, see [her
 ```
 
 ### e. User interactions
+```diff
+- ???? future?
+```
 
 ### f. Sequence Diagram
 ![Diagram](docs/sequence_diagram.jpg)
