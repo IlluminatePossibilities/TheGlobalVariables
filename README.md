@@ -1,6 +1,7 @@
-
 # Diversity Cyber Council Proposal
-Presented by ![logo](img/logo.png)
+Presented by
+
+![logo](img/logo.png)
 
 ## Table of Contents
 ```
