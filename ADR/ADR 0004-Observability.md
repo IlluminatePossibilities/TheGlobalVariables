@@ -1,4 +1,4 @@
-# ADR 0002 - Observability
+# ADR 0004 - Observability
 
 ## Status
 
