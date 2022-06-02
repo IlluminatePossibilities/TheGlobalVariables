@@ -87,20 +87,46 @@ fixme
 
 ## Presumed Requirements
 ### Operability
+fixme NOW
+
 ### Supportability
+fixme NOW
+
 ### Availabilty of Resources
+fixme phase 2
+
 ### Future-proofing
+fixme phase 2
+
 ### Total Cost of Ownership
+fixme phase 2
+
 #### Operational Costs
+fixme now, + to be defined later for detail
+
 #### Infrastructure & Cloud Costs
+fixme phase 2...list what would be required
+
 #### Security Update Costs
+fixme now, + to be defined later for detail
+
 ### Future High Availability
+fixme phase 2
+
 ### Future Scalability
+fixme phase 2
+
 ### Security
+fixme now, + to be defined later for detail
+
 ### Performance characteristics
+fixme now, + to be defined later for detail
+
 ### User Platform Support
 ## Proposed Solution
 ### Overview & Value Proposition
+fixme now
+
 ### High Level Archecture Diagram
 ![Architecture Diagram](docs/architecture.png)
 fixme do a final export of this Friday, still misc changes/cleanup
@@ -112,17 +138,22 @@ For a detailed breakout of components from the HLD, and their handling, see [her
 ![Diagram](docs/sequence_diagram.jpg)
 
 ### UI Wireframes
-  TODO
+  fixme phase 2
 
 ### Deployments
   TODO statement on handling amplify/CICD process here
 
 ### User interactions (processes)
   TODO list
+  fixme phase 2
 
 ### Backlog
+fixme phase 2
 #### Epics & Milestones
+fixme phase 2
+
 #### Defined User Stories & Epics
+fixme phase 3, if selected
 
 ### Active Design Reviews (ADRs)
 
