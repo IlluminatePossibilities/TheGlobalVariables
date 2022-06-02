@@ -124,6 +124,19 @@ fixme
 #### Epics & Milestones
 #### Defined User Stories & Epics
 ### Active Design Reviews (ADRs)
+
+#### ADR 0001 - Choice of Serverless
+[ADR 0001](ADR/ADR%200001-Choice%20of%20Serverless.md)
+
+#### ADR 0002 - Choice of Cloud Provider
+[ADR 0002](ADR/ADR%200002-Choice%20of%20Cloud%20Provider.md)
+
+#### ADR 0003 - Process Modeling
+[ADR 0003](ADR/ADR%200003-Process%20Modeling.md)
+
+#### ADR 0004 - Observability
+[ADR 0004](ADR/ADR%200004-Observability.md)
+
 ## Definitions
 
 
