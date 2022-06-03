@@ -234,7 +234,7 @@ For a detailed breakout of components from the HLD, and their handling, see [her
 
 ### d. Deployments
 
-![CI/CD Flow](docs/cicd_flow.png.jpg)
+![CI/CD Flow](docs/cicd_flow.png)
 
 Two CI/CD pipelines are proposed to facilitate updates to the infrastructure and applications on the platform:
 
