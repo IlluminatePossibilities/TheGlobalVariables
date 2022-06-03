@@ -238,10 +238,21 @@ The primary ongoing development cost not related to feature development on this 
 ## 6. Proposed Solution
 
 ### a. Overview & Value Proposition
+The Spolight App project aims to solve two issues that are faced by any non-profit organization: minimizing the operating cost, and increasing the visibility of available services.
 
-```diff
-- Samira to update
-```
+Many nonprofits choose to minimize their operating cost by cutting the budget of anything other than direct program expenses or “support to the cause.” Most often, this causes nonprofits experience slow growth or an inability to become sustainable due to a lack of investment in infrastructure and management. In many cases, the nonprofit is left with a few volunteers who shoulder much of the work.
+
+On the other hand, the lack of visibility of nonprofits and their offerings creates a barrier of access to the
+people who can benefit from these programs. The decentralization and lack of support between nonprofits create gaps of service and overall impact.
+
+Our proposed solution tackles the lack of visibility by enabling Spotlight App to be a central website where non-profits are empowered to identify their service capabilities and publicize their offerings. Spotlight App also enables the candidates to find the services by providing smart recommendations based on the information provided by candidates and their geographical preferences. The Spolight Mobile App brings the nonprofit services closer to the candidates, as [85% of Americans nowaday own a smartphone](https://www.pewresearch.org/internet/fact-sheet/mobile/). The map view of the non-profit offerings makes it convenient for the candidates to locate the services close to their desired locations (school, home, work). In addition, the prediction capability of our solution helps the non-profits to identify the offering gaps, and predict the future desirable career paths.
+AWS Pinpoint is used to collect usage data which essentially provides meaningful metrics to guide admintrators and non-profit to improve their offerings and the application usaability. 
+
+During the design process, we did our best to provide a cost-effective solution, without compromising the efficiency or the usability of the product. Our proposed solution reduces the cost of the human resources by automating most of the manual processes that are done by volunteers and employees. This offloads them to focus on what is the most important for non-profits. Calendly is used to replace the traditional means of communciation (such as phone calls) for scheduling meetings. Recommendation engine is used to simplify the interview process by taking the candidates profile and needs as inputs, and provide smart initial recommendations for the career roadmap. 
+
+To reduce the cost of infrastructure, we introduced Serverless and affordable technology stack (such as D3, Vuejs, AWS Amplify). The serverless means that the development team do not need to concern about building, securing and maintaining servers.
+By using D3 and Vuejs for the frontend development, and AWS Amplify for the backend development, Spolight App can be developed and deployed with lower cost in short time. 
+
 
 ### b. High Level Archecture Diagram
 
