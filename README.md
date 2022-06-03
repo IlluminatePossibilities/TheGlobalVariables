@@ -104,11 +104,11 @@ Spotlight App/Platform
 
 ### b. Program Summary
 
-The Spotlight App Project is a sustained effort to amass a coalition of nonprofits in order to address specific needs within the communities we serve by leveraging a centralized platform as the base of operations to collaborate and make a collective impact.
+The Spotlight App Project is a sustained effort to amass a coalition of non-profits in order to address specific needs within the communities we serve by leveraging a centralized platform as the base of operations to collaborate and make a collective impact.
 
-**Problem Statement #1:** The decentralization and lack of support between nonprofits create gaps of service and overall impact.
+**Problem Statement #1:** The decentralization and lack of support between non-profits create gaps of service and overall impact.
 
-**Problem Statement #2:** The lack of visibility of nonprofit groups and offerings creates a barrier of access to the people we aim to serve.
+**Problem Statement #2:** The lack of visibility of non-profit groups and offerings creates a barrier of access to the people we aim to serve.
 
 ### c. Technology Solution Description
 
@@ -130,7 +130,7 @@ Illuminate Possibilities
 
 ### c. Technology Proposal Summary
 
-A technology solution that serves the purpose of enhancing visibility, support, and collaboration of nonprofits serving similar needs in the community and operate as a candidate case management platform.
+A technology solution that serves the purpose of enhancing visibility, support, and collaboration of non-profits serving similar needs in the community and operate as a candidate case management platform.
 
 ---
 
@@ -143,7 +143,7 @@ A technology solution that serves the purpose of enhancing visibility, support, 
 | **Non-Profit with offering (“Non-Profit”)** | Group with a platform integration offering |
 | **Candidate** | Consumer of non-profit offerings, delivered via the platform |
 | **Administrators** | Management of the platform, registering Non-Profits |
-| **Community Leader** | Member of the Admin team who helps non profits to identify their service capabilities, responsibilities, & expectations |
+| **Community Leader** | Member of the Admin team who helps non-profits to identify their service capabilities, responsibilities, & expectations |
 | **Mentor** | Member of Non-Profit, who is in charge of updating the profile of candidates |
 
 ### b. Platform Feature Characteristics
@@ -153,7 +153,7 @@ A technology solution that serves the purpose of enhancing visibility, support, 
 - The Platform allows offerings to contain rich text, links, and downloadable readable content such as PDFs, but no other downloads.
 - Each offering must support a certain list of properties (defined by the platform), such as name, organization description, website, unique identifier (assigned by the Administrators) and other identification information.
 - The Platform must provide both operational reports (number of candidate matches / period, number of offerings / region, and so on) and analytical reports (projections of future desirable career paths, Offering gaps in a region based on demand, and so on) for use by Administrators.
-- The Platform must categorize/tag nonprofit support services to match candidate needs that are identified during the onboarding assessment to include (but not limited to):
+- The Platform must categorize/tag non-profit support services to match candidate needs that are identified during the onboarding assessment to include (but not limited to):
   - Resume Writing Services
   - Interview Prep
   - Free Business Attire
@@ -181,7 +181,7 @@ The end users are not tech-savvy; therefore the success of this product depends 
 
 ### b. Security
 
-The application is exposed on the web which always has the risk of cyber attacks, if the application accessed by unauthorized users. Moreover, the system stores sensitive information, such as personal data.
+The application is exposed on the web which always has the risk of cyberattacks, if the application accessed by unauthorized users. Moreover, the system stores sensitive information, such as personal data.
 
 ### c. Privacy
 
@@ -239,9 +239,21 @@ The primary ongoing development cost not related to feature development on this 
 
 ### a. Overview & Value Proposition
 
-```diff
-- Samira to update
-```
+The Spotight App project aims to solve two issues that are faced by any non-profit organization: minimizing the operating cost, and increasing the visibility of available services.
+
+Many non-profits choose to minimize their operating costs by cutting the budget of anything other than direct program expenses or to “support the cause”. Most often, this causes non-profits to experience slow growth or an inability to become sustainable due to a lack of investment in infrastructure and management. In many cases, the non-profit is left with a few volunteers to shoulder much of the work.
+
+On the other hand, the lack of visibility of non-profits and their offerings creates a barrier of access for the people who can benefit most from these programs. The decentralization and lack of support between non-profits create gaps of service and overall impact.
+
+Our proposed solution tackles the lack of visibility by enabling Spotlight App to be a centralzed hub where non-profits are empowered to identify their service capabilities and publicize their offerings. THe Spotlight App will also enable the candidates to find services by providing smart recommendations based on the information provided by candidates and their geographical preferences. The Spolight Mobile App brings the non-profit services closer to the candidates, as [85% of Americans currently own a smartphone](https://www.pewresearch.org/internet/fact-sheet/mobile/). The map view of the non-profit offerings makes it convenient for candidates to locate the services closeest to their desired locations (school, home, work). In addition, the prediction capability of our solution helps non-profits identify the offering gaps, and predict the future desirable career paths.
+
+AWS Pinpoint is used to collect usage data which essentially provides meaningful metrics to guide admintrators and non-profit to improve their offerings and the application usaability.
+
+During the design process, we prioritized finding a cost-effective solution, without compromising the efficiency or the usability of the product. Our proposed solution reduces the cost of the human resources by automating most of the manual processes that are typically performed by volunteers and employees. This frees them to focus on what is the most important for non-profits. Calendly is used to replace the traditional means of communciation (such as phone calls) for scheduling meetings. A recommendation engine is used to simplify the interview process by taking the candidates profile and needs as inputs, and provide smart initial recommendations for a career roadmap.
+
+To reduce the cost of infrastructure, we introduced Serverless along with an affordable technology stack (such as D3, Vuejs, AWS Amplify). The use of serverless means that the development team do not need to spend time building, securing and maintaining servers.
+
+By using D3 and Vuejs for the frontend development, and AWS Amplify for the backend development, the Spolight App can be developed and deployed faster and more affordably.
 
 ### b. High Level Archecture Diagram
 
