@@ -190,9 +190,7 @@ Amazon provides services in multiple Availability Zones. By using Serverless ser
 
 ### j. Scalability
 
-```diff
-- Marc to update
-```
+The choice of serverless as a platform allows much faster scaling than if container or VM based infrastructure were used. Also, the scaling characteristics of the services are, for the most part, handled by the cloud provider (AWS). There are some services that have scaling limits (i.e. lambda defaults to 1000 concurrent functions running at a time) and these should be monitored so that the limits can be increased before they become an issue.
 
 ### k. Total Cost of Ownership
 
