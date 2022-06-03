@@ -27,42 +27,24 @@ The candidate's career path and progress, as well as non-profit information are 
 Since the system is user-facing, it is important to ensure the system responds to the end user requests in a timely manner.
 
 ### Availability
+```diff
+- Marc
+```
 
-### Deployability
 
-### Performance
-
-### Data Consistency
-
-### Testability
-
-### Adaptability
-
-### Abstraction
+### Performance Characteristics
+```diff
+- Marc
+```
 
 ### Fault Tolerance
 
-### Extensibility
-
-### Workflow
-
 ### Scalability
+```diff
+- Marc
+```
 
-### Configurability
-
-### Elasticity
-
-### Concurrency
-
-### Recoverability
-
-### Operability
-
-### Supportability
-
-### Future-proofing
-
-## ?TBD?. Total Cost of Ownership
+### Total Cost of Ownership
 
 fixme phase 2
 
@@ -76,23 +58,9 @@ fixme phase 2...list what would be required
 
 #### iii. Security Update Costs
 
-fixme now, + to be defined later for detail
-
-### ?TBD?. High Availability
-
-fixme phase 2, future item (post traffic)
-
-### ?TBD?. Scalability
-
-fixme phase 2, future item (post traffic)
 
 ### ?TBD?. Security
-
-fixme now, + to be defined later for detail
-
-### ?TBD?. Performance characteristics
-
-fixme now, + to be defined later for detail
-
-### ?TBD?. User Platform Support
+```diff
+- Marc
+```
 
