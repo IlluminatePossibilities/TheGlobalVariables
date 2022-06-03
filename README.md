@@ -298,10 +298,13 @@ A non-profit corporation or trust that is tax-exempt. See [wikipedia](https://en
 ## <a name="Architecture Decision"></a> Architecture Decision
 A design choice with larger significance.
 
-## <a name="ADR - Architectural Decision Record"></a> - Architectural Decision Record
+## <a name="ADR - Architectural Decision Record"></a> Architectural Decision Record
 A document that captures an important architecture decision along with the context and consequences.
 
 <!---Synonyms: `ADR`, `Architecture Haiku`--->
 
-## <a name="TCO - Total Cost of Ownershipt"></a> - Total Cost of Ownership
+## <a name="PII - Personally Identifiable Information"></a> Personally Identifiable Information
+Data that when used alone or in conjunction with other information can identify an individual.
+
+## <a name="TCO - Total Cost of Ownershipt"></a> Total Cost of Ownership
 The complete calculation of costs pertaining to a software property. In software, this refers to not only the runtime cost but also the cost of operation.
