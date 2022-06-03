@@ -61,7 +61,7 @@ Presented by
 
 #### i. Site
 
-[Diversity Cyber Council](https://diversitycybercouncil.com) (fixme link)
+[Diversity Cyber Council](https://diversitycybercouncil.com)
 
 #### ii. Mission
 
