@@ -179,16 +179,17 @@ The candidate's career path and progress, as well as non-profit information are 
 Since Spotlight is user-facing, it is important to ensure the system responds to the end user requests in a timely manner.
 
 ### h. Availability
-```diff
-- Marc to update
-```
+
+Amazon provides services in multiple Availability Zones. By using Serverless services, the Diversity Cyber Council platform will make use of these, by default and as such, the platform can withstand the loss of a given Availability Zone.
 
 ### i. Performance Characteristics
+
 ```diff
 - Marc to update
 ```
 
 ### j. Scalability
+
 ```diff
 - Marc to update
 ```
@@ -198,15 +199,14 @@ Since Spotlight is user-facing, it is important to ensure the system responds to
 ```diff
 - Donald to update
 ```
-#### i. Operational Costs
 
+#### i. Operational Costs
 
 ```diff
 - Donald to update future statement
 ```
 
 #### ii. Infrastructure & Cloud Costs
-
 
 ```diff
 - Donald to update future statement
@@ -322,6 +322,12 @@ A design choice with larger significance.
 ### <a name="ADR - Architectural Decision Record"></a> Architectural Decision Record
 
 A document that captures an important architecture decision along with the context and consequences.
+
+### <a name="Availability Zone"></a> Availability Zone
+
+```diff
+Marc
+```
 
 ### <a name="Backlog"></a> Backlog
 
