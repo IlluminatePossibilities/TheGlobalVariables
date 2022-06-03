@@ -247,15 +247,8 @@ Epics with some known stories to be flushed out in the semifinalist stage, with 
 
 [ADR 0004](ADR/ADR%200004-Observability.md)
 
-#### v. ADR 0005 - Amplify Frontend
-
-```diff
-- Donald RE vue vs. hugo vs react and nodejs (aka Runtime)
-```
-
-#### vi. ADR 0006 - Amplify Backend
-
-[ADR 0006](ADR/ADR%200006-Amplify%20Backend.md)
+#### v. ADR 0005 - Amplify
+[ADR 0005](ADR/ADR%200005-Amplify.md)
 
 ## 7. Definitions / Glossary
 
