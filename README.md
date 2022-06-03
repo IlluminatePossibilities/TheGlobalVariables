@@ -173,6 +173,44 @@ The candidate's career path and progress, as well as non-profit information are 
 
 Since Spotlight is user-facing, it is important to ensure the system responds to the end user requests in a timely manner.
 
+### Availability
+```diff
+- Marc
+```
+
+
+### Performance Characteristics
+```diff
+- Marc
+```
+
+### Fault Tolerance
+
+### Scalability
+```diff
+- Marc
+```
+
+### Total Cost of Ownership
+
+fixme phase 2
+
+#### i. Operational Costs
+
+fixme now, + to be defined later for detail
+
+#### ii. Infrastructure & Cloud Costs
+
+fixme phase 2...list what would be required
+
+#### iii. Security Update Costs
+
+
+### Security
+```diff
+- Marc
+```
+
 ## 6. Proposed Solution
 
 ### a. Overview & Value Proposition
