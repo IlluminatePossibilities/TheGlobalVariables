@@ -36,7 +36,7 @@ The true cost of "lock-in" is:
 
 It is our opinion that the "cost" of choosing/managing/"coding for" an open-source (containerized) solution (for example like `RabbitMQ`) is not beneficial when compared with the opportunity cost gained by moving faster using the cloud provider's solution (not to mention people opportunity cost gained by not having to manage a solution).
 
-It our team's opinion that the use of Serverless architecture allows Diversity Cyber Council to maximize opportunity gain and will provide a faster time to market.
+It is our team's opinion that the use of Serverless architecture allows Diversity Cyber Council to maximize opportunity gain and will provide a faster time to market.
 
 As such, we have concluded that serverless options should be explored as a default unless a product offering provides more value.
 
