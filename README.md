@@ -220,7 +220,7 @@ For a detailed breakout of components from the HLD, and their handling, see [her
 - Donald to review sub page
 ```
 
-### c. Report & Business Intelligence (BI)
+### c. Reporting & Business Intelligence (BI)
 ```diff
 - ????
 ```
@@ -308,3 +308,6 @@ Data that when used alone or in conjunction with other information can identify 
 
 ## <a name="TCO - Total Cost of Ownershipt"></a> Total Cost of Ownership
 The complete calculation of costs pertaining to a software property. In software, this refers to not only the runtime cost but also the cost of operation.
+
+## <a name="UI - User Interface"></a> User Interface
+Any means that a user may use to interact with a system.
