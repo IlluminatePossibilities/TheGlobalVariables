@@ -318,3 +318,6 @@ The complete calculation of costs pertaining to a software property. In software
 
 ### <a name="UI - User Interface"></a> User Interface
 Any means that a user may use to interact with a system.
+
+### <a name="User Story"></a> User Story
+An explanation of a software feature written from the perspective of a user persona.
