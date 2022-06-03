@@ -17,11 +17,13 @@ After some discussion, Amazon Web Services (AWS) standard observability tools wi
 ## Consequences
 
 Positive Impact:
-- developers can specialize in a given cloud provider.
-- "single pane of glass" for viewing cloud properties.
-- largest provider should mean a larger talent pool to draw from.
+
+- Developers can specialize in a given cloud provider.
+- "Single pane of glass" for viewing cloud properties.
+- Largest provider should mean a larger talent pool to draw from.
 
 Negative Impact:
-- other tools may have more in-depth offerings that may need to be considered in future.
-- particular care needs to be placed on retention of logs.
-- AWS billing can be cryptic
+
+- Other tools may have more in-depth offerings that may need to be considered in future.
+- Particular care needs to be placed on retention of logs.
+- AWS billing can be cryptic.

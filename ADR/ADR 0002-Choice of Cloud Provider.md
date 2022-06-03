@@ -8,7 +8,7 @@ ACCEPTED
 
 Given [ADR 0001](ADR%200001-Choice%20of%20Serverless.md), the choice of default provider becomes important.
 
-Amazon Web Services (AWS) is the leading provider, particularly in the Serverless, particularly lambda space. 
+Amazon Web Services (AWS) is the leading provider, particularly in the Serverless, particularly lambda space.
 
 We have selected AWS as the default provider.
 
@@ -20,10 +20,12 @@ We have selected AWS as the default provider.
 ## Consequences
 
 Positive Impact:
-- developers can specialize in a given cloud provider.
-- "single pane of glass" for viewing cloud properties.
-- largest provider should mean a larger talent pool to draw from.
+
+- Developers can specialize in a given cloud provider.
+- "Single pane of glass" for viewing cloud properties.
+- Largest provider should mean a larger talent pool to draw from.
 
 Negative Impact:
-- developers may not be aware of better alternatives in other providers
-- AWS billing can be cryptic
+
+- Developers may not be aware of better alternatives in other providers.
+- AWS billing can be cryptic.

@@ -12,7 +12,7 @@ The use of code based mechanisms to model the processes that will be required.
 
 A variety of tools were examined, three were considered:
 
-- Camunda (BPMN and serverless platform, expensive) 
+- Camunda (BPMN and serverless platform, expensive)
 - Activiti (BPMN code generator, FOSS)
 - AWS Step Functions (AWS State Language, pay per use)
 
@@ -27,7 +27,9 @@ It was decided that the processes were sufficiently simple to not warrant integr
 ## Consequences
 
 Positive Impact:
-- no need to learn a process modeling tool.
+
+- No need to learn a process modeling tool.
 
 Negative Impact:
-- code will need to be written to handle interations.
+
+- Code will need to be written to handle interations.
