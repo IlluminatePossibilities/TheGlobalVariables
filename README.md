@@ -274,27 +274,15 @@ To be defined if a semifinalist, if appropriate.
 
 Epics with some known stories to be flushed out in the semifinalist stage, with additional refinement post-finalist, if appropriate, and then on a milestone start and sprint start basis, milestone by milestone and sprint by sprint.
 
-### h. Active Design Reviews (ADRs)
+### h. Architectural Decision Records (ADRs)
 
-#### i. ADR 0001 - Choice of Serverless
-
-[ADR 0001](ADR/ADR%200001-Choice%20of%20Serverless.md)
-
-#### ii. ADR 0002 - Choice of Cloud Provider
-
-[ADR 0002](ADR/ADR%200002-Choice%20of%20Cloud%20Provider.md)
-
-#### iii. ADR 0003 - Process Modeling
-
-[ADR 0003](ADR/ADR%200003-Process%20Modeling.md)
-
-#### iv. ADR 0004 - Observability
-
-[ADR 0004](ADR/ADR%200004-Observability.md)
-
-#### v. ADR 0005 - Amplify
-
-[ADR 0005](ADR/ADR%200005-Amplify.md)
+| ADR Link | Topic |
+|---|---|
+| [ADR 0001](ADR/ADR%200001-Choice%20of%20Serverless.md) | Choice of Serverless |
+| [ADR 0002](ADR/ADR%200002-Choice%20of%20Cloud%20Provider.md) | Choice of Cloud Provider |
+| [ADR 0003](ADR/ADR%200003-Process%20Modeling.md) | Process Modeling |
+| [ADR 0004](ADR/ADR%200004-Observability.md) | Observability |
+| [ADR 0005](ADR/ADR%200005-Amplify.md) | Amplify |
 
 ## 7. Definitions / Glossary
 
