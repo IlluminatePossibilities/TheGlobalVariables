@@ -145,7 +145,7 @@ A technology solution that serves the purpose of enhancing visibility, support, 
 - Tracking candidate progress is a hard requirement
 - Tracking engagement is a hard requirement
 
-## 5. Implied Requirements
+## 5. Archectural Characteristics
 
 fixme add back top 5-7 tomorrow
 
