@@ -94,9 +94,7 @@ Nonprofit Networking Hub & Diverse Candidate Career Case Management Tool
 
 ## 3. About Team
 
-```diff
-- Donald
-```
+The minimal team information is below. Per the proposals instructions individual team identifying information, including our backstories, has been removed. We hope to communicate this information at an appropriate time. FOr now the absolute bare information is available including the team name, tag line, and a summary of our proposal.
 
 ### a. Team Name
 
