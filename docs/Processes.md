@@ -35,34 +35,4 @@ Step 8	Introductory meeting is schedule within 1-2 weeks to discuss candidate ne
 Step 9	Regular cadence touchpoints scheduled between new candidate and career mentor 	
 Step 10	Career mentor uploads new candidate career roadmap in platform	
 Step 11	Career mentor updates candidate assignment in platform to reflect career roadmap	
-
-Operational Process - Candidate Services		
-Resume Writing Services	
-Interview Prep	Free Business Attire
-Apprenticeship Program Registration	
-Training Program Registration 	
-College & University Registration 
-Free Grocery & Meal Services	
-Discounted Rent & Housing Services	
-Daycare/Child Care Services
-Mentorship/Career Advocate Services		
-
-Technical Details
-Domain areas:
-Non-Profit Community 
-NonProfit Profiles
-Open Community - No Connection Requests
-Due to the open community please ensure volume of posts will not cause missing important content, maybe a separate forum for posts the nonprofit opts into?
-Engagement Enhancers - how can engagement be enhanced based on app/platform design and functionality? Weekly NonProfit Spotlights for Engagement? How else to incentivize? 
-
-
-Candidate Onboarding Community
-Registration 
-Needs Assessment
-Career Roadmap
-Candidate / Non-Profit Matching 
-What is the most efficient and effective process to meet the need?
-How will candidate progress be tracked
-How will nonprofit gain value?
-Integration (extranet)
 ```
