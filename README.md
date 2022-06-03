@@ -176,41 +176,50 @@ Since Spotlight is user-facing, it is important to ensure the system responds to
 
 ### h. Availability
 ```diff
-- Marc
+- Marc to update
 ```
-
 
 ### i. Performance Characteristics
 ```diff
-- Marc
+- Marc to update
 ```
 
 ### j. Scalability
 ```diff
-- Marc
+- Marc to update
 ```
 
 ### k. Total Cost of Ownership
 
-fixme phase 2
-
+```diff
+- Donald to update
+```
 #### i. Operational Costs
 
-fixme now, + to be defined later for detail
+
+```diff
+- Donald to update future statement
+```
 
 #### ii. Infrastructure & Cloud Costs
 
-fixme phase 2...list what would be required
+
+```diff
+- Donald to update future statement
+```
 
 #### iii. Security Update Costs
 
+```diff
+- Donald to update future statement
+```
 
 ## 6. Proposed Solution
 
 ### a. Overview & Value Proposition
 
 ```diff
-- Samira
+- Samira to update
 ```
 
 ### b. High Level Archecture Diagram
@@ -228,7 +237,7 @@ For a detailed breakout of components from the HLD, and their handling, see [her
 ### c. Reporting & Business Intelligence (BI)
 
 ```diff
-- ????
+- ???? who fixme
 ```
 
 ### d. Deployments
@@ -297,10 +306,6 @@ Epics with some known stories to be flushed out in the semifinalist stage, with 
 [ADR 0005](ADR/ADR%200005-Amplify.md)
 
 ## 7. Definitions / Glossary
-
-```diff
-- Marc (add words by everyone, he'll define)
-```
 
 ### <a name="501c3 Non-Profit"></a> 501c3 Non-Profit
 
