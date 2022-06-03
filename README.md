@@ -241,10 +241,6 @@ Two CI/CD pipelines are proposed to facilitate updates to the infrastructure and
 
 Updates will be triggered on commit, and the tools will be triggered via webhook.
 
-```diff
-- Donald check/text
-```
-
 ### e. User Interactions
 
 User interactions will be expanded at if this proposal endures its self into the semifinals, and afterwards refined significantly with stakeholder feedback rounds as required if selected past the semi-finals/finals. In particular the user interactions will rely on the processes defined.
