@@ -7,6 +7,10 @@ Presented by
 ## Table of Contents
 
 ```diff
+- Donald to update last
+```
+
+```diff
 1. Overview
  a. About Diversity Cyber Council
   i. Site
@@ -227,7 +231,7 @@ Since Spotlight is user-facing, it is important to ensure the system responds to
 ![Architecture Diagram](docs/architecture.png)
 
 ```diff
-Review FRIDAY last before submit
+- Review FRIDAY last before submit
 ```
 
 #### i. HLD Components
