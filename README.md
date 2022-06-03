@@ -301,6 +301,12 @@ A design choice with larger significance.
 ## <a name="ADR - Architectural Decision Record"></a> Architectural Decision Record
 A document that captures an important architecture decision along with the context and consequences.
 
+## <a name="Backlog"></a> Backlog
+A 'todo' list of features or tasks to be performed to complete work.
+
+## <a name="Epic"></a> Epic
+A high-level task that can be broken down into smaller tasks that are to be added to a backlog.
+
 ## <a name="HLD - High-Level Design"></a> High-Level Design
 An general system design that provides an overview of the entire system.
 
