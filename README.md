@@ -323,11 +323,9 @@ A design choice with larger significance.
 
 A document that captures an important architecture decision along with the context and consequences.
 
-### <a name="Availability Zone"></a> Availability Zone
+### <a name="AZ - Availability Zone"></a> AZ - Availability Zone
 
-```diff
-Marc
-```
+A cloud providers data center that is in a physically separated location. Deploying to multiple availability zones means that an application can survive the loss of a given data center. Multiple availability zones make up a region.
 
 ### <a name="Backlog"></a> Backlog
 
