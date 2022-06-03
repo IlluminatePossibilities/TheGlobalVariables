@@ -184,9 +184,7 @@ Amazon provides services in multiple Availability Zones. By using Serverless ser
 
 ### i. Performance Characteristics
 
-```diff
-- Marc to update
-```
+All user interactions *MUST* be coded in such a way as to provide some form of feedback for all actions. This feedback must occur within the Doherty Threshold of 400ms.
 
 ### j. Scalability
 
@@ -328,6 +326,10 @@ A cloud providers data center that is in a physically separated location. Deploy
 ### <a name="Backlog"></a> Backlog
 
 A 'to-do' list of features or tasks to be performed to complete work.
+
+### <a name="Doherty Threshold"></a> Doherty Threshold
+
+An objective for keeping a user engaged while interacting with a software system. If the system does not respond within ~400ms the user may become disinterested.
 
 ### <a name="Epic"></a> Epic
 
