@@ -234,10 +234,16 @@ For a detailed breakout of components from the HLD, and their handling, see [her
 
 ### d. Deployments
 
-  TODO statement on handling amplify/CICD process here
+![CI/CD Flow](docs/cicd_flow.png.jpg)
+
+Two CI/CD pipelines are proposed to facilitate updates to the infrastructure and applications on the platform:
+
+- AWS Cloudformation will be used to deploy a Route53 zone and subsequent record changes, SageMaker instance and observability tools
+- AWS Amplify will be used to deploy all the services necessary for the application to run (e.g. Lambda, Cloudfront, Appsync, DynamoDB)
+
+Updates will be triggered on commit, and the tools will be triggered via webhook.
 
 ```diff
-- Scott diagram
 - Donald check/text
 ```
 
