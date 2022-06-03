@@ -203,10 +203,7 @@ For a detailed breakout of components from the HLD, and their handling, see [her
 ```
 
 ### e. User interactions
-
-```diff
-- ???? future?
-```
+User interactions will be expanded at if this proposal endures its self into the semifinals, and afterwards refined significantly with stakeholder feedback rounds as required if selected past the semi-finals/finals. In particular the user interactions will rely on the processes defined.
 
 ### f. Sequence Diagram
 
