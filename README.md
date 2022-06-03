@@ -206,11 +206,6 @@ fixme phase 2...list what would be required
 #### iii. Security Update Costs
 
 
-### Security
-```diff
-- Marc
-```
-
 ## 6. Proposed Solution
 
 ### a. Overview & Value Proposition
