@@ -8,9 +8,11 @@ ACCEPTED
 
 Given [ADR 0001](ADR%200001-Choice%20of%20Serverless.md), the choice of default provider becomes important.
 
-Amazon Web Services (AWS) is the leading provider, particularly in the Serverless, particularly lambda space.
+To run a Serverless Architecture effectively requires leveraging the ability to scale at a capacity available from a web provider. The planned architecture makes use of many services that can be deployed "serverlessly".
 
-We have selected AWS as the default provider.
+Amazon Web Services (AWS) is the leading cloud provider, particularly in the Serverless (lambda - FaaS) space.
+
+Other providers can provide many but not all the same services as are available in AWS. As such, we have selected AWS as our default provider.
 
 ## Decision
 
@@ -27,5 +29,6 @@ Positive Impact:
 
 Negative Impact:
 
+- Developers and any operational staff are required to have some familiarity with AWS.
 - Developers may not be aware of better alternatives in other providers.
 - AWS billing can be cryptic.
