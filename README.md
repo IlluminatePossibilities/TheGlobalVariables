@@ -204,7 +204,8 @@ For a detailed breakout of components from the HLD, and their handling, see [her
   TODO statement on handling amplify/CICD process here
 
 ```diff
-- Donald
+- Scott diagram
+- Donald check/text
 ```
 
 ### e. User interactions
@@ -262,15 +263,8 @@ Epics with some known stories to be flushed out in the semifinalist stage, with 
 
 [ADR 0004](ADR/ADR%200004-Observability.md)
 
-#### v. ADR 0005 - Amplify Frontend
-
-```diff
-- Donald RE vue vs. hugo vs react and nodejs (aka Runtime)
-```
-
-#### vi. ADR 0006 - Amplify Backend
-
-[ADR 0006](ADR/ADR%200006-Amplify%20Backend.md)
+#### v. ADR 0005 - Amplify
+[ADR 0005](ADR/ADR%200005-Amplify.md)
 
 ## 7. Definitions / Glossary
 
