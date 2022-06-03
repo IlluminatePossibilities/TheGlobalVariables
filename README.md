@@ -147,9 +147,7 @@ A technology solution that serves the purpose of enhancing visibility, support, 
 
 ## 5. Archectural Characteristics
 
-fixme add back top 5-7 tomorrow
-
-See all implied requirements [here](docs/ImpliedRequirements.md)
+See all implied requirements [here](docs/ArchecturalCharacteristics.md)
 
 ## 6. Proposed Solution
 
