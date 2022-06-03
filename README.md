@@ -145,11 +145,29 @@ A technology solution that serves the purpose of enhancing visibility, support, 
 - Tracking candidate progress is a hard requirement
 - Tracking engagement is a hard requirement
 
-## 5. Archectural Characteristics
+## 5. Architectural Characteristics
 
-fixme add back top 5-7 tomorrow
+### Usability
+The end users are not tech-savvy; therefore the success of this product depends on how easy the user can learn new features and how easy it is to use the system on different devices.
 
-See all implied requirements [here](docs/ImpliedRequirements.md)
+### Security
+The application is exposed on the web which always has the risk of cyberattacks, if the application accessed by unauthorized users. Moreover, the system stores sensitive information, such as personal data.
+
+### Privacy
+The system needs to handle the PII of candidates. Personal information must be accessed by the authorized administrators, mentors, and non-profit representatives.
+
+### Interoperability
+The purpose of this product is to facilitate the collaboration between non-profits. To achieve this goal, Spotlight needs to communicate with other external systems (such as childcare/housing services) and other legacy systems.
+
+### Feasibility
+The cost and time to develop and maintain this application is a driving factor. The consumers of this platform are the non-profit organizations for whom, it is important to minimize the operational cost.
+
+### Data Integrity
+The candidate's career path and progress, as well as non-profit information are accessed by multiple personas. It is crucial to ensure the data is accessed by the authorized person, and the accuracy of the data is maintained throughout its lifecycle.
+
+### Responsiveness
+Since Spotlight is user-facing, it is important to ensure the system responds to the end user requests in a timely manner.
+
 
 ## 6. Proposed Solution
 
@@ -201,11 +219,8 @@ For a detailed breakout of components from the HLD, and their handling, see [her
 
 #### i. Processes
 
-  [click here for processes fixme](docs/Processes.md)
-  TODO Samria
 
 ```diff
-- Samira - Processes doc
 - Donald - Add Phase 2 statement RE refinement
 ```
   
