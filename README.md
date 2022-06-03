@@ -239,7 +239,7 @@ For a detailed breakout of components from the HLD, and their handling, see [her
 ### c. Reporting & Business Intelligence (BI)
 
 ```diff
-- ???? who fixme
+- Scott
 ```
 
 ### d. Deployments
