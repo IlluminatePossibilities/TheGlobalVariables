@@ -146,26 +146,32 @@ A technology solution that serves the purpose of enhancing visibility, support, 
 ## 5. Architectural Characteristics
 
 ### Usability
+
 The end users are not tech-savvy; therefore the success of this product depends on how easy the user can learn new features and how easy it is to use the system on different devices.
 
 ### Security
+
 The application is exposed on the web which always has the risk of cyberattacks, if the application accessed by unauthorized users. Moreover, the system stores sensitive information, such as personal data.
 
 ### Privacy
+
 The system needs to handle the PII of candidates. Personal information must be accessed by the authorized administrators, mentors, and non-profit representatives.
 
 ### Interoperability
+
 The purpose of this product is to facilitate the collaboration between non-profits. To achieve this goal, Spotlight needs to communicate with other external systems (such as childcare/housing services) and other legacy systems.
 
 ### Feasibility
+
 The cost and time to develop and maintain this application is a driving factor. The consumers of this platform are the non-profit organizations for whom, it is important to minimize the operational cost.
 
 ### Data Integrity
+
 The candidate's career path and progress, as well as non-profit information are accessed by multiple personas. It is crucial to ensure the data is accessed by the authorized person, and the accuracy of the data is maintained throughout its lifecycle.
 
 ### Responsiveness
-Since Spotlight is user-facing, it is important to ensure the system responds to the end user requests in a timely manner.
 
+Since Spotlight is user-facing, it is important to ensure the system responds to the end user requests in a timely manner.
 
 ## 6. Proposed Solution
 
@@ -202,7 +208,8 @@ For a detailed breakout of components from the HLD, and their handling, see [her
 - Donald check/text
 ```
 
-### e. User interactions
+### e. User Interactions
+
 User interactions will be expanded at if this proposal endures its self into the semifinals, and afterwards refined significantly with stakeholder feedback rounds as required if selected past the semi-finals/finals. In particular the user interactions will rely on the processes defined.
 
 ### f. Sequence Diagram
@@ -211,7 +218,7 @@ User interactions will be expanded at if this proposal endures its self into the
 
 #### i. Processes
 
-Process descriptions, steps, and individual flow diagrams (as required) will be be expanded at if this proposal endures its self into the semifinals, and afterwards refined significantly with stakeholder feedback rounds as required if selected past the semi-finals/finals.
+Process descriptions, steps, and individual flow diagrams (as required) will be expanded at if this proposal endures its self into the semifinals, and afterwards refined significantly with stakeholder feedback rounds as required if selected past the semi-finals/finals.
 
 #### ii. UI Wireframes
 
@@ -252,6 +259,7 @@ Epics with some known stories to be flushed out in the semifinalist stage, with 
 [ADR 0004](ADR/ADR%200004-Observability.md)
 
 #### v. ADR 0005 - Amplify
+
 [ADR 0005](ADR/ADR%200005-Amplify.md)
 
 ## 7. Definitions / Glossary
