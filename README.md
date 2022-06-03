@@ -143,12 +143,8 @@ A technology solution that serves the purpose of enhancing visibility, support, 
 | **Non-Profit with offering (“Non-Profit”)** | Group with a platform integration offering |
 | **Candidate** | Consumer of non-profit offerings, delivered via the platform |
 | **Administrators** | Management of the platform, registering Non-Profits |
-| **Community Leader** | Member of the Admin team who helps non profits to recognize their service capabilities, responsibilities, & expectations |
+| **Community Leader** | Member of the Admin team who helps non profits to identify their service capabilities, responsibilities, & expectations |
 | **Mentor** | Member of Non-Profit, who is in charge of updating the profile of candidates |
-
-```diff
-- Samira to update
-```
 
 ### b. Platform Feature Characteristics
 
