@@ -189,10 +189,6 @@ Review FRIDAY last before submit
 
 For a detailed breakout of components from the HLD, and their handling, see [here](docs/Components.md)
 
-```diff
-- Donald to review sub page
-```
-
 ### c. Reporting & Business Intelligence (BI)
 
 ```diff
