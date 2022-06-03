@@ -4,6 +4,8 @@ Presented by
 
 ![logo](img/logo.png)
 
+---
+
 ## Table of Contents
 
 - [Diversity Cyber Council Proposal](#diversity-cyber-council-proposal)
@@ -18,7 +20,7 @@ Presented by
     - [a. Program Name](#a-program-name)
     - [b. Program Summary](#b-program-summary)
     - [c. Technology Solution Description](#c-technology-solution-description)
-  - [3. About Team](#3-about-team)
+  - [3. About the Team](#3-about-the-team)
     - [a. Team Name](#a-team-name)
     - [b. Tagline](#b-tagline)
     - [c. Technology Proposal Summary](#c-technology-proposal-summary)
@@ -70,6 +72,8 @@ Presented by
     - [User Interface](#user-interface)
     - [User Story](#user-story)
 
+---
+
 ## 1. Overview
 
 ### a. About Diversity Cyber Council
@@ -90,6 +94,8 @@ Our vision is to enhance inclusion and representation in the tech industry throu
 
 Our goal is to establish a sustainable and diverse talent pipeline that extends career equity to underrepresented demographics by providing access to competent training programs that lead to direct employment opportunities.
 
+---
+
 ## 2. Kata Program
 
 ### a. Program Name
@@ -108,9 +114,11 @@ The Spotlight App Project is a sustained effort to amass a coalition of nonprofi
 
 Nonprofit Networking Hub & Diverse Candidate Career Case Management Tool
 
-## 3. About Team
+---
 
-The minimal team information is below. Per the proposals instructions individual team identifying information, including our backstories, has been removed. We hope to communicate this information at an appropriate time. FOr now the absolute bare information is available including the team name, tag line, and a summary of our proposal.
+## 3. About the Team
+
+The minimal team information is below. Per the proposals instructions individual team identifying information, including our backstories, has been removed. We hope to communicate this information at an appropriate time. For now the absolute bare information is available including the team name, tag line, and a summary of our proposal.
 
 ### a. Team Name
 
@@ -123,6 +131,8 @@ Illuminate Possibilities
 ### c. Technology Proposal Summary
 
 A technology solution that serves the purpose of enhancing visibility, support, and collaboration of nonprofits serving similar needs in the community and operate as a candidate case management platform.
+
+---
 
 ## 4. Captured Requirements
 
@@ -162,6 +172,8 @@ A technology solution that serves the purpose of enhancing visibility, support, 
 - End-Use Ease of Use is a hard requirement
 - Tracking candidate progress is a hard requirement
 - Tracking engagement is a hard requirement
+
+---
 
 ## 5. Architectural Characteristics
 
@@ -222,6 +234,8 @@ Generally these would include all the infrastructure, cloud, services, licenses,
 #### iii. Security Update Costs
 
 The primary ongoing development cost not related to feature development on this platform, in addition to responding to events and the infrastructure its self, will be the updates to the application libraries to address ongoing security concerns. The application frontend is by far the most vulnerable part of this system in terms of security, and will require ongoing updates. The subsequent phase, if applicable and if chosen for the semifinals, will provide an expected high level budget of operational costs and expected expenses in this category.
+
+---
 
 ## 6. Proposed Solution
 
@@ -297,6 +311,8 @@ Epics with some known stories to be flushed out in the semifinalist stage, with 
 | [ADR 0003](ADR/ADR%200003-Process%20Modeling.md) | Process Modeling |
 | [ADR 0004](ADR/ADR%200004-Observability.md) | Observability |
 | [ADR 0005](ADR/ADR%200005-Amplify.md) | Amplify |
+
+---
 
 ## 7. Definitions / Glossary
 
