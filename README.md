@@ -236,8 +236,8 @@ For a detailed breakout of components from the HLD, and their handling, see [her
 
 Two CI/CD pipelines are proposed to facilitate updates to the infrastructure and applications on the platform:
 
-- AWS Cloudformation will be used to deploy a Route53 zone and subsequent record changes, SageMaker instance and observability tools
-- AWS Amplify will be used to deploy all the services necessary for the application to run (e.g. Lambda, Cloudfront, Appsync, DynamoDB)
+- AWS Cloudformation will be used to deploy a Route53 zone and subsequent record changes, SageMaker instance, IAM roles and policies, and observability tools. Cloudformation will also bootstrap Amplify.
+- AWS Amplify will be used to deploy all the services necessary for the application to run (e.g. Lambda, Cloudfront, Appsync, DynamoDB). It was also handle deployment to services that it depends on, including data models and required accesses.
 
 Updates will be triggered on commit, and the tools will be triggered via webhook.
 
