@@ -292,29 +292,29 @@ Epics with some known stories to be flushed out in the semifinalist stage, with 
 ```
 
 501c3 Non-Profit
-## <a name="501c3 Non-Profit"></a> 501c3 Non-Profit
+### <a name="501c3 Non-Profit"></a> 501c3 Non-Profit
 A non-profit corporation or trust that is tax-exempt. See [wikipedia](https://en.wikipedia.org/wiki/501(c)(3)_organization)
 
-## <a name="Architecture Decision"></a> Architecture Decision
+### <a name="Architecture Decision"></a> Architecture Decision
 A design choice with larger significance.
 
-## <a name="ADR - Architectural Decision Record"></a> Architectural Decision Record
+### <a name="ADR - Architectural Decision Record"></a> Architectural Decision Record
 A document that captures an important architecture decision along with the context and consequences.
 
-## <a name="Backlog"></a> Backlog
+### <a name="Backlog"></a> Backlog
 A 'todo' list of features or tasks to be performed to complete work.
 
-## <a name="Epic"></a> Epic
+### <a name="Epic"></a> Epic
 A high-level task that can be broken down into smaller tasks that are to be added to a backlog.
 
-## <a name="HLD - High-Level Design"></a> High-Level Design
+### <a name="HLD - High-Level Design"></a> High-Level Design
 An general system design that provides an overview of the entire system.
 
-## <a name="PII - Personally Identifiable Information"></a> Personally Identifiable Information
+### <a name="PII - Personally Identifiable Information"></a> Personally Identifiable Information
 Data that when used alone or in conjunction with other information can identify an individual.
 
-## <a name="TCO - Total Cost of Ownershipt"></a> Total Cost of Ownership
+### <a name="TCO - Total Cost of Ownershipt"></a> Total Cost of Ownership
 The complete calculation of costs pertaining to a software property. In software, this refers to not only the runtime cost but also the cost of operation.
 
-## <a name="UI - User Interface"></a> User Interface
+### <a name="UI - User Interface"></a> User Interface
 Any means that a user may use to interact with a system.
