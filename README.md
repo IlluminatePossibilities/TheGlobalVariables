@@ -284,7 +284,12 @@ Epics with some known stories to be flushed out in the semifinalist stage, with 
 ```diff
 - Marc (add words by everyone, he'll define)
 ```
-## <a name="Architecture Decision"></a> - Architecture Decision
+
+501c3 Non-Profit
+## <a name="501c3 Non-Profit"></a> 501c3 Non-Profit
+A non-profit corporation or trust that is tax-exempt. See [wikipedia](https://en.wikipedia.org/wiki/501(c)(3)_organization)
+
+## <a name="Architecture Decision"></a> Architecture Decision
 A design choice with larger significance.
 
 ## <a name="ADR - Architectural Decision Record"></a> - Architectural Decision Record
