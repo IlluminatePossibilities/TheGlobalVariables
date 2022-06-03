@@ -255,9 +255,7 @@ Epics with some known stories to be flushed out in the semifinalist stage, with 
 
 #### vi. ADR 0006 - Amplify Backend
 
-```diff
-- Scott RE Amplify Backend
-```
+[ADR 0006](ADR/ADR%200006-Amplify%20Backend.md)
 
 ## 7. Definitions / Glossary
 
