@@ -194,27 +194,16 @@ A further benefit of the use of a Serverless platform is that idle cost (the cos
 
 ### k. Total Cost of Ownership
 
-```diff
-- Donald to update
-```
+The total cost of ownership comprises a significant numer of factors. In this particular architecture, with exception to new feature development, 3 primary cost factors will make up the majority of the costs.
 
 #### i. Operational Costs
-
-```diff
-- Donald to update future statement
-```
+Generally the people costs, by way of employees, consultants, or services firms. The subsequent phase, if applicable and if chosen for the semifinals, will provide an expected high level budget of operational costs and expected expenses in this category.
 
 #### ii. Infrastructure & Cloud Costs
-
-```diff
-- Donald to update future statement
-```
+Generally these would include all the infrastructure, cloud, services, licenses, API subscriptions, and other costs associated with running the application frontend and backend, excluding development. The subsequent phase, if applicable and if chosen for the semifinals, will provide an expected high level budget of operational costs and expected expenses in this category. The budget will be created utilizing example scenarios, or, more precise numbers if real world expected user figures are availalbe. A cost breakdown of services will be provided.
 
 #### iii. Security Update Costs
-
-```diff
-- Donald to update future statement
-```
+The primary ongoing development cost not related to feature development on this platform, in addition to responding to events and the infrastructure its self, will be the updates to the application libraries to address ongoing security concerns. The application frontend is by far the most vulnerable part of this system in terms of security, and will require ongoing updates. The subsequent phase, if applicable and if chosen for the semifinals, will provide an expected high level budget of operational costs and expected expenses in this category.
 
 ## 6. Proposed Solution
 
