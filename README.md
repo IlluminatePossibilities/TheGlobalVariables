@@ -146,9 +146,11 @@ A technology solution that serves the purpose of enhancing visibility, support, 
 - Tracking engagement is a hard requirement
 
 ## 5. Implied Requirements
+fixme add back top 5-7 tomorrow
+
+See all implied requirements [here](docs/ImpliedRequirements.md)
 
 ## 6. Proposed Solution
-fixme add back top 5-7 tomorrow, add link
 
 ### a. Overview & Value Proposition
 
