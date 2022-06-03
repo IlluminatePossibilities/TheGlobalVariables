@@ -190,6 +190,8 @@ All user interactions *MUST* be coded in such a way as to provide some form of f
 
 The choice of serverless as a platform allows much faster scaling than if container or VM based infrastructure were used. Also, the scaling characteristics of the services are, for the most part, handled by the cloud provider (AWS). There are some services that have scaling limits (i.e. lambda defaults to 1000 concurrent functions running at a time) and these should be monitored so that the limits can be increased before they become an issue.
 
+A further benefit of the use of a Serverless platform is that idle cost (the cost when there is no load) will be lower than when VMs or containers are used.
+
 ### k. Total Cost of Ownership
 
 ```diff
