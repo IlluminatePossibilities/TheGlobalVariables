@@ -301,7 +301,8 @@ A design choice with larger significance.
 ## <a name="ADR - Architectural Decision Record"></a> Architectural Decision Record
 A document that captures an important architecture decision along with the context and consequences.
 
-<!---Synonyms: `ADR`, `Architecture Haiku`--->
+## <a name="HLD - High-Level Design"></a> High-Level Design
+An general system design that provides an overview of the entire system.
 
 ## <a name="PII - Personally Identifiable Information"></a> Personally Identifiable Information
 Data that when used alone or in conjunction with other information can identify an individual.
