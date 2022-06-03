@@ -143,6 +143,8 @@ A technology solution that serves the purpose of enhancing visibility, support, 
 | **Non-Profit with offering (“Non-Profit”)** | Group with a platform integration offering |
 | **Candidate** | Consumer of non-profit offerings, delivered via the platform |
 | **Administrators** | Management of the platform, registering Non-Profits |
+| **Community Leader** | Member of the Admin team who helps non profits to recognize their service capabilities, responsibilities, & expectations |
+| **Mentor** | Member of Non-Profit, who is in charge of updating the profile of candidates |
 
 ```diff
 - Samira to update
@@ -181,9 +183,14 @@ A technology solution that serves the purpose of enhancing visibility, support, 
 
 The end users are not tech-savvy; therefore the success of this product depends on how easy the user can learn new features and how easy it is to use the system on different devices.
 
+<<<<<<< Updated upstream
 ### b. Security
 
 The application is exposed on the web which always has the risk of cyberattacks, if the application accessed by unauthorized users. Moreover, the system stores sensitive information, such as personal data.
+=======
+### Security
+The application is exposed on the web which always has the risk of cyber attacks, if the application accessed by unauthorized users. Moreover, the system stores sensitive information, such as personal data.
+>>>>>>> Stashed changes
 
 ### c. Privacy
 
