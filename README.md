@@ -110,12 +110,11 @@ A technology solution that serves the purpose of enhancing visibility, support, 
 
 ### b. Platform Feature Characteristics
  - The Platform must establish a way to incentivize engagement such as sharing of resources, collaboration, networking, facilitating introductions, and partnerships
- - The Platform must categorize/tag nonprofit support services to match candidate needs identified in the onboarding assessment to include but not limited to
  - The Platform must provide a way to allow Non-Profits to publicize offerings to the platform that can provide some level of automatic matching for Candidate requests.
  - The Platform allows offerings to contain rich text, links, and downloadable readable content such as PDFs, but no other downloads.
  - Each offering must support a certain list of properties (defined by the platform), such as name, organization description, website, unique identifier (assigned by the Administrators) and other identification information.
  - The Platform must provide both operational reports (number of candidate matches / period, number of offerings / region, and so on) and analytical reports (projections of future desirable career paths, Offering gaps in a region based on demand, and so on) for use by Administrators.
- - Example services (not limited to these):
+ - The Platform must categorize/tag nonprofit support services to match candidate needs that are identified during the onboarding assessment to include (but not limited to):
    - Resume Writing Services	
    - Interview Prep	
    - Free Business Attire
@@ -134,10 +133,10 @@ A technology solution that serves the purpose of enhancing visibility, support, 
 
 ## 5. Implied Requirements
 ### Usability
-The end users are not tech savvy; therefore the success of this product depends on how easy the user can learn new  features and how easy it is to use the system on different devices.
+The end users are not tech-savvy; therefore the success of this product depends on how easy the user can learn new features and how easy it is to use the system on different devices.
 
 ### Security
-The application is exposed on the web which always has the risk of cyber attacks, if the application accessed by unauthorized users. Moreover, the system stores sensitive information, such as personal data.
+The application is exposed on the web which always has the risk of cyberattacks, if the application accessed by unauthorized users. Moreover, the system stores sensitive information, such as personal data.
 
 ### Privacy
 The system needs to handle the PII of candidates. Personal information must be accessed by the authorized administrators, mentors, and non-profit representatives.
@@ -247,10 +246,10 @@ For a detailed breakout of components from the HLD, and their handling, see [her
 ```
   
 #### ii. UI Wireframes
-UI Wireframes will be expanded at if this proposal endures its self into the semifinals, and afterwards refined significantly with stakeholder feedback rounds as required if selected past the semi-finals/finals.
+User interface wireframes will be expanded at if this proposal endures its self into the semifinals, and afterwards refined significantly with stakeholder feedback rounds as required if selected past the semi-finals/finals.
 
 #### iii. Editable/Markdown fields
-Editable/Markdown fields will be expanded at if this proposal endures its self past the semi-finals/finals. When the schema and data fields are created, we'll work with the stakeholders to define which fields require rich editing capabilities, and utilize visual  markdown editors and viewers as much as possbile and where appropriate.
+Editable/Markdown fields will be expanded at if this proposal endures its self past the semi-finals/finals. When the schema and data fields are created, we'll work with the stakeholders to define which fields require rich editing capabilities, and utilize visual markdown editors and viewers as much as possbile and where appropriate.
 
 ### g. Backlog
 The Backlog refinement and entries will begin if this proposal endures its self into the semifinals, with refinement at each stage into the and past the finals.
@@ -259,6 +258,7 @@ The Backlog refinement and entries will begin if this proposal endures its self 
 To be defined if a semifinalist, if appropriate.
 
 #### ii. Defined User Stories & Epics
+
 Epics with some known stories to be flushed out in the semifinalist stage, with additional refinement post-finalist, if appropriate, and then on a milestone start and sprint start basis, milestone by milestone and sprint by sprint.
 
 ### h. Active Design Reviews (ADRs)
@@ -301,7 +301,7 @@ A design choice with larger significance.
 A document that captures an important architecture decision along with the context and consequences.
 
 ### <a name="Backlog"></a> Backlog
-A 'todo' list of features or tasks to be performed to complete work.
+A 'to-do' list of features or tasks to be performed to complete work.
 
 ### <a name="Epic"></a> Epic
 A high-level task that can be broken down into smaller tasks that are to be added to a backlog.
