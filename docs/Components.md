@@ -17,7 +17,8 @@
 | CodeCommit     | FIXME github or codecommit? less to manage if codecommit...but some limits                         |            |               |        |                                                                                                       |         |                   |                   |          |
 | Vue            | Desktop and Mobile friendly web & JavaScript framework for web interfaces and application building |            |               |        |                                                                                                       |         |                   |                   |          |
 | Node.js        | JavaScript runtime with comprehensive suites of plugins and extensions                             |            |               |        |                                                                                                       |         |                   |                   |          |
-| Node.js        | JavaScript library for producing visualizations from data                         |            |               |        |                                                                                                       |         |                   |                   |          |
+| D3        | JavaScript library for producing visualizations from data                         |            |               |        |                                                                                                       |         |                   |                   |          |
+| SageMaker        | Used to build, train, verify, and deploy machine learning models and workflows                         |            |               |        |                                                                                                       |         |                   |                   |          |
 
 
 #### Cats (for headings definitions)
