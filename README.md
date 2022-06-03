@@ -284,4 +284,13 @@ Epics with some known stories to be flushed out in the semifinalist stage, with 
 ```diff
 - Marc (add words by everyone, he'll define)
 ```
+## <a name="Architecture Decision"></a> - Architecture Decision
+A design choice with larger significance.
 
+## <a name="ADR - Architectural Decision Record"></a> - Architectural Decision Record
+A document that captures an important architecture decision along with the context and consequences.
+
+<!---Synonyms: `ADR`, `Architecture Haiku`--->
+
+## <a name="TCO - Total Cost of Ownershipt"></a> - Total Cost of Ownership
+The complete calculation of costs pertaining to a software property. In software, this refers to not only the runtime cost but also the cost of operation.
