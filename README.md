@@ -309,50 +309,50 @@ Epics with some known stories to be flushed out in the semifinalist stage, with 
 
 ## 7. Definitions / Glossary
 
-### <a name="501c3 Non-Profit"></a> 501c3 Non-Profit
+### 501c3 Non-Profit
 
 A non-profit corporation or trust that is tax-exempt. See [wikipedia](https://en.wikipedia.org/wiki/501(c)(3)_organization)
 
-### <a name="Architecture Decision"></a> Architecture Decision
+### Architecture Decision
 
 A design choice with larger significance.
 
-### <a name="ADR - Architectural Decision Record"></a> Architectural Decision Record
+### Architectural Decision Record
 
 A document that captures an important architecture decision along with the context and consequences.
 
-### <a name="AZ - Availability Zone"></a> AZ - Availability Zone
+### AZ - Availability Zone
 
 A cloud providers data center that is in a physically separated location. Deploying to multiple availability zones means that an application can survive the loss of a given data center. Multiple availability zones make up a region.
 
-### <a name="Backlog"></a> Backlog
+### Backlog
 
 A 'to-do' list of features or tasks to be performed to complete work.
 
-### <a name="Doherty Threshold"></a> Doherty Threshold
+### Doherty Threshold
 
 An objective for keeping a user engaged while interacting with a software system. If the system does not respond within ~400ms the user may become disinterested.
 
-### <a name="Epic"></a> Epic
+### Epic
 
 A high-level task that can be broken down into smaller tasks that are to be added to a backlog.
 
-### <a name="HLD - High-Level Design"></a> High-Level Design
+### High-Level Design
 
 A general system design that provides an overview of the entire system.
 
-### <a name="PII - Personally Identifiable Information"></a> Personally Identifiable Information
+### Personally Identifiable Information
 
 Data that when used alone or in conjunction with other information can identify an individual.
 
-### <a name="TCO - Total Cost of Ownership"></a> Total Cost of Ownership
+### Total Cost of Ownership
 
 The complete calculation of costs pertaining to a software property. In software, this refers to not only the runtime cost but also the cost of operation.
 
-### <a name="UI - User Interface"></a> User Interface
+### User Interface
 
 Any means that a user may use to interact with a system.
 
-### <a name="User Story"></a> User Story
+### User Story
 
 An explanation of a software feature written from the perspective of a user persona.
