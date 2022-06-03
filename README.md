@@ -6,7 +6,7 @@ Presented by
 
 ## Table of Contents
 
-```
+```diff
 1. Overview
  a. About Diversity Cyber Council
   i. Site
@@ -61,7 +61,7 @@ Presented by
 
 #### i. Site
 
-https://diversitycybercouncil.com/ (fixme link)
+[Diversity Cyber Council](https://diversitycybercouncil.com) (fixme link)
 
 #### ii. Mission
 
@@ -73,7 +73,7 @@ Our vision is to enhance inclusion and representation in the tech industry throu
 
 ### c. Kata Project Goal
 
-Our goal is to establish a sustainable and diverse talent pipeline that extends career equity to underrepresented demographics by providing access to competent training programs that lead to direct employment opportunities. 
+Our goal is to establish a sustainable and diverse talent pipeline that extends career equity to underrepresented demographics by providing access to competent training programs that lead to direct employment opportunities.
 
 ## 2. Kata Program
 
@@ -118,7 +118,7 @@ A technology solution that serves the purpose of enhancing visibility, support, 
 |---|---|
 | **Non-Profit with offering (“Non-Profit”)** | group with a platform integration offering |
 | **Candidate** | consumer of non-profit offerings, delivered via the platform |
-|	**Administrators** | Management of the platform, registering Non-Profits |
+| **Administrators** | Management of the platform, registering Non-Profits |
 
 ### b. Platform Feature Characteristics
 
@@ -359,7 +359,6 @@ Epics with some known stories to be flushed out in the semifinalist stage, with 
 - Marc (add words by everyone, he'll define)
 ```
 
-501c3 Non-Profit
 ### <a name="501c3 Non-Profit"></a> 501c3 Non-Profit
 
 A non-profit corporation or trust that is tax-exempt. See [wikipedia](https://en.wikipedia.org/wiki/501(c)(3)_organization)
@@ -382,7 +381,7 @@ A high-level task that can be broken down into smaller tasks that are to be adde
 
 ### <a name="HLD - High-Level Design"></a> High-Level Design
 
-An general system design that provides an overview of the entire system.
+A general system design that provides an overview of the entire system.
 
 ### <a name="PII - Personally Identifiable Information"></a> Personally Identifiable Information
 
