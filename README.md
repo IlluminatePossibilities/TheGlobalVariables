@@ -19,7 +19,6 @@ Presented by
  a. Team Name
  b. Tagline
  c. Technology Proposal Summary
- d. Team Members
 4. Captured Requirements
  a. Users Personas & Cohorts
  b. Platform Feature Characteristics
