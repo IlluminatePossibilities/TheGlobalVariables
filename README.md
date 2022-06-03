@@ -135,22 +135,22 @@ A technology solution that serves the purpose of enhancing visibility, support, 
 
 ## 5. Implied Requirements
 ### Usability
-Ease of use is an important requirement to make or break this application. The end users are not tech savvy, and it is important to ensure a smooth UX experience.
+The end users are not tech savvy; therefore the success of this product depends on how easy the user can learn new  features and how easy it is to use the system on different devices.
 
 ### Security
-The system stores sensitive information, such as personal data. The end users are not necessarily technical, which makes security an even more important concern. 
+The application is exposed on the web which always has the risk of cyber attacks, if the application accessed by unauthorized users. Moreover, the system stores sensitive information, such as personal data.
 
 ### Privacy
 The system needs to handle the PII of candidates. Personal information must be accessed by the authorized administrators, mentors, and non-profit representatives.
 
 ### Interoperability
-The purpose of this app is to facilitate the collaboration between non-profits. Therefore, integrating spotlight with other external systems (such as childcare and housing services) is well-aligned with the company vision to be the go-to application to access the non-profit offerings.
+The purpose of this product is to facilitate the collaboration between non-profits. To achieve this goal, Spotlight needs to communicate with other external systems (such as childcare/housing services) and other legacy systems.
 
 ### Feasibility
-The cost and time to develop and maintain this application is a driving factor. The consumers of this platform are the non-profit organizations for whom, it is important to reduce the operational cost.
+The cost and time to develop and maintain this application is a driving factor. The consumers of this platform are the non-profit organizations for whom, it is important to minimize the operational cost.
 
 ### Data Integrity
-The candidate's career path and progress, as well as non-profit information are updated by multiple personas. It is  crucial to ensure the data is accessed by the authorized person and the accuracy of the data is maintained through its lifecycle.
+The candidate's career path and progress, as well as non-profit information are accessed by multiple personas. It is crucial to ensure the data is accessed by the authorized person, and the accuracy of the data is maintained throughout its lifecycle.
 
 ### Responsiveness
 Since the system is user-facing, it is important to ensure the system responds to the end user requests in a timely manner.
