@@ -118,8 +118,8 @@ A technology solution that serves the purpose of enhancing visibility, support, 
 
 | Persona | Definition |
 |---|---|
-| **Non-Profit with offering (“Non-Profit”)** | group with a platform integration offering |
-| **Candidate** | consumer of non-profit offerings, delivered via the platform |
+| **Non-Profit with offering (“Non-Profit”)** | Group with a platform integration offering |
+| **Candidate** | Consumer of non-profit offerings, delivered via the platform |
 | **Administrators** | Management of the platform, registering Non-Profits |
 
 ### b. Platform Feature Characteristics
