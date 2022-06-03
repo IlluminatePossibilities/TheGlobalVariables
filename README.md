@@ -387,7 +387,7 @@ A general system design that provides an overview of the entire system.
 
 Data that when used alone or in conjunction with other information can identify an individual.
 
-### <a name="TCO - Total Cost of Ownershipt"></a> Total Cost of Ownership
+### <a name="TCO - Total Cost of Ownership"></a> Total Cost of Ownership
 
 The complete calculation of costs pertaining to a software property. In software, this refers to not only the runtime cost but also the cost of operation.
 
