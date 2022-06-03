@@ -220,10 +220,6 @@ The primary ongoing development cost not related to feature development on this 
 
 ![Architecture Diagram](docs/architecture.png)
 
-```diff
-- Review FRIDAY last before submit
-```
-
 #### i. HLD Components
 
 For a detailed breakout of components from the HLD, and their handling, see [here](docs/Components.md)
