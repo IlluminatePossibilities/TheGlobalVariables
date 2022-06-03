@@ -98,11 +98,6 @@ Illuminate Possibilities
 ### c. Technology Proposal Summary
 A technology solution that serves the purpose of enhancing visibility, support, and collaboration of nonprofits serving similar needs in the community and operate as a candidate case management platform.
 
-### d. Team Members
-```diff
-- Donald QUESTION MARK per kata page "No personal information please. Don’t include team member names or email addresses. Your GitHub repo should not include your team’s names or workplaces."
-```
-
 ## 4. Captured Requirements
 ### a. Users Personas & Cohorts
  -	Non-Profit with offering (“Non-Profit”) - group with a platform integration offering
