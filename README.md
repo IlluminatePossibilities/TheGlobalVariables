@@ -80,7 +80,6 @@ Spotlight App/Platform
 The Spotlight App Project is a sustained effort to amass a coalition of nonprofits in order to address specific needs within the communities we serve by leveraging a centralized platform as the base of operations to collaborate and make a collective impact. 												
 
 **Problem Statement #1:** The decentralization and lack of support between nonprofits create gaps of service and overall impact. 												
-
 **Problem Statement #2:** The lack of visibility of nonprofit groups and offerings creates a barrier of access to the people we aim to serve.
 
 ### c. Technology Solution Description
@@ -92,6 +91,7 @@ Nonprofit Networking Hub & Diverse Candidate Career Case Management Tool
 ```
 
 ### a. Team Name
+
 TheGlobalVariables
 
 ### b. Tagline
@@ -102,9 +102,12 @@ A technology solution that serves the purpose of enhancing visibility, support, 
 
 ## 4. Captured Requirements
 ### a. Users Personas & Cohorts
- -	Non-Profit with offering (“Non-Profit”) - group with a platform integration offering
- -	Candidate - consumer of non-profit offerings, delivered via the platform
- -	Administrators - Management of the platform, registering Non-Profits
+
+| Persona | Definition |
+|---|---|
+| **Non-Profit with offering (“Non-Profit”)** | group with a platform integration offering |
+| **Candidate** | consumer of non-profit offerings, delivered via the platform |
+|	**Administrators** | Management of the platform, registering Non-Profits |
 
 ### b. Platform Feature Characteristics
  - The Platform must establish a way to incentivize engagement such as sharing of resources, collaboration, networking, facilitating introductions, and partnerships
@@ -113,7 +116,8 @@ A technology solution that serves the purpose of enhancing visibility, support, 
  - The Platform allows offerings to contain rich text, links, and downloadable readable content such as PDFs, but no other downloads.
  - Each offering must support a certain list of properties (defined by the platform), such as name, organization description, website, unique identifier (assigned by the Administrators) and other identification information.
  - The Platform must provide both operational reports (number of candidate matches / period, number of offerings / region, and so on) and analytical reports (projections of future desirable career paths, Offering gaps in a region based on demand, and so on) for use by Administrators.
- - Resume Writing Services	
+ - Example services (not limited to these):
+   - Resume Writing Services	
    - Interview Prep	
    - Free Business Attire
    - Apprenticeship Program Registration	
