@@ -214,11 +214,8 @@ For a detailed breakout of components from the HLD, and their handling, see [her
 
 #### i. Processes
 
+Process descriptions, steps, and individual flow diagrams (as required) will be be expanded at if this proposal endures its self into the semifinals, and afterwards refined significantly with stakeholder feedback rounds as required if selected past the semi-finals/finals.
 
-```diff
-- Donald - Add Phase 2 statement RE refinement
-```
-  
 #### ii. UI Wireframes
 
 User interface wireframes will be expanded at if this proposal endures its self into the semifinals, and afterwards refined significantly with stakeholder feedback rounds as required if selected past the semi-finals/finals.
