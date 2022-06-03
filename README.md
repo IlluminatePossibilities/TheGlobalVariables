@@ -122,6 +122,10 @@ A technology solution that serves the purpose of enhancing visibility, support, 
 | **Candidate** | Consumer of non-profit offerings, delivered via the platform |
 | **Administrators** | Management of the platform, registering Non-Profits |
 
+```diff
+- Samira to update
+```
+
 ### b. Platform Feature Characteristics
 
 - The Platform must establish a way to incentivize engagement such as sharing of resources, collaboration, networking, facilitating introductions, and partnerships
