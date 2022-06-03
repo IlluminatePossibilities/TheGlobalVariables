@@ -184,7 +184,8 @@ For a detailed breakout of components from the HLD, and their handling, see [her
   TODO statement on handling amplify/CICD process here
 
 ```diff
-- Donald
+- Scott diagram
+- Donald check/text
 ```
 
 ### e. User interactions
