@@ -118,7 +118,7 @@ Nonprofit Networking Hub & Diverse Candidate Career Case Management Tool
 
 ## 3. About the Team
 
-The minimal team information is below. Per the proposals instructions individual team identifying information, including our backstories, has been removed. We hope to communicate this information at an appropriate time. For now the absolute bare information is available including the team name, tag line, and a summary of our proposal.
+The minimal team information is below. Per the proposal's instructions individual team identifying information, including our backstories, has been removed. We hope to communicate this information at an appropriate time. The absolute bare information is available including the team name, tag line, and a summary of our proposal.
 
 ### a. Team Name
 
@@ -130,7 +130,7 @@ Illuminate Possibilities
 
 ### c. Technology Proposal Summary
 
-A technology solution that serves the purpose of enhancing visibility, support, and collaboration of non-profits serving similar needs in the community and operate as a candidate case management platform.
+A technology solution that serves the purpose of enhancing visibility, support, and collaboration of non-profits serving similar needs in the community and operates as a candidate case management platform.
 
 ---
 
@@ -152,7 +152,7 @@ A technology solution that serves the purpose of enhancing visibility, support, 
 - The Platform must provide a way to allow Non-Profits to publicize offerings to the platform that can provide some level of automatic matching for Candidate requests.
 - The Platform allows offerings to contain rich text, links, and downloadable readable content such as PDFs, but no other downloads.
 - Each offering must support a certain list of properties (defined by the platform), such as name, organization description, website, unique identifier (assigned by the Administrators) and other identification information.
-- The Platform must provide both operational reports (number of candidate matches / period, number of offerings / region, and so on) and analytical reports (projections of future desirable career paths, Offering gaps in a region based on demand, and so on) for use by Administrators.
+- The Platform must provide both operational reports (number of candidate matches/period, number of offerings/region, and so on) and analytical reports (projections of future desirable career paths, Offering gaps in a region based on demand, and so on) for use by Administrators.
 - The Platform must categorize/tag non-profit support services to match candidate needs that are identified during the onboarding assessment to include (but not limited to):
   - Resume Writing Services
   - Interview Prep
@@ -181,27 +181,27 @@ The end users are not tech-savvy; therefore the success of this product depends 
 
 ### b. Security
 
-The application is exposed on the web which always has the risk of cyberattacks, if the application accessed by unauthorized users. Moreover, the system stores sensitive information, such as personal data.
+The application is exposed on the web which always has the risk of cyberattacks; should the application be accessed by unauthorized users. Moreover, the system stores sensitive information, such as personal data.
 
 ### c. Privacy
 
-The system needs to handle the PII of candidates. Personal information must be accessed by the authorized administrators, mentors, and non-profit representatives.
+The system needs to handle the PII of candidates. Personal information must be accessed by authorized administrators, mentors, and non-profit representatives.
 
 ### d. Interoperability
 
-The purpose of this product is to facilitate the collaboration between non-profits. To achieve this goal, Spotlight needs to communicate with other external systems (such as childcare/housing services) and other legacy systems.
+The purpose of this product is to facilitate collaboration between non-profits. To achieve this goal, Spotlight needs to communicate with other external systems (such as childcare/housing services) and other legacy systems.
 
 ### e. Feasibility
 
-The cost and time to develop and maintain this application is a driving factor. The consumers of this platform are the non-profit organizations for whom, it is important to minimize the operational cost.
+The cost and time to develop and maintain this application are driving factors. The consumers of this platform are the non-profit organizations for whom, it is important to minimize the operational cost.
 
 ### f. Data Integrity
 
-The candidate's career path and progress, as well as non-profit information are accessed by multiple personas. It is crucial to ensure the data is accessed by the authorized person, and the accuracy of the data is maintained throughout its lifecycle.
+The candidate's career path and progress, as well as non-profit information, are accessed by multiple personas. It is crucial to ensure the data is accessed by the authorized person, and the accuracy of the data is maintained throughout its lifecycle.
 
 ### g. Responsiveness
 
-Since Spotlight is user-facing, it is important to ensure the system responds to the end user requests in a timely manner.
+Since Spotlight is user-facing, it is important to ensure the system responds to the end-user requests promptly.
 
 ### h. Availability
 
