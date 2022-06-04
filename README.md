@@ -219,7 +219,7 @@ A further benefit of the use of a Serverless platform is that idle cost (the cos
 
 ### k. Total Cost of Ownership
 
-The total cost of ownership comprises a significant number of factors. In this particular architecture, with the exception new of feature development, 3 primary cost factors will make up the majority of the costs.
+The total cost of ownership comprises a significant number of factors. In this particular architecture, with the exception of new feature development, 3 primary cost factors will make up the majority of the costs.
 
 #### i. Operational Costs
 
