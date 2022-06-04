@@ -227,11 +227,11 @@ Generally the people costs, by way of employees, consultants, or services firms.
 
 #### ii. Infrastructure & Cloud Costs
 
-Generally, these would include all the infrastructure, cloud, services, licenses, API subscriptions, and other costs associated with running the application frontend and backend, excluding development. The subsequent phase, if applicable and if chosen for the semifinals, will provide an expected high level budget of operational costs and expected expenses in this category. The budget will be created utilizing example scenarios, or, more precise numbers if real world expected user figures are availalbe. A cost breakdown of services will be provided.
+Generally, these would include all the infrastructure, cloud, services, licenses, API subscriptions, and other costs associated with running the application frontend and backend, excluding development. The subsequent phase, if applicable and if chosen for the semifinals, will provide an expected high-level budget of operational costs and expected expenses in this category. The budget will be created utilizing example scenarios, or, more precise numbers if real-world expected user figures are available. A cost breakdown of services will be provided.
 
 #### iii. Security Update Costs
 
-The primary ongoing development costs not related to feature development on this platform, in addition to responding to events and the infrastructure itself, will be the updates to the application libraries to address ongoing security concerns. The application frontend is by far the most vulnerable part of this system in terms of security, and will require ongoing updates. The subsequent phase, if applicable and if chosen for the semifinals, will provide an expected high level budget of operational costs and expected expenses in this category.
+The primary ongoing development costs not related to feature development on this platform, in addition to responding to events and the infrastructure itself, will be the updates to the application libraries to address ongoing security concerns. The application frontend is by far the most vulnerable part of this system in terms of security and will require ongoing updates. The subsequent phase, if applicable and if chosen for the semifinals, will provide an expected high-level budget of operational costs and expected expenses in this category.
 
 ---
 
@@ -286,15 +286,15 @@ User interactions will be expanded should this proposal be selected for the semi
 
 #### i. Processes
 
-Process descriptions, steps, and individual flow diagrams (as required) will be expanded at if this proposal endures itself into the semifinals, and afterwards refined significantly with stakeholder feedback rounds as required if selected past the semi-finals/finals.
+Process descriptions, steps, and individual flow diagrams (as required)  will be expanded should this proposal be selected for the semifinals, and refined significantly with stakeholder feedback rounds as required if selected past the semi-finals/finals.
 
 #### ii. UI Wireframes
 
-User interface wireframes will be expanded at if this proposal endures itself into the semifinals, and afterwards refined significantly with stakeholder feedback rounds as required if selected past the semi-finals/finals.
+User interface wireframes will be expanded should this proposal be selected for the semifinals, and refined significantly with stakeholder feedback rounds as required if selected past the semi-finals/finals.
 
 #### iii. Editable/Markdown fields
 
-Editable/Markdown fields will be expanded at if this proposal endures itself past the semi-finals/finals. When the schema and data fields are created, we'll work with the stakeholders to define which fields require rich editing capabilities, and utilize visual markdown editors and viewers as much as possbile and where appropriate.
+Editable/Markdown fields will be expanded should this proposal be selected for the semifinals. When the schema and data fields are created, we'll work with the stakeholders to define which fields require rich editing capabilities and utilize visual markdown editors and viewers as much as possible and where appropriate.
 
 ### g. Backlog
 
@@ -324,7 +324,7 @@ Epics with some known stories to be flushed out in the semifinalist stage, with 
 
 ### 501c3 Non-Profit
 
-A non-profit corporation or trust that is tax-exempt. See [wikipedia](https://en.wikipedia.org/wiki/501(c)(3)_organization)
+A non-profit corporation or trust that is tax-exempt. See Wikipedia](https://en.wikipedia.org/wiki/501(c)(3)_organization)
 
 ### Architecture Decision
 
@@ -336,7 +336,7 @@ A document that captures an important architecture decision along with the conte
 
 ### AZ - Availability Zone
 
-A cloud providers data center that is in a physically separated location. Deploying to multiple availability zones means that an application can survive the loss of a given data center. Multiple availability zones make up a region.
+A cloud provider's data center housed in a physically separated location. Deploying to multiple availability zones means that an application can survive the loss of a given data center. Multiple availability zones make up a region.
 
 ### Backlog
 
@@ -360,7 +360,7 @@ Data that when used alone or in conjunction with other information can identify 
 
 ### Total Cost of Ownership
 
-The complete calculation of costs pertaining to a software property. In software, this refers to not only the runtime cost but also the cost of operation.
+The complete calculation of costs of a software property. In software, this refers to not only the runtime cost but also the cost of operation.
 
 ### User Interface
 
