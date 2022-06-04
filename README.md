@@ -143,8 +143,8 @@ A technology solution that serves the purpose of enhancing visibility, support, 
 | **Non-Profit with offering (“Non-Profit”)** | Group with a platform integration offering |
 | **Candidate** | Consumer of non-profit offerings, delivered via the platform |
 | **Administrators** | Management of the platform, registering Non-Profits |
-| **Community Leader** | Member of the Admin team who helps non-profits to identify their service capabilities, responsibilities, & expectations |
-| **Mentor** | Member of Non-Profit, who is in charge of updating the profile of candidates |
+| **Community Leader** | Member of the Admin team who consults non-profits to identify their service capabilities, responsibilities, & expectations |
+| **Mentor** | Member of Non-Profit, who consults candidates and updates their profile |
 
 ### b. Platform Feature Characteristics
 
@@ -247,11 +247,9 @@ On the other hand, the lack of visibility of non-profits and their offerings cre
 
 Our proposed solution tackles the lack of visibility by enabling Spotlight App to be a central hub where non-profits are empowered to identify their service capabilities and publicize their offerings. THe Spotlight App also enables the candidates to find services by providing smart recommendations based on the information provided by them and their geographical preferences. The Spolight Mobile App brings the non-profit services closer to the candidates, as [85% of Americans currently own a smartphone](https://www.pewresearch.org/internet/fact-sheet/mobile/). The map view of the non-profit offerings makes it convenient for candidates to locate the services closest to their desired locations (school, home, work). In addition, the prediction capability of our solution helps non-profits identify the offering gaps, and predict the future desirable career paths. Our solution leverages AWS Pinpoint to collect usage data which essentially provides meaningful metrics to guide admintrators and non-profits to improve their offerings and the application usability.
 
-During the design process, we prioritized finding a cost-effective solution, without compromising the efficiency or the usability of the product. Our proposed solution reduces the cost of the human resources by automating most of the manual processes that are typically performed by volunteers and employees. This frees them to focus on what is the most important for non-profits. Calendly is used to replace the traditional means of communciation (such as phone calls) for scheduling meetings. A recommendation engine is used to simplify the interview process by taking the candidates profile and needs as inputs, and provide smart initial recommendations for a career roadmap.
+During the design process, we prioritized finding a cost-effective solution, without compromising the efficiency or the usability of the product. Our proposed solution reduces the cost of the human resources by automating most of the manual processes that are typically performed by volunteers and employees. This frees them to focus on what is the most important for non-profits (conducting fundraising events, meeting candidates and nonprofits). Calendly is used to replace the traditional means of communciation (such as phone calls and emails) for scheduling meetings. A recommendation engine is used to simplify the interview process by taking the candidates profile and needs as inputs, and provide smart initial recommendations for a career roadmap.
 
-To reduce the cost of infrastructure, we introduced Serverless along with an affordable technology stack (such as D3, Vuejs, AWS Amplify). The use of serverless means that the development team do not need to spend time building, securing and maintaining servers.
-
-By using D3 and Vuejs for the frontend development, and AWS Amplify for the backend development, the Spolight App can be developed and deployed faster and more affordably.
+To reduce the cost of infrastructure, we introduced Serverless along with an affordable technology stack (such as D3, Vuejs, AWS Amplify). The use of serverless means that the development team do not need to spend time building, securing and maintaining servers. By using D3 and Vuejs for the frontend development, and AWS Amplify for the backend development, the Spolight App can be developed and deployed faster and more affordably.
 
 ### b. High Level Archecture Diagram
 
