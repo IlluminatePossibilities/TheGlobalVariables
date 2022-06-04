@@ -272,7 +272,7 @@ The atomic data sources we intend to use are:
 - Geolocation data obtained from Amplify
 - Other data sources not presently defined or considered
 
-*NOTE:* We will augment user data with geo-data obtained through Amplify for more geo-specific recommendations.
+*NOTE:* We will augment user data with geolocation data obtained through Amplify for more geo-specific recommendations.
 
 Interactive reports for the data will be built using Vuejs templates and D3 visualizations.
 
