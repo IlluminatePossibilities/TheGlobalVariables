@@ -297,7 +297,7 @@ User interactions will be expanded should this proposal be selected for the semi
 
 #### i. Processes
 
-Process descriptions, steps, and individual flow diagrams (as required)  will be expanded should this proposal be selected for the semifinals, and refined significantly with stakeholder feedback rounds as required if selected past the semi-finals/finals.
+Process descriptions, steps, and individual flow diagrams (as required) will be expanded should this proposal be selected for the semifinals, and refined significantly with stakeholder feedback rounds as required if selected past the semi-finals/finals.
 
 #### ii. UI Wireframes
 
@@ -335,7 +335,7 @@ Epics with some known stories to be flushed out in the semifinalist stage, with 
 
 ### 501c3 Non-Profit
 
-A non-profit corporation or trust that is tax-exempt. See Wikipedia](https://en.wikipedia.org/wiki/501(c)(3)_organization)
+A non-profit corporation or trust that is tax-exempt. See [Wikipedia](https://en.wikipedia.org/wiki/501(c)(3)_organization)
 
 ### Architecture Decision
 
