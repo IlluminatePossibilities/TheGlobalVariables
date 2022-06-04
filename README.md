@@ -261,11 +261,7 @@ For a detailed breakout of components from the HLD, and their handling, see [her
 
 ### c. Reporting & Business Intelligence (BI)
 
-```diff
-- Scott
-```
-
-We will use AWS Sagemaker to model and for recommendations and predictions. These will be based on the processes that are currently defined and others yet to be defined.
+We will use AWS Sagemaker to create models as well as for recommendations and predictions. These will be based on the processes that are currently defined and allow others yet to be defined to be modeled as required.
 
 Initially, these models will be trained with test data, but the models will be retrained as users use the system and refinements will be made based on system usage. This will allow the models to become more accurate as the system is used.
 
@@ -274,9 +270,9 @@ The atomic data sources we intend to use are:
 - Amplify analytics
 - DynamoDB schemas
 - Geolocation data obtained from Amplify
-- Other data sources not presently defined or considered.
+- Other data sources not presently defined or considered
 
-NOTE: We can augment user data with geo-data obtained through Amplify for more geo-specific recommendations.
+*NOTE:* We will augment user data with geo-data obtained through Amplify for more geo-specific recommendations.
 
 Interactive reports for the data will be built using Vuejs templates and D3 visualizations.
 
