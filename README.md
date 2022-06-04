@@ -268,7 +268,7 @@ For a detailed breakout of components from the HLD, and their handling, see [her
 Reporting and BI
 We will use AWS Sagemaker to model and for recommendations and predictions. These will be based on the processes that are currently defined and others yet to be defined.
 
-Initially, these models will be trained with test data but the models will be retrained as users use the system and refinements will be made based on system usage. This will allow the models to become more accurate as the system is used.
+Initially, these models will be trained with test data, but the models will be retrained as users use the system and refinements will be made based on system usage. This will allow the models to become more accurate as the system is used.
 
 The atomic data sources we intend to use are:
 
