@@ -45,7 +45,7 @@ Presented by
       - [iii. Security Update Costs](#iii-security-update-costs)
   - [6. Proposed Solution](#6-proposed-solution)
     - [a. Overview & Value Proposition](#a-overview--value-proposition)
-    - [b. High Level Archecture Diagram](#b-high-level-archecture-diagram)
+    - [b. High-Level Architecture Diagram](#b-high-level-architecture-diagram)
       - [i. HLD Components](#i-hld-components)
     - [c. Reporting & Business Intelligence (BI)](#c-reporting--business-intelligence-bi)
     - [d. Deployments](#d-deployments)
@@ -104,11 +104,11 @@ Spotlight App/Platform
 
 ### b. Program Summary
 
-The Spotlight App Project is a sustained effort to amass a coalition of non-profits in order to address specific needs within the communities we serve by leveraging a centralized platform as the base of operations to collaborate and make a collective impact.
+The Spotlight App Project is a sustained effort to amass a coalition of non-profits to address specific needs within the communities we serve by leveraging a centralized platform as the base of operations to collaborate and make a collective impact.
 
-**Problem Statement #1:** The decentralization and lack of support between non-profits create gaps of service and overall impact.
+**Problem Statement #1:** The decentralization and lack of support between non-profits create gaps in service and overall impact.
 
-**Problem Statement #2:** The lack of visibility of non-profit groups and offerings creates a barrier of access to the people we aim to serve.
+**Problem Statement #2:** The lack of visibility of non-profit groups and offerings creates a barrier to access to the people we aim to serve.
 
 ### c. Technology Solution Description
 
@@ -213,25 +213,25 @@ All user interactions *MUST* be coded in such a way as to provide some form of f
 
 ### j. Scalability
 
-The choice of serverless as a platform allows much faster scaling than if container or VM based infrastructure were used. Also, the scaling characteristics of the services are, for the most part, handled by the cloud provider (AWS). There are some services that have scaling limits (i.e. lambda defaults to 1000 concurrent functions running at a time) and these should be monitored so that the limits can be increased before they become an issue.
+The choice of serverless as a platform allows much faster scaling than if a container or VM-based infrastructure were used. Also, the scaling characteristics of the services are, for the most part, handled by the cloud provider (AWS). Some services have scaling limits (i.e. lambda defaults to 1000 concurrent functions running at a time) and these should be monitored so that the limits can be increased before they become an issue.
 
 A further benefit of the use of a Serverless platform is that idle cost (the cost when there is no load) will be lower than when VMs or containers are used.
 
 ### k. Total Cost of Ownership
 
-The total cost of ownership comprises a significant numer of factors. In this particular architecture, with exception to new feature development, 3 primary cost factors will make up the majority of the costs.
+The total cost of ownership comprises a significant number of factors. In this particular architecture, with the exception new of feature development, 3 primary cost factors will make up the majority of the costs.
 
 #### i. Operational Costs
 
-Generally the people costs, by way of employees, consultants, or services firms. The subsequent phase, if applicable and if chosen for the semifinals, will provide an expected high level budget of operational costs and expected expenses in this category.
+Generally the people costs, by way of employees, consultants, or services firms. The subsequent phase, if applicable and if chosen for the semifinals, will provide an expected high-level budget of operational costs and expected expenses in this category.
 
 #### ii. Infrastructure & Cloud Costs
 
-Generally these would include all the infrastructure, cloud, services, licenses, API subscriptions, and other costs associated with running the application frontend and backend, excluding development. The subsequent phase, if applicable and if chosen for the semifinals, will provide an expected high level budget of operational costs and expected expenses in this category. The budget will be created utilizing example scenarios, or, more precise numbers if real world expected user figures are availalbe. A cost breakdown of services will be provided.
+Generally, these would include all the infrastructure, cloud, services, licenses, API subscriptions, and other costs associated with running the application frontend and backend, excluding development. The subsequent phase, if applicable and if chosen for the semifinals, will provide an expected high level budget of operational costs and expected expenses in this category. The budget will be created utilizing example scenarios, or, more precise numbers if real world expected user figures are availalbe. A cost breakdown of services will be provided.
 
 #### iii. Security Update Costs
 
-The primary ongoing development cost not related to feature development on this platform, in addition to responding to events and the infrastructure its self, will be the updates to the application libraries to address ongoing security concerns. The application frontend is by far the most vulnerable part of this system in terms of security, and will require ongoing updates. The subsequent phase, if applicable and if chosen for the semifinals, will provide an expected high level budget of operational costs and expected expenses in this category.
+The primary ongoing development costs not related to feature development on this platform, in addition to responding to events and the infrastructure itself, will be the updates to the application libraries to address ongoing security concerns. The application frontend is by far the most vulnerable part of this system in terms of security, and will require ongoing updates. The subsequent phase, if applicable and if chosen for the semifinals, will provide an expected high level budget of operational costs and expected expenses in this category.
 
 ---
 
@@ -239,19 +239,19 @@ The primary ongoing development cost not related to feature development on this 
 
 ### a. Overview & Value Proposition
 
-The Spotight App project aims to solve two issues that are faced by any non-profit organization: minimizing the operating cost, and increasing the visibility of available services.
+The Spotlight App project aims to solve two issues that are faced by any non-profit organization: minimizing the operating cost and increasing the visibility of available services.
 
 Many non-profits choose to minimize their operating costs by cutting the budget of anything other than direct program expenses or to “support the cause”. Most often, this causes non-profits to experience slow growth or an inability to become sustainable due to a lack of investment in infrastructure and management. In many cases, the non-profit is left with a few volunteers to shoulder much of the work.
 
-On the other hand, the lack of visibility of non-profits and their offerings creates a barrier of access for the people who can benefit most from these programs. The decentralization and lack of support between non-profits create gaps of service and overall impact.
+On the other hand, the lack of visibility of non-profits and their offerings creates a barrier to access for the people who can benefit most from these programs. The decentralization and lack of support between non-profits create gaps in service and overall impact.
 
-Our proposed solution tackles the lack of visibility by enabling Spotlight App to be a central hub where non-profits are empowered to identify their service capabilities and publicize their offerings. THe Spotlight App also enables the candidates to find services by providing smart recommendations based on the information provided by them and their geographical preferences. The Spolight Mobile App brings the non-profit services closer to the candidates, as [85% of Americans currently own a smartphone](https://www.pewresearch.org/internet/fact-sheet/mobile/). The map view of the non-profit offerings makes it convenient for candidates to locate the services closest to their desired locations (school, home, work). In addition, the prediction capability of our solution helps non-profits identify the offering gaps, and predict the future desirable career paths. Our solution leverages AWS Pinpoint to collect usage data which essentially provides meaningful metrics to guide admintrators and non-profits to improve their offerings and the application usability.
+Our proposed solution tackles the lack of visibility by enabling Spotlight App to be a central hub where non-profits are empowered to identify their service capabilities and publicize their offerings. The Spotlight App also enables the candidates to find services by providing smart recommendations based on the information provided by users and their geographical preferences. The Spotlight Mobile App brings the non-profit services closer to the candidates, as [85% of Americans currently own a smartphone](https://www.pewresearch.org/internet/fact-sheet/mobile/). The map view of the non-profit offerings makes it convenient for candidates to locate the services closest to their desired locations (school, home, work). In addition, the prediction capability of our solution helps non-profits identify the offering gaps, and predict the future desirable career paths. Our solution leverages AWS Pinpoint to collect usage data which essentially provides meaningful metrics to guide administrators and non-profits to improve their offerings and the application usability.
 
-During the design process, we prioritized finding a cost-effective solution, without compromising the efficiency or the usability of the product. Our proposed solution reduces the cost of the human resources by automating most of the manual processes that are typically performed by volunteers and employees. This frees them to focus on what is the most important for non-profits (conducting fundraising events, meeting candidates and nonprofits). Calendly is used to replace the traditional means of communciation (such as phone calls and emails) for scheduling meetings. A recommendation engine is used to simplify the interview process by taking the candidates profile and needs as inputs, and provide smart initial recommendations for a career roadmap.
+During the design process, we prioritized finding a cost-effective solution, without compromising the efficiency or the usability of the product. Our proposed solution reduces the cost of human resources by automating most of the manual processes that are typically performed by volunteers and employees. This frees them to focus on what is the most important for non-profits (conducting fundraising events, meeting candidates and nonprofits). Calendly is used to replace the traditional means of communication (such as phone calls and emails) for scheduling meetings. A recommendation engine is used to simplify the interview process by taking the candidate's profile and needs as inputs and providing smart initial recommendations for a career roadmap.
 
-To reduce the cost of infrastructure, we introduced Serverless along with an affordable technology stack (such as D3, Vuejs, AWS Amplify). The use of serverless means that the development team do not need to spend time building, securing and maintaining servers. By using D3 and Vuejs for the frontend development, and AWS Amplify for the backend development, the Spolight App can be developed and deployed faster and more affordably.
+To reduce the cost of infrastructure, we introduced Serverless along with an affordable technology stack (such as D3, Vuejs, AWS Amplify). The use of serverless means that the development team does not need to spend time building, securing and maintaining servers. By using D3 and Vuejs for the frontend development, and AWS Amplify for the backend development, the Spotlight App can be developed and deployed faster and more affordably.
 
-### b. High Level Archecture Diagram
+### b. High-Level Architecture Diagram
 
 ![Architecture Diagram](docs/architecture.png)
 
@@ -272,13 +272,13 @@ For a detailed breakout of components from the HLD, and their handling, see [her
 Two CI/CD pipelines are proposed to facilitate updates to the infrastructure and applications on the platform:
 
 - AWS Cloudformation will be used to deploy a Route53 zone and subsequent record changes, SageMaker instance, IAM roles and policies, and observability tools. Cloudformation will also bootstrap Amplify.
-- AWS Amplify will be used to deploy all the services necessary for the application to run (e.g. Lambda, Cloudfront, Appsync, DynamoDB). It was also handle deployment to services that it depends on, including data models and required accesses.
+- AWS Amplify will be used to deploy all the services necessary for the application to run (e.g. Lambda, Cloudfront, Appsync, DynamoDB). It will also handle deployment to services that it depends on, including data models and required accesses.
 
 Updates will be triggered on commit, and the tools will be triggered via webhook.
 
 ### e. User Interactions
 
-User interactions will be expanded at if this proposal endures its self into the semifinals, and afterwards refined significantly with stakeholder feedback rounds as required if selected past the semi-finals/finals. In particular the user interactions will rely on the processes defined.
+User interactions will be expanded should this proposal be selected for the semifinals, and refined significantly with stakeholder feedback rounds as required if selected past the semi-finals/finals. In particular, the user interactions will rely on the processes defined.
 
 ### f. Sequence Diagram
 
@@ -286,19 +286,19 @@ User interactions will be expanded at if this proposal endures its self into the
 
 #### i. Processes
 
-Process descriptions, steps, and individual flow diagrams (as required) will be expanded at if this proposal endures its self into the semifinals, and afterwards refined significantly with stakeholder feedback rounds as required if selected past the semi-finals/finals.
+Process descriptions, steps, and individual flow diagrams (as required) will be expanded at if this proposal endures itself into the semifinals, and afterwards refined significantly with stakeholder feedback rounds as required if selected past the semi-finals/finals.
 
 #### ii. UI Wireframes
 
-User interface wireframes will be expanded at if this proposal endures its self into the semifinals, and afterwards refined significantly with stakeholder feedback rounds as required if selected past the semi-finals/finals.
+User interface wireframes will be expanded at if this proposal endures itself into the semifinals, and afterwards refined significantly with stakeholder feedback rounds as required if selected past the semi-finals/finals.
 
 #### iii. Editable/Markdown fields
 
-Editable/Markdown fields will be expanded at if this proposal endures its self past the semi-finals/finals. When the schema and data fields are created, we'll work with the stakeholders to define which fields require rich editing capabilities, and utilize visual markdown editors and viewers as much as possbile and where appropriate.
+Editable/Markdown fields will be expanded at if this proposal endures itself past the semi-finals/finals. When the schema and data fields are created, we'll work with the stakeholders to define which fields require rich editing capabilities, and utilize visual markdown editors and viewers as much as possbile and where appropriate.
 
 ### g. Backlog
 
-The Backlog refinement and entries will begin if this proposal endures its self into the semifinals, with refinement at each stage into the and past the finals.
+The Backlog refinement and entries will begin if this proposal endures itself into the semifinals, with refinement at each stage into the and past the finals.
 
 #### i. Epics & Milestones
 
