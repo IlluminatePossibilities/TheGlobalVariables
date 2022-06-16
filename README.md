@@ -194,6 +194,20 @@ The purpose of this product is to facilitate collaboration between non-profits. 
 ### e. Feasibility
 
 The cost and time to develop and maintain this application are driving factors. The consumers of this platform are the non-profit organizations for whom, it is important to minimize the operational cost.
+The total cost of ownership comprises a significant number of factors. In this particular architecture, with the exception of new feature development, 3 primary cost factors will make up the majority of the costs.
+
+#### I. Operational Costs
+
+Generally the people costs, by way of employees, consultants, or services firms. The subsequent phase, if applicable and if chosen for the semifinals, will provide an expected high-level budget of operational costs and expected expenses in this category.
+
+#### II. Infrastructure & Cloud Costs
+
+Generally, these would include all the infrastructure, cloud, services, licenses, API subscriptions, and other costs associated with running the application frontend and backend, excluding development. The subsequent phase, if applicable and if chosen for the semifinals, will provide an expected high-level budget of operational costs and expected expenses in this category. The budget will be created utilizing example scenarios, or, more precise numbers if real-world expected user figures are available. A cost breakdown of services will be provided.
+
+#### III. Security Update Costs
+
+The primary ongoing development costs not related to feature development on this platform, in addition to responding to events and the infrastructure itself, will be the updates to the application libraries to address ongoing security concerns. The application frontend is by far the most vulnerable part of this system in terms of security and will require ongoing updates. The subsequent phase, if applicable and if chosen for the semifinals, will provide an expected high-level budget of operational costs and expected expenses in this category.
+
 
 ### f. Data Integrity
 
@@ -201,15 +215,11 @@ The candidate's career path and progress, as well as non-profit information, are
 
 ### g. Responsiveness
 
-Since Spotlight is user-facing, it is important to ensure the system responds to the end-user requests promptly.
+Since Spotlight is user-facing, it is important to ensure the system responds to the end-user requests promptly. All user interactions *MUST* be coded in such a way as to provide some form of feedback for all actions. This feedback must occur within the [Doherty Threshold of 400ms](https://www.uxtoast.com/ux-laws/doherty-threshold).
 
 ### h. Availability
 
 Amazon provides services in multiple Availability Zones. By using Serverless services, the Diversity Cyber Council platform will make use of these, by default and as such, the platform can withstand the loss of a given Availability Zone.
-
-### i. Performance Characteristics
-
-All user interactions *MUST* be coded in such a way as to provide some form of feedback for all actions. This feedback must occur within the Doherty Threshold of 400ms.
 
 ### j. Scalability
 
@@ -217,21 +227,6 @@ The choice of serverless as a platform allows much faster scaling than if a cont
 
 A further benefit of the use of a Serverless platform is that idle cost (the cost when there is no load) will be lower than when VMs or containers are used.
 
-### k. Total Cost of Ownership
-
-The total cost of ownership comprises a significant number of factors. In this particular architecture, with the exception of new feature development, 3 primary cost factors will make up the majority of the costs.
-
-#### i. Operational Costs
-
-Generally the people costs, by way of employees, consultants, or services firms. The subsequent phase, if applicable and if chosen for the semifinals, will provide an expected high-level budget of operational costs and expected expenses in this category.
-
-#### ii. Infrastructure & Cloud Costs
-
-Generally, these would include all the infrastructure, cloud, services, licenses, API subscriptions, and other costs associated with running the application frontend and backend, excluding development. The subsequent phase, if applicable and if chosen for the semifinals, will provide an expected high-level budget of operational costs and expected expenses in this category. The budget will be created utilizing example scenarios, or, more precise numbers if real-world expected user figures are available. A cost breakdown of services will be provided.
-
-#### iii. Security Update Costs
-
-The primary ongoing development costs not related to feature development on this platform, in addition to responding to events and the infrastructure itself, will be the updates to the application libraries to address ongoing security concerns. The application frontend is by far the most vulnerable part of this system in terms of security and will require ongoing updates. The subsequent phase, if applicable and if chosen for the semifinals, will provide an expected high-level budget of operational costs and expected expenses in this category.
 
 ---
 
@@ -241,11 +236,11 @@ The primary ongoing development costs not related to feature development on this
 
 The Spotlight App project aims to solve two issues that are faced by any non-profit organization: minimizing the operating cost and increasing the visibility of available services.
 
-Many non-profits choose to minimize their operating costs by cutting the budget of anything other than direct program expenses or to “support the cause”. Most often, this causes non-profits to experience slow growth or an inability to become sustainable due to a lack of investment in infrastructure and management. In many cases, the non-profit is left with a few volunteers to shoulder much of the work.
+Many non-profits choose to minimize their operating costs by cutting the budget of anything other than direct program expenses or to “support the cause”. Most often, this causes non-profits to experience slow growth or an inability to become sustainable due to [a lack of investment in infrastructure and management](https://ssir.org/articles/entry/the_nonprofit_starvation_cycle). In many cases, the non-profit is left with a few volunteers to shoulder much of the work.
 
 On the other hand, the lack of visibility of non-profits and their offerings creates a barrier to access for the people who can benefit most from these programs. The decentralization and lack of support between non-profits create gaps in service and overall impact.
 
-Our proposed solution tackles the lack of visibility by enabling Spotlight App to be a central hub where non-profits are empowered to identify their service capabilities and publicize their offerings. The Spotlight App also enables the candidates to find services by providing smart recommendations based on the information provided by users and their geographical preferences. The Spotlight Mobile App brings the non-profit services closer to the candidates, as [85% of Americans currently own a smartphone](https://www.pewresearch.org/internet/fact-sheet/mobile/). The map view of the non-profit offerings makes it convenient for candidates to locate the services closest to their desired locations (school, home, work). In addition, the prediction capability of our solution helps non-profits identify the offering gaps, and predict the future desirable career paths. Our solution leverages AWS Pinpoint to collect usage data which essentially provides meaningful metrics to guide administrators and non-profits to improve their offerings and the application usability.
+Our proposed solution tackles the lack of visibility by enabling Spotlight App to be a central hub where non-profits are empowered to identify their service capabilities and publicize their offerings. The Spotlight App also enables the candidates to find services by providing smart recommendations based on the information provided by users and their geographical preferences. The Spotlight Mobile App brings the non-profit services closer to the candidates, as [85% of Americans currently own a smartphone](https://www.pewresearch.org/internet/fact-sheet/mobile/). The map view of the non-profit offerings makes it convenient for candidates to locate the services closest to their desired locations (school, home, work). The notification service also enables Spotlight to advertise new non-profit offerings to end users, based on their desired location or services. In addition, the prediction capability of our solution helps non-profits identify the offering gaps, and predict the future desirable career paths. Our solution leverages AWS Pinpoint to collect usage data which essentially provides meaningful metrics to guide administrators and non-profits to improve their offerings and the application usability.
 
 During the design process, we prioritized finding a cost-effective solution, without compromising the efficiency or the usability of the product. Our proposed solution reduces the cost of human resources by automating most of the manual processes that are typically performed by volunteers and employees. This frees them to focus on what is the most important for non-profits (conducting fundraising events, meeting candidates and nonprofits). Calendly is used to replace the traditional means of communication (such as phone calls and emails) for scheduling meetings. A recommendation engine is used to simplify the interview process by taking the candidate's profile and needs as inputs and providing smart initial recommendations for a career roadmap.
 
