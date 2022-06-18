@@ -34,15 +34,13 @@ Presented by
     - [c. Privacy](#c-privacy)
     - [d. Interoperability](#d-interoperability)
     - [e. Feasibility](#e-feasibility)
+      - [I. Operational Costs](#i-operational-costs)
+      - [II. Infrastructure & Cloud Costs](#ii-infrastructure--cloud-costs)
+      - [III. Security Update Costs](#iii-security-update-costs)
     - [f. Data Integrity](#f-data-integrity)
     - [g. Responsiveness](#g-responsiveness)
     - [h. Availability](#h-availability)
-    - [i. Performance Characteristics](#i-performance-characteristics)
     - [j. Scalability](#j-scalability)
-    - [k. Total Cost of Ownership](#k-total-cost-of-ownership)
-      - [i. Operational Costs](#i-operational-costs)
-      - [ii. Infrastructure & Cloud Costs](#ii-infrastructure--cloud-costs)
-      - [iii. Security Update Costs](#iii-security-update-costs)
   - [6. Proposed Solution](#6-proposed-solution)
     - [a. Overview & Value Proposition](#a-overview--value-proposition)
     - [b. High-Level Architecture Diagram](#b-high-level-architecture-diagram)
@@ -194,7 +192,7 @@ The purpose of this product is to facilitate collaboration between non-profits. 
 ### e. Feasibility
 
 The cost and time to develop and maintain this application are driving factors. The consumers of this platform are the non-profit organizations for whom, it is important to minimize the operational cost.
-The total cost of ownership comprises a significant number of factors. In this particular architecture, with the exception of new feature development, 3 primary cost factors will make up the majority of the costs.
+The total cost of ownership comprises a significant number of factors. In this particular architecture, excluding new feature development, 3 primary cost factors will make up the majority of the costs.
 
 #### I. Operational Costs
 
@@ -207,7 +205,6 @@ Generally, these would include all the infrastructure, cloud, services, licenses
 #### III. Security Update Costs
 
 The primary ongoing development costs not related to feature development on this platform, in addition to responding to events and the infrastructure itself, will be the updates to the application libraries to address ongoing security concerns. The application frontend is by far the most vulnerable part of this system in terms of security and will require ongoing updates. The subsequent phase, if applicable and if chosen for the semifinals, will provide an expected high-level budget of operational costs and expected expenses in this category.
-
 
 ### f. Data Integrity
 
@@ -227,7 +224,6 @@ The choice of serverless as a platform allows much faster scaling than if a cont
 
 A further benefit of the use of a Serverless platform is that idle cost (the cost when there is no load) will be lower than when VMs or containers are used.
 
-
 ---
 
 ## 6. Proposed Solution
@@ -240,7 +236,7 @@ Many non-profits choose to minimize their operating costs by cutting the budget 
 
 On the other hand, the lack of visibility of non-profits and their offerings creates a barrier to access for the people who can benefit most from these programs. The decentralization and lack of support between non-profits create gaps in service and overall impact.
 
-Our proposed solution tackles the lack of visibility by enabling Spotlight App to be a central hub where non-profits are empowered to identify their service capabilities and publicize their offerings. The Spotlight App also enables the candidates to find services by providing smart recommendations based on the information provided by users and their geographical preferences. The Spotlight Mobile App brings the non-profit services closer to the candidates, as [85% of Americans currently own a smartphone](https://www.pewresearch.org/internet/fact-sheet/mobile/). The map view of the non-profit offerings makes it convenient for candidates to locate the services closest to their desired locations (school, home, work). The notification service also enables Spotlight to advertise new non-profit offerings to end users, based on their desired location or services. In addition, the prediction capability of our solution helps non-profits identify the offering gaps, and predict the future desirable career paths. Our solution leverages AWS Pinpoint to collect usage data which essentially provides meaningful metrics to guide administrators and non-profits to improve their offerings and the application usability.
+Our proposed solution tackles the lack of visibility by enabling Spotlight App to be a central hub where non-profits are empowered to identify their service capabilities and publicize their offerings. The Spotlight App also enables the candidates to find services by providing smart recommendations based on the information provided by users and their geographical preferences. The Spotlight Mobile App brings the non-profit services closer to the candidates, as [85% of Americans currently own a smartphone](https://www.pewresearch.org/internet/fact-sheet/mobile/). The map view of the non-profit offerings makes it convenient for candidates to locate the services closest to their desired locations (school, home, work). The notification service also enables Spotlight to advertise new non-profit offerings to end-users, based on their desired location or services. In addition, the prediction capability of our solution helps non-profits identify the offering gaps, and predict the future desirable career paths. Our solution leverages AWS Pinpoint to collect usage data which essentially provides meaningful metrics to guide administrators and non-profits to improve their offerings and the application usability.
 
 During the design process, we prioritized finding a cost-effective solution, without compromising the efficiency or the usability of the product. Our proposed solution reduces the cost of human resources by automating most of the manual processes that are typically performed by volunteers and employees. This frees them to focus on what is the most important for non-profits (conducting fundraising events, meeting candidates and nonprofits). Calendly is used to replace the traditional means of communication (such as phone calls and emails) for scheduling meetings. A recommendation engine is used to simplify the interview process by taking the candidate's profile and needs as inputs and providing smart initial recommendations for a career roadmap.
 
