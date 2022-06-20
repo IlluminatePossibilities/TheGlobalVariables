@@ -46,6 +46,8 @@ We **will** prioritize the choice of serverless components of solutions before c
 
 ## Consequences
 
+![Architecture Styles Worksheet](../docs/architecture-styles-worksheet.png)
+
 Positive Impact:
 
 - Idle time running cost will trend downward as compared to peak.
@@ -59,7 +61,7 @@ Positive Impact:
 Negative Impact:
 
 - Staff need to understand serverless architectures and methodologies.
-- Serverelss solutions require better monitoring.
+- Serverless solutions require better monitoring.
 - Staff need to be more aware of the cloud providers infrastructure elements (not as easily left to someone else).
 - Serverless applications have "more moving pieces" and diagrams look more daunting since functions are exposed rather than "groups" of functions.
 - Changing providers is more difficult (not impossible).
