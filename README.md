@@ -292,7 +292,14 @@ Process descriptions, steps, and individual flow diagrams (as required) will be 
 
 #### ii. UI Wireframes
 
-User interface wireframes will be expanded should this proposal be selected for the semifinals, and refined significantly with stakeholder feedback rounds as required if selected past the semi-finals/finals.
+User interface wireframes will be expanded should this proposal be selected for the finals, and refined significantly with stakeholder feedback rounds as required.
+
+<p float="center">
+  <img src="docs/ui-mockup/login.png" width="200" />
+  <img src="docs/ui-mockup/dashboard.png" width="200" /> 
+  <img src="docs/ui-mockup/list_view.png" width="200" />
+  <img src="docs/ui-mockup/map_view.png" width="200" />
+</p>
 
 #### iii. Editable/Markdown fields
 
