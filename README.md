@@ -293,17 +293,25 @@ Two CI/CD pipelines are proposed to facilitate updates to the infrastructure and
 
 Updates will be triggered on commit, and the tools will be triggered via webhook.
 
-### e. User Interactions
-
-User interactions will be expanded should this proposal be selected for the semifinals, and refined significantly with stakeholder feedback rounds as required if selected past the semi-finals/finals. In particular, the user interactions will rely on the processes defined.
-
-### f. Sequence Diagram
+### e. Sequence Diagram
 
 ![Diagram](docs/sequence_diagram.jpg)
 
-#### i. Processes
+#### f. Processes
 
-Process descriptions, steps, and individual flow diagrams (as required) will be expanded should this proposal be selected for the semifinals, and refined significantly with stakeholder feedback rounds as required if selected past the semi-finals/finals.
+
+Below we have provided three Value Stream Mapping (VSM) for the candidate and non-profit registration, as well as the user data purging. 
+
+Candidate Registration
+![Diagram](docs/value-stream-mapping/candidate-vsm.jpg)
+
+Non-profit Registration
+![Diagram](docs/value-stream-mapping/non-profit-vsm.jpg)
+
+Purging User data
+![Diagram](docs/value-stream-mapping/user-data-purging-vsm.jpg)
+
+Eventually in the build out we will have potentially multiple VSMs (one VSM per each individual flow). Process descriptions, steps, and individual flow diagrams will be refined significantly with stakeholder feedback rounds as required if selected past semifinals. 
 
 #### ii. UI Wireframes
 
