@@ -46,9 +46,8 @@ Presented by
       - [i. HLD Components](#i-hld-components)
     - [c. Reporting & Business Intelligence (BI)](#c-reporting--business-intelligence-bi)
     - [d. Deployments](#d-deployments)
-    - [e. User Interactions](#e-user-interactions)
-    - [f. Sequence Diagram](#f-sequence-diagram)
-      - [i. Processes](#i-processes)
+    - [e. Sequence Diagram](#e-sequence-diagram)
+      - [f. Processes](#f-processes)
       - [ii. UI Wireframes](#ii-ui-wireframes)
       - [iii. Editable/Markdown fields](#iii-editablemarkdown-fields)
     - [g. Backlog](#g-backlog)
@@ -299,8 +298,7 @@ Updates will be triggered on commit, and the tools will be triggered via webhook
 
 #### f. Processes
 
-
-Below we have provided three Value Stream Mapping (VSM) for the candidate and non-profit registration, as well as the user data purging. 
+Below we have provided three Value Stream Mappings (VSM) for the candidate and non-profit registration, as well as the user data purging.
 
 Candidate Registration
 ![Diagram](docs/value-stream-mapping/candidate-vsm.jpg)
@@ -311,7 +309,7 @@ Non-profit Registration
 Purging User data
 ![Diagram](docs/value-stream-mapping/user-data-purging-vsm.jpg)
 
-Eventually in the build out we will have potentially multiple VSMs (one VSM per each individual flow). Process descriptions, steps, and individual flow diagrams will be refined significantly with stakeholder feedback rounds as required if selected past semifinals. 
+Eventually, in the build-out phase, we will have (potentially) multiple VSMs (one VSM per individual flow). Process descriptions, steps, and individual flow diagrams will be refined significantly with stakeholder feedback.
 
 #### ii. UI Wireframes
 
@@ -322,7 +320,7 @@ User interface wireframes will be expanded should this proposal be selected for 
   <img src="docs/ui-mockup/dashboard.png" width="200" /> 
   <img src="docs/ui-mockup/list_view.png" width="200" />
   <img src="docs/ui-mockup/map_view.png" width="200" />
-   <img src="docs/ui-mockup/non_profit_edit_profile.png" width="200" />
+  <img src="docs/ui-mockup/non_profit_edit_profile.png" width="200" />
 </p>
 
 #### iii. Editable/Markdown fields
