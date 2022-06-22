@@ -218,7 +218,7 @@ Since Spotlight is user-facing, it is important to ensure the system responds to
 
 Amazon provides services in multiple Availability Zones. By using Serverless services, the Diversity Cyber Council platform will make use of these, by default and as such, the platform can withstand the loss of a given Availability Zone.
 
-### j. Scalability
+### j. Elasticity
 
 The choice of serverless as a platform allows much faster scaling than if a container or VM-based infrastructure were used. Also, the scaling characteristics of the services are, for the most part, handled by the cloud provider (AWS). Some services have scaling limits (i.e. lambda defaults to 1000 concurrent functions running at a time) and these should be monitored so that the limits can be increased before they become an issue.
 
