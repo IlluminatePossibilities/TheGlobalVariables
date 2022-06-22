@@ -250,6 +250,15 @@ To reduce the cost of infrastructure, we introduced Serverless along with an aff
 
 For a detailed breakout of components from the HLD, and their handling, see [here](docs/Components.md)
 
+#### ii. C4 Diagrams
+We leverage C4 model to describe our proposed software architecture.
+
+##### a. System Context Diagram
+![System Context Diagram](docs/system-context.jpg)
+
+##### b. Container Diagram
+![Container Diagram](docs/container-diagram.jpg)
+
 ### c. Reporting & Business Intelligence (BI)
 
 We will use AWS Sagemaker to create models as well as for recommendations and predictions. These will be based on the processes that are currently defined and allow others yet to be defined to be modeled as required.
