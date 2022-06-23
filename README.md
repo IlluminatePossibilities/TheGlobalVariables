@@ -339,15 +339,39 @@ Editable fields will allow for a reduced subset of markdown text (see UI wirefra
 
 ### i. Backlog
 
-The Backlog refinement and entries will begin if this proposal endures itself into the semifinals, with refinement at each stage into the and past the finals.
+This Backlog requires additional refinement, and is a living list throughout the project. These Milesstones and Epics act provide a starting point for likely major product architectural milestones.
       
 #### a. Milestones
 
-To be defined if a semifinalist, if appropriate.
+The initial set of milestones are placeholders, and actual user feedback and soliciting feedback from every milestone and partial milestone will modify this list, the description, and the priority.
+
+| Milestone | Description |
+|---|---|
+| Architectural | Complete architectural planning, business requirements and signoff |
+| Platform | Automate and deploy the initial platform |
+| Application development | MVP of the application (signups, initial schema, vue libraries, etc) |
+| Application development rich editing | Comprehensive editing capabilities and all fields |
+| Application connectivity | Learning, connecting users and organizations |
+| Reporting and data richness | Reports, data overlays, and interactive and data driven pages |
 
 #### a. Epics
 
-To be defined if a semifinalist, if appropriate.
+The initial set of epics only broadly cover some of the high level aspects around the architecture. Not captured here are numerous epics related to the application implementation beyond the archicture, nor the operational aspects of keeping the app running.
+
+| Epic | Description |
+|---|---|
+| Amplify frontend | Create automation and deploy initial amplify frontend project(s) for at least production & staging |
+| Amplify backend | Create automation and deploy initial amplify backend project, connect to frontends |
+| Data models | Map out schema for initial dynamodb models including fields, S3 storage, graphql statements |
+| Identify providers | Implement 3rd party identity providers with Cognito |
+| Vue processes | Implement the application workflows and processes within the vue framework provided with graphql and s3 data interfaces |
+| Credential helpers | Implement credential storage and helpers, including lambdas to maintain resets/syncs |
+| Data model permissions | Overlay permissioning models for application admins, users, and organizations |
+| Compliance reporting | Work with legal to define and implement appropriate initial required compliance reports |
+| ML, data enhancement | Make use of sagemaker and other data enhancers to backfeed in connectivity between data nodes, estimates, and predictions |
+| Observability | Deploy X-ray, alerting/alarming on cloudwatch metrics |
+| Backups | Implement basic non-airgap data layers backups (dynamodb, cognito, etc) |
+
 
 #### c. Defined User Stories & Epics
 
