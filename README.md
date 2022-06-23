@@ -287,7 +287,7 @@ The atomic data sources we intend to use are:
 
 Interactive reports for the data will be built using Vuejs templates. D3 will be utilized for presenting data visualizations, and in particular to make data-interactive experiences. These may include force-directed graphs to visualize connectivity tissue between parties, geographic heat maps, or the more familiar graph and circle charts. 
 
-Simply displaying data isn’t enough. The data needs to be interactive, clickable, and most importantly tell a story. Data should be peppered throughout the products workflows to help visually guide the users, not simply be a side-reporting engine. This amongst other technical reasons was why we chose d3, over external BI products.
+Simply displaying data isn’t enough. The data needs to be interactive, clickable, and most importantly tell a story. Relevant data should be clearly presented throughout the products workflows to help visually guide the users, and not simply be a side-reporting engine. This amongst other technical reasons was why we chose d3, over external BI products.
 
 ### d. Deployments
 
