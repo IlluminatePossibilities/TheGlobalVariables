@@ -178,7 +178,7 @@ The end users are not tech-savvy; therefore the success of this product depends 
 
 ### b. Responsiveness
 
-Since Spotlight is a user-facing application, it is important to ensure the system responds to the end-user requests promptly. All user interactions *MUST* be coded in such a way as to provide some form of feedback for all actions. This feedback must occur within the [Doherty Threshold of 400ms](https://www.uxtoast.com/ux-laws/doherty-threshold).
+Since Spotlight is a user-facing application, it is important to ensure the system responds to end-user requests promptly. All user interactions *MUST* be coded in such a way as to provide some form of feedback for all actions. This feedback must occur within the [Doherty Threshold of 400ms](https://www.uxtoast.com/ux-laws/doherty-threshold).
 
 ### c. Feasibility
 
