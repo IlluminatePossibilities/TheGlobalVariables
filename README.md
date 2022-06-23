@@ -375,7 +375,7 @@ The initial set of epics only broadly cover some of the high level aspects aroun
 
 #### c. Defined User Stories & Epics
 
-Epics with some known stories to be flushed out in the semifinalist stage, with additional refinement post-finalist, if appropriate, and then on a milestone start and sprint start basis, milestone by milestone and sprint by sprint.
+This task has been deferred to post finalist selection, given the varied nature and significant number of details that may be required collaboratively with the interested parties in making the majority of these decissions. We would recommend a "sprint 0" backlog refining review to go over the implication of all design decisions before extensive planning takes place on any particular epic, especially before they are broken down into user stories and functional requirements.
 
 ### j. Architectural Decision Records (ADRs)
 
