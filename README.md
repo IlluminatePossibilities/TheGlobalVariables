@@ -349,6 +349,7 @@ Epics with some known stories to be flushed out in the semifinalist stage, with 
 | [ADR 0003](ADR/ADR%200003-Process%20Modeling.md) | Process Modeling |
 | [ADR 0004](ADR/ADR%200004-Observability.md) | Observability |
 | [ADR 0005](ADR/ADR%200005-Amplify.md) | Amplify |
+| [ADR 0006](ADR/ADR%200006-Markdown.mdd) | Markdown |
 
 ### k. Risks and Mitigations
 
