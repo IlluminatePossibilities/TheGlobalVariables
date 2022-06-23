@@ -334,7 +334,7 @@ User interface wireframes will be expanded should this proposal be selected for 
 
 ### h. Editable/Markdown fields
 
-Editable/Markdown fields will be expanded should this proposal be selected for the semifinals. When the schema and data fields are created, we'll work with the stakeholders to define which fields require rich editing capabilities and utilize visual markdown editors and viewers as much as possible and where appropriate.
+Editable fields will allow for a reduced subset of markdown text (see UI wireframes 'non-profit edit profile'). In particular edit fields will each come with the ability to edit markdown fields, with optional hints and editor functions, and markdown will be used in the presentation layer to present markdown-enabled fields. In the case of a field which is not markdown-friendly, we will restrict the markdown ability appropriately by not making the editor available, and to ensure no confusion, filter and present a textual warning on the UI in case someone tries to directly edit a field in markdown which does not support it. The precise nature of which fields will support markdown is an implementation phase concern, and will be addressed at that time on a case-by case basis taking into account business process requirements. As such when the schema and data fields are created, we'll work with the stakeholders to define which fields require rich editing capabilities and utilize visual markdown editors and viewers as much as possible and where appropriate.
 
 ### i. Backlog
 
@@ -357,6 +357,7 @@ Epics with some known stories to be flushed out in the semifinalist stage, with 
 | [ADR 0003](ADR/ADR%200003-Process%20Modeling.md) | Process Modeling |
 | [ADR 0004](ADR/ADR%200004-Observability.md) | Observability |
 | [ADR 0005](ADR/ADR%200005-Amplify.md) | Amplify |
+| [ADR 0006](ADR/ADR%200006-Markdown.mdd) | Markdown |
 
 ### k. Risks and Mitigations
 
