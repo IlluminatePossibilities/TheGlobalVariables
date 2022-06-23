@@ -262,13 +262,13 @@ We leverage C4 model to describe our proposed software architecture.
 #### iii. Tradeoffs
 
 **Serverless vs Container**
-Our solution sacrifices portability/deployability for elasticity/cost. We understand that containers provide a greeter portability and deployability experiences. However, due to budget concern (in terms of both infrastructure and maintenance), our decision was to leverage serverless, even though it is introducing the risk of the vendor lock-in. 
+Our solution sacrifices portability/deployability for elasticity/cost. We understand that containers provide greater portability and broad deployability. However, due to budget concerns (in terms of both infrastructure and maintenance), our decision was to leverage serverless, even though it introduces the risk of vendor lock-in.
 
 **D3/Vue.js**
-On the frontend technology stack, we sacrifies flexibility/productivity for cost/maintainability. React.js provides a lot of flexibility that allows creation of more complex logic and UIs. Vue shines when it comes to small applications: it is easy to use, and Vue templates make everything fast. Since Spotlight app is fairly simple, and the cost (both development and maintenance) is a driving factor, our natural selection was D3/Vue. Vue also offers options for mobile application development such as [Vue Native](https://vue-native.io/) and [NativeScript](https://nativescript.org/).
+On the frontend technology stack, we sacrifice flexibility/productivity for cost/maintainability. React.js provides a lot of flexibility that allows creation of more complex logic and UIs. Vue shines when it comes to small applications: it is easy to use, and Vue templates make everything fast. Since Spotlight app is fairly simple, and the cost (both development and maintenance) is a driving factor, our natural selection was D3/Vue. Vue also offers options for mobile application development such as [Vue Native](https://vue-native.io/) and [NativeScript](https://nativescript.org/).
 
 **Amplify**
-Our solution sacrifices flexibility and portability for simplicity, feasibility and elasticity. Amplify is a fully-managed cloud service that allows the developers to quickly build, deploy and scale web applications. Amplify provides many features out of the box, such as data layer APIs, CI/CD pipelines, Vue/D3 modules for frontend, among others. Leveraging Amplify, however, introduces the risk of the vendor lock-in.
+Our solution sacrifices flexibility/portability for simplicity/feasibility. Amplify is a fully-managed cloud service that allows developers to quickly build, deploy and scale web applications. Amplify provides many features out of the box, such as data layer APIs, CI/CD pipelines, Vue/D3 modules for frontend, among others. Leveraging Amplify, however, introduces the risk of vendor lock-in.
 
 ### c. Reporting & Business Intelligence (BI)
 
