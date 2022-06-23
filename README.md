@@ -51,8 +51,9 @@ Presented by
     - [g. UI Wireframes](#g-ui-wireframes)
     - [h. Editable/Markdown fields](#h-editablemarkdown-fields)
     - [i. Backlog](#i-backlog)
-      - [a. Epics & Milestones](#i-epics--milestones)
-      - [b. Defined User Stories & Epics](#ii-defined-user-stories--epics)
+      - [a. Milestones](#i-milestones)
+      - [b. Epics](#i-epics)
+      - [c. Defined User Stories & Epics](#ii-defined-user-stories--epics)
     - [j. Architectural Decision Records (ADRs)](#h-architectural-decision-records-adrs)
     - [k. Risks and Mitigations](#k-risks-and-mitigations)
   - [7. Definitions / Glossary](#7-definitions--glossary)
@@ -339,12 +340,16 @@ Editable fields will allow for a reduced subset of markdown text (see UI wirefra
 ### i. Backlog
 
 The Backlog refinement and entries will begin if this proposal endures itself into the semifinals, with refinement at each stage into the and past the finals.
-
-#### a. Epics & Milestones
+      
+#### a. Milestones
 
 To be defined if a semifinalist, if appropriate.
 
-#### b. Defined User Stories & Epics
+#### a. Epics
+
+To be defined if a semifinalist, if appropriate.
+
+#### c. Defined User Stories & Epics
 
 Epics with some known stories to be flushed out in the semifinalist stage, with additional refinement post-finalist, if appropriate, and then on a milestone start and sprint start basis, milestone by milestone and sprint by sprint.
 
