@@ -225,13 +225,13 @@ The candidate's career path and progress, as well as non-profit information, are
 
 ### a. Overview & Value Proposition
 
-The Spotlight App project aims to solve two issues that are faced by any non-profit organization: minimizing the operating cost and increasing the visibility of available services.
+The Spotlight App project aims to solve two issues that are faced by any non-profit organization: minimizing the operating cost, and increasing the visibility of available services.
 
 Many non-profits choose to minimize their operating costs by cutting the budget of anything other than direct program expenses or to “support the cause”. Most often, this causes non-profits to experience slow growth or an inability to become sustainable due to [a lack of investment in infrastructure and management](https://ssir.org/articles/entry/the_nonprofit_starvation_cycle). In many cases, the non-profit is left with a few volunteers to shoulder much of the work.
 
 On the other hand, the lack of visibility of non-profits and their offerings creates a barrier to access for the people who can benefit most from these programs. The decentralization and lack of support between non-profits create gaps in service and overall impact.
 
-Our proposed solution tackles the lack of visibility by enabling Spotlight App to be a central hub where non-profits are empowered to identify their service capabilities and publicize their offerings. The Spotlight App also enables the candidates to find services by providing smart recommendations based on the information provided by users and their geographical preferences. Moreover, the notification service enables non-profits to advertise their new offerings to candidates, based on their location/desired services. The Spotlight Mobile App brings the non-profit services closer to the candidates, as [85% of Americans currently own a smartphone](https://www.pewresearch.org/internet/fact-sheet/mobile/). The map view of the non-profit offerings makes it convenient for candidates to locate the services closest to their desired locations (school, home, work). In addition, the prediction capability of our solution helps non-profits identify the offering gaps, and predict the future desirable career paths. Our solution leverages AWS Pinpoint to collect usage data which essentially provides meaningful metrics to guide administrators and non-profits to improve their offerings and the application usability.
+Our proposed solution tackles the lack of visibility by enabling Spotlight App to be a central hub where non-profits are empowered to identify their service capabilities and publicize their offerings. The Spotlight App also enables the candidates to find services by providing smart recommendations based on the information provided by users and their geographical preferences. Moreover, the notification service enables non-profits to advertise their new offerings to candidates, based on their location/desired services. The Spotlight Mobile App brings the non-profit services closer to the candidates, as [85% of Americans currently own a smartphone](https://www.pewresearch.org/internet/fact-sheet/mobile/). The map view of the non-profit offerings makes it convenient for candidates to locate the services closest to their desired locations (school, home, work). In addition, the prediction capability of our solution helps non-profits identify the offering gaps, and predict the future desirable services. Our solution leverages AWS Pinpoint to collect usage data which essentially provides meaningful metrics to guide administrators and non-profits to improve their offerings and the application usability.
 
 During the design process, we prioritized finding a cost-effective solution, without compromising the efficiency or the usability of the product. Our proposed solution reduces the cost of human resources by automating most of the manual processes that are typically performed by volunteers and employees. This frees them to focus on what is the most important for non-profits (conducting fundraising events, meeting candidates and nonprofits). Calendly is used to replace the traditional means of communication (such as phone calls and emails) for scheduling meetings. A recommendation engine is used to simplify the interview process by taking the candidate's profile and needs as inputs and providing smart initial recommendations for a career roadmap.
 
@@ -246,12 +246,17 @@ To reduce the cost of infrastructure, we introduced Serverless along with an aff
 For a detailed breakout of components from the HLD, and their handling, see [here](docs/Components.md).
 
 #### ii. C4 Diagrams
+
+We choose the serverless microservices architecture to design and run the Spotlight application. Microservice architecture is used to identify the service boundaries and ensure each microservice could be developed, deployed and tested individually. The Serverless provides the means to run microservices on-demand in response to events such as user requests.
+
 We leverage C4 model to describe our proposed software architecture.
+
 
 ##### a. System Context Diagram
 ![System Context Diagram](docs/system-context.jpg)
 
 ##### b. Container Diagram
+
 ![Container Diagram](docs/container-diagram.jpg)
 
 #### iii. Tradeoffs
@@ -267,7 +272,7 @@ Our solution sacrifices flexibility/portability for simplicity/feasibility. Ampl
 
 ### c. Reporting & Business Intelligence (BI)
 
-We will use AWS Sagemaker to create models as well as for recommendations and predictions. These will be based on the processes that are currently defined and allow others yet to be defined to be modeled as required.
+We will use AWS Sagemaker to create models, as well as for recommendations and predictions. These will be based on the processes that are currently defined and allow others yet to be defined to be modeled as required.
 
 Initially, these models will be trained with test data, but the models will be retrained as users use the system and refinements will be made based on system usage. This will allow the models to become more accurate as the system is used.
 
@@ -280,7 +285,9 @@ The atomic data sources we intend to use are:
 
 *NOTE:* We will augment user data with geolocation data obtained through Amplify for more geo-specific recommendations.
 
-Interactive reports for the data will be built using Vuejs templates and D3 visualizations.
+Interactive reports for the data will be built using Vuejs templates. D3 will be utilized for presenting data visualizations, and in particular to make data-interactive experiences. These may include force-directed graphs to visualize connectivity tissue between parties, geographic heat maps, or the more familiar graph and circle charts. 
+
+Simply displaying data isn’t enough. The data needs to be interactive, clickable, and most importantly tell a story. Relevant data should be clearly presented throughout the products workflows to help visually guide the users, and not simply be a side-reporting engine. This amongst other technical reasons was why we chose d3, over external BI products.
 
 ### d. Deployments
 
