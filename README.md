@@ -329,6 +329,7 @@ User interface wireframes will be expanded should this proposal be selected for 
   <img src="docs/ui-mockup/list_view.png" width="200" />
   <img src="docs/ui-mockup/map_view.png" width="200" />
   <img src="docs/ui-mockup/non_profit_edit_profile.png" width="200" />
+  <img src="docs/ui-mockup/notification.png" width="200" />
 </p>
 
 ### h. Editable/Markdown fields
