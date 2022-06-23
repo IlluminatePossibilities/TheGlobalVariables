@@ -47,13 +47,13 @@ Presented by
     - [c. Reporting & Business Intelligence (BI)](#c-reporting--business-intelligence-bi)
     - [d. Deployments](#d-deployments)
     - [e. Sequence Diagram](#e-sequence-diagram)
-      - [f. Processes](#f-processes)
-      - [ii. UI Wireframes](#ii-ui-wireframes)
-      - [iii. Editable/Markdown fields](#iii-editablemarkdown-fields)
-    - [g. Backlog](#g-backlog)
-      - [i. Epics & Milestones](#i-epics--milestones)
-      - [ii. Defined User Stories & Epics](#ii-defined-user-stories--epics)
-    - [h. Architectural Decision Records (ADRs)](#h-architectural-decision-records-adrs)
+    - [f. Processes](#f-processes)
+    - [g. UI Wireframes](#g-ui-wireframes)
+    - [h. Editable/Markdown fields](#h-editablemarkdown-fields)
+    - [i. Backlog](#i-backlog)
+      - [a. Epics & Milestones](#i-epics--milestones)
+      - [b. Defined User Stories & Epics](#ii-defined-user-stories--epics)
+    - [j. Architectural Decision Records (ADRs)](#h-architectural-decision-records-adrs)
   - [7. Definitions / Glossary](#7-definitions--glossary)
     - [501c3 Non-Profit](#501c3-non-profit)
     - [Architecture Decision](#architecture-decision)
@@ -296,7 +296,7 @@ Updates will be triggered on commit, and the tools will be triggered via webhook
 
 ![Diagram](docs/sequence_diagram.jpg)
 
-#### f. Processes
+### f. Processes
 
 Below we have provided three Value Stream Mappings (VSM) for the candidate and non-profit registration, as well as the user data purging.
 
@@ -311,7 +311,7 @@ Purging User data
 
 Eventually, in the build-out phase, we will have (potentially) multiple VSMs (one VSM per individual flow). Process descriptions, steps, and individual flow diagrams will be refined significantly with stakeholder feedback.
 
-#### ii. UI Wireframes
+### g. UI Wireframes
 
 User interface wireframes will be expanded should this proposal be selected for the finals, and refined significantly with stakeholder feedback rounds as required.
 
@@ -323,23 +323,23 @@ User interface wireframes will be expanded should this proposal be selected for 
   <img src="docs/ui-mockup/non_profit_edit_profile.png" width="200" />
 </p>
 
-#### iii. Editable/Markdown fields
+### h. Editable/Markdown fields
 
 Editable/Markdown fields will be expanded should this proposal be selected for the semifinals. When the schema and data fields are created, we'll work with the stakeholders to define which fields require rich editing capabilities and utilize visual markdown editors and viewers as much as possible and where appropriate.
 
-### g. Backlog
+### i. Backlog
 
 The Backlog refinement and entries will begin if this proposal endures itself into the semifinals, with refinement at each stage into the and past the finals.
 
-#### i. Epics & Milestones
+#### a. Epics & Milestones
 
 To be defined if a semifinalist, if appropriate.
 
-#### ii. Defined User Stories & Epics
+#### b. Defined User Stories & Epics
 
 Epics with some known stories to be flushed out in the semifinalist stage, with additional refinement post-finalist, if appropriate, and then on a milestone start and sprint start basis, milestone by milestone and sprint by sprint.
 
-### h. Architectural Decision Records (ADRs)
+### j. Architectural Decision Records (ADRs)
 
 | ADR Link | Topic |
 |---|---|
@@ -400,3 +400,6 @@ Any means that a user may use to interact with a system.
 ### User Story
 
 An explanation of a software feature written from the perspective of a user persona.
+
+### 3PP
+A Third-Party Product(3PP) is a reusable software component developed to be either freely distributed or sold by an entity other than the original vendor of the development platform.
