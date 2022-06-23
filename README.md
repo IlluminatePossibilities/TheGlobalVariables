@@ -30,17 +30,16 @@ Presented by
     - [c. Hard Platform Requirements](#c-hard-platform-requirements)
   - [5. Architectural Characteristics](#5-architectural-characteristics)
     - [a. Usability](#a-usability)
-    - [b. Security](#b-security)
-    - [c. Privacy](#c-privacy)
-    - [d. Interoperability](#d-interoperability)
-    - [e. Feasibility](#e-feasibility)
-      - [I. Operational Costs](#i-operational-costs)
-      - [II. Infrastructure & Cloud Costs](#ii-infrastructure--cloud-costs)
-      - [III. Security Update Costs](#iii-security-update-costs)
-    - [f. Data Integrity](#f-data-integrity)
-    - [g. Responsiveness](#g-responsiveness)
-    - [h. Availability](#h-availability)
-    - [j. Scalability](#j-scalability)
+    - [b. Responsiveness](#b-responsiveness)
+    - [c. Feasibility](#c-feasibility)
+      - [i. Operational Costs](#i-operational-costs)
+      - [ii. Infrastructure & Cloud Costs](#ii-infrastructure--cloud-costs)
+      - [iii. Security Update Costs](#iii-security-update-costs)
+    - [d. Elasticity](#d-elasticity)
+    - [e. Security](#e-security)
+    - [f. Privacy](#f-privacy)
+    - [g. Interoperability](#d-interoperability)
+    - [h. Data Integrity](#f-data-integrity)
   - [6. Proposed Solution](#6-proposed-solution)
     - [a. Overview & Value Proposition](#a-overview--value-proposition)
     - [b. High-Level Architecture Diagram](#b-high-level-architecture-diagram)
@@ -177,19 +176,11 @@ A technology solution that serves the purpose of enhancing visibility, support, 
 
 The end users are not tech-savvy; therefore the success of this product depends on how easy the user can learn new features and how easy it is to use the system on different devices.
 
-### b. Security
+### b. Responsiveness
 
-The application is exposed on the web which always has the risk of cyberattacks; should the application be accessed by unauthorized users. Moreover, the system stores sensitive information, such as personal data.
+Since Spotlight is a user-facing application, it is important to ensure the system responds to end-user requests promptly. All user interactions *MUST* be coded in such a way as to provide some form of feedback for all actions. This feedback must occur within the [Doherty Threshold of 400ms](https://www.uxtoast.com/ux-laws/doherty-threshold).
 
-### c. Privacy
-
-The system needs to handle the PII of candidates. Personal information must be accessed by authorized administrators, mentors, and non-profit representatives.
-
-### d. Interoperability
-
-The purpose of this product is to facilitate collaboration between non-profits. To achieve this goal, Spotlight needs to communicate with other external systems (such as childcare/housing services) and other legacy systems.
-
-### e. Feasibility
+### c. Feasibility
 
 The cost and time to develop and maintain this application are driving factors. The consumers of this platform are the non-profit organizations for whom, it is important to minimize the operational cost.
 The total cost of ownership comprises a significant number of factors. In this particular architecture, excluding new feature development, 3 primary cost factors will make up the majority of the costs.
@@ -206,23 +197,27 @@ Generally, these would include all the infrastructure, cloud, services, licenses
 
 The primary ongoing development costs not related to feature development on this platform, in addition to responding to events and the infrastructure itself, will be the updates to the application libraries to address ongoing security concerns. The application frontend is by far the most vulnerable part of this system in terms of security and will require ongoing updates. The subsequent phase, if applicable and if chosen for the semifinals, will provide an expected high-level budget of operational costs and expected expenses in this category.
 
-### f. Data Integrity
-
-The candidate's career path and progress, as well as non-profit information, are accessed by multiple personas. It is crucial to ensure the data is accessed by the authorized person, and the accuracy of the data is maintained throughout its lifecycle.
-
-### g. Responsiveness
-
-Since Spotlight is user-facing, it is important to ensure the system responds to the end-user requests promptly. All user interactions *MUST* be coded in such a way as to provide some form of feedback for all actions. This feedback must occur within the [Doherty Threshold of 400ms](https://www.uxtoast.com/ux-laws/doherty-threshold).
-
-### h. Availability
-
-Amazon provides services in multiple Availability Zones. By using Serverless services, the Diversity Cyber Council platform will make use of these, by default and as such, the platform can withstand the loss of a given Availability Zone.
-
-### j. Scalability
+### d. Elasticity
 
 The choice of serverless as a platform allows much faster scaling than if a container or VM-based infrastructure were used. Also, the scaling characteristics of the services are, for the most part, handled by the cloud provider (AWS). Some services have scaling limits (i.e. lambda defaults to 1000 concurrent functions running at a time) and these should be monitored so that the limits can be increased before they become an issue.
 
 A further benefit of the use of a Serverless platform is that idle cost (the cost when there is no load) will be lower than when VMs or containers are used.
+
+### e. Security
+
+The application is exposed on the web which always has the risk of cyberattacks; should the application be accessed by unauthorized users. Moreover, the system stores sensitive information, such as personal data.
+
+### f. Privacy
+
+The system needs to handle the PII of candidates. Personal information must be accessed by authorized administrators, mentors, and non-profit representatives.
+
+### g. Interoperability
+
+The purpose of this product is to facilitate collaboration between non-profits. To achieve this goal, Spotlight needs to communicate with external systems (such as childcare/housing services) and legacy systems.
+
+### h. Data Integrity
+
+The candidate's career path and progress, as well as non-profit information, are accessed by multiple personas. It is crucial to ensure the data is accessed by the authorized person, and the accuracy of the data is maintained throughout its lifecycle.
 
 ---
 
@@ -236,11 +231,11 @@ Many non-profits choose to minimize their operating costs by cutting the budget 
 
 On the other hand, the lack of visibility of non-profits and their offerings creates a barrier to access for the people who can benefit most from these programs. The decentralization and lack of support between non-profits create gaps in service and overall impact.
 
-Our proposed solution tackles the lack of visibility by enabling Spotlight App to be a central hub where non-profits are empowered to identify their service capabilities and publicize their offerings. The Spotlight App also enables the candidates to find services by providing smart recommendations based on the information provided by users and their geographical preferences. The Spotlight Mobile App brings the non-profit services closer to the candidates, as [85% of Americans currently own a smartphone](https://www.pewresearch.org/internet/fact-sheet/mobile/). The map view of the non-profit offerings makes it convenient for candidates to locate the services closest to their desired locations (school, home, work). The notification service also enables Spotlight to advertise new non-profit offerings to end-users, based on their desired location or services. In addition, the prediction capability of our solution helps non-profits identify the offering gaps, and predict the future desirable career paths. Our solution leverages AWS Pinpoint to collect usage data which essentially provides meaningful metrics to guide administrators and non-profits to improve their offerings and the application usability.
+Our proposed solution tackles the lack of visibility by enabling Spotlight App to be a central hub where non-profits are empowered to identify their service capabilities and publicize their offerings. The Spotlight App also enables the candidates to find services by providing smart recommendations based on the information provided by users and their geographical preferences. Moreover, the notification service enables non-profits to advertise their new offerings to candidates, based on their location/desired services. The Spotlight Mobile App brings the non-profit services closer to the candidates, as [85% of Americans currently own a smartphone](https://www.pewresearch.org/internet/fact-sheet/mobile/). The map view of the non-profit offerings makes it convenient for candidates to locate the services closest to their desired locations (school, home, work). In addition, the prediction capability of our solution helps non-profits identify the offering gaps, and predict the future desirable career paths. Our solution leverages AWS Pinpoint to collect usage data which essentially provides meaningful metrics to guide administrators and non-profits to improve their offerings and the application usability.
 
 During the design process, we prioritized finding a cost-effective solution, without compromising the efficiency or the usability of the product. Our proposed solution reduces the cost of human resources by automating most of the manual processes that are typically performed by volunteers and employees. This frees them to focus on what is the most important for non-profits (conducting fundraising events, meeting candidates and nonprofits). Calendly is used to replace the traditional means of communication (such as phone calls and emails) for scheduling meetings. A recommendation engine is used to simplify the interview process by taking the candidate's profile and needs as inputs and providing smart initial recommendations for a career roadmap.
 
-To reduce the cost of infrastructure, we introduced Serverless along with an affordable technology stack (such as D3, Vuejs, AWS Amplify). The use of serverless means that the development team does not need to spend time building, securing and maintaining servers. By using D3 and Vuejs for the frontend development, and AWS Amplify for the backend development, the Spotlight App can be developed and deployed faster and more affordably.
+To reduce the cost of infrastructure, we introduced Serverless along with an affordable technology stack (such as D3, Vuejs, AWS Amplify). The use of serverless means that the development team does not need to spend time building, securing and maintaining servers. By using D3 and Vuejs for the frontend development, and AWS Amplify for the backend development, the Spotlight App can be developed and deployed faster and within a reasonable budget.
 
 ### b. High-Level Architecture Diagram
 
@@ -248,7 +243,7 @@ To reduce the cost of infrastructure, we introduced Serverless along with an aff
 
 #### i. HLD Components
 
-For a detailed breakout of components from the HLD, and their handling, see [here](docs/Components.md)
+For a detailed breakout of components from the HLD, and their handling, see [here](docs/Components.md).
 
 #### ii. C4 Diagrams
 We leverage C4 model to describe our proposed software architecture.
