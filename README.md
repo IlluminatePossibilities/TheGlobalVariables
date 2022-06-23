@@ -44,6 +44,8 @@ Presented by
     - [a. Overview & Value Proposition](#a-overview--value-proposition)
     - [b. High-Level Architecture Diagram](#b-high-level-architecture-diagram)
       - [i. HLD Components](#i-hld-components)
+      - [ii. Architecture Style](#ii-architecture-style)
+      - [iii. C4 Diagrams](#iii-c4-diagrams)
     - [c. Reporting & Business Intelligence (BI)](#c-reporting--business-intelligence-bi)
     - [d. Deployments](#d-deployments)
     - [e. Sequence Diagram](#e-sequence-diagram)
@@ -245,7 +247,19 @@ To reduce the cost of infrastructure, we introduced Serverless along with an aff
 
 For a detailed breakout of components from the HLD, and their handling, see [here](docs/Components.md).
 
-#### ii. C4 Diagrams
+
+#### ii. Architecture Style
+We choose the serverless microservices architecture to design and run the Spotlight application. 
+
+Using the Architectural Characteristics that we have prioritised, as well as the Architecture Styles Worksheet created by [Mark Richards](https://www.developertoarchitect.com/downloads/worksheets.html), we noticed that serverless microservices (which is a combination of microservices and event driven architecture) is the best suited architecture style to be used. 
+
+![Architecture Styles Worksheet](docs/architecture-styles-worksheet.png)
+
+The only downside is cost, which seems to be a drawback with both the microservices and event driven architecture styles. This, however, is mitigated with the fact that serverless typically involves the use of third-party hosted services, which can reduce operational and infrastructure costs.
+
+
+#### iii. C4 Diagrams
+
 We leverage C4 model to describe our proposed software architecture.
 
 ##### a. System Context Diagram
