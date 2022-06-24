@@ -315,7 +315,7 @@ The atomic data sources we intend to use are:
 
 Interactive reports for the data will be built using Vuejs templates. D3 will be utilized for presenting data visualizations, and in particular to make data-interactive experiences. These may include force-directed graphs to visualize connectivity tissue between parties, geographic heat maps, or the more familiar graph and circle charts.
 
-Simply displaying data isn’t enough. The data needs to be interactive, clickable, and most importantly tell a story. Relevant data should be clearly presented throughout the product's workflows to help visually guide the users, and not simply be a side-reporting engine. This amongst other technical reasons was why we chose d3, over external BI products.
+Simply displaying data isn’t enough. The data needs to be interactive, clickable, and most importantly tell a story. Relevant data should be presented throughout the product's workflows to help visually guide the users, and not simply be a side-reporting engine. This amongst other technical reasons was why we chose d3, over external BI products.
 
 ### d. Deployments
 
@@ -389,9 +389,9 @@ Epics with some known stories to be created should this proposal be selected, wi
 
 ### k. Risks and Mitigations
 
-1. Vendor Lock-in: leveraging AWS Amplify and Serverless introduces the risk of vendor lock-in. We believe the benefits outweight the risks, as both services significantly reduce the operation cost, and free the development team from setting up the infrastructure and the DevOps toolkit.
+1. Vendor Lock-in: leveraging AWS Amplify and Serverless introduces the risk of vendor lock-in. We believe the benefits outweigh the risks, as both services significantly reduce the operation cost, and free the development team from setting up the infrastructure and the DevOps toolkit.
   - To mitigate the risk of lock-in, we recommend identifying which amplify-specific modules are in use, in case a future migration is required
-  - In particular, the cognito backend deployed by amplify will require significant efforts to migrate local users and permissions. This is a problem that is particular to all major identity and authentication systems.
+  - In particular, the Cognito backend deployed by Amplify will require significant efforts to migrate local users and permissions. This is a problem that is particular to all major identity and authentication systems.
 
 2. Third-Party Library Updates: Amplify and frontend libraries require frequent security updates to mitigate the exploitation of security vulnerabilities. 
   - There is no need to mitigate this risk. The velocity increase from utilizing these pre-made or partially made components to accelerate development are deferred to a later date if migration is required.
