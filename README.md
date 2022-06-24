@@ -55,9 +55,10 @@ Presented by
     - [g. UI Wireframes](#g-ui-wireframes)
     - [h. Editable/Markdown fields](#h-editablemarkdown-fields)
     - [i. Backlog](#i-backlog)
-      - [a. Epics & Milestones](#a-epics--milestones)
-      - [b. Defined User Stories & Epics](#b-defined-user-stories--epics)
-    - [j. Architectural Decision Records (ADRs)](#j-architectural-decision-records-adrs)
+      - [a. Epics & Milestones](#i-epics--milestones)
+      - [b. Defined User Stories & Epics](#ii-defined-user-stories--epics)
+    - [j. Architectural Decision Records (ADRs)](#h-architectural-decision-records-adrs)
+    - [k. Risks and Mitigations](#k-risks-and-mitigations)
   - [7. Definitions / Glossary](#7-definitions--glossary)
     - [501c3 Non-Profit](#501c3-non-profit)
     - [Architecture Decision](#architecture-decision)
@@ -229,13 +230,13 @@ The candidate's career path and progress, as well as non-profit information, are
 
 ### a. Overview & Value Proposition
 
-The Spotlight App project aims to solve two issues that are faced by any non-profit organization: minimizing the operating cost and increasing the visibility of available services.
+The Spotlight App project aims to solve two issues that are faced by any non-profit organization: minimizing the operating cost, and increasing the visibility of available services.
 
 Many non-profits choose to minimize their operating costs by cutting the budget of anything other than direct program expenses or to “support the cause”. Most often, this causes non-profits to experience slow growth or an inability to become sustainable due to [a lack of investment in infrastructure and management](https://ssir.org/articles/entry/the_nonprofit_starvation_cycle). In many cases, the non-profit is left with a few volunteers to shoulder much of the work.
 
 On the other hand, the lack of visibility of non-profits and their offerings creates a barrier to access for the people who can benefit most from these programs. The decentralization and lack of support between non-profits create gaps in service and overall impact.
 
-Our proposed solution tackles the lack of visibility by enabling the Spotlight App to be a central hub where non-profits are empowered to identify their service capabilities and publicize their offerings. The Spotlight App also enables the candidates to find services by providing smart recommendations based on the information provided by users and their geographical preferences. Moreover, the notification service enables non-profits to advertise their new offerings to candidates, based on their location/desired services. The Spotlight Mobile App brings the non-profit services closer to the candidates, as [85% of Americans currently own a smartphone](https://www.pewresearch.org/internet/fact-sheet/mobile/). The map view of the non-profit offerings makes it convenient for candidates to locate the services closest to their desired locations (school, home, work). In addition, the prediction capability of our solution helps non-profits identify the offering gaps, and predict the future desirable career paths. Our solution leverages AWS Pinpoint to collect usage data which essentially provides meaningful metrics to guide administrators and non-profits to improve their offerings and the application usability.
+Our proposed solution tackles the lack of visibility by enabling the Spotlight App to be a central hub where non-profits are empowered to identify their service capabilities and publicize their offerings. The Spotlight App also enables the candidates to find services by providing smart recommendations based on the information provided by users and their geographical preferences. Moreover, the notification service enables non-profits to advertise their new offerings to candidates, based on their location/desired services. The Spotlight Mobile App brings the non-profit services closer to the candidates, as [85% of Americans currently own a smartphone](https://www.pewresearch.org/internet/fact-sheet/mobile/). The map view of the non-profit offerings makes it convenient for candidates to locate the services closest to their desired locations (school, home, work). In addition, the prediction capability of our solution helps non-profits identify the offering gaps, and predict the future desirable services. Our solution leverages AWS Pinpoint to collect usage data which essentially provides meaningful metrics to guide administrators and non-profits to improve their offerings and the application usability.
 
 During the design process, we prioritized finding a cost-effective solution, without compromising the efficiency or the usability of the product. Our proposed solution reduces the cost of human resources by automating most of the manual processes that are typically performed by volunteers and employees. This frees them to focus on what is the most important for non-profits (conducting fundraising events, meeting candidates and non-profits). Calendly is used to replace the traditional means of communication (such as phone calls and emails) for scheduling meetings. A recommendation engine is used to simplify the interview process by taking the candidate's profile and needs as inputs and providing smart initial recommendations for a career roadmap.
 
@@ -251,7 +252,10 @@ For a detailed breakout of components from the HLD, and their handling, see [her
 
 #### ii. C4 Diagrams
 
+We chose the serverless microservices architecture to design and run the Spotlight application. Microservice architecture is used to identify the service boundaries and ensure each microservice could be developed, deployed and tested individually. The Serverless provides the means to run microservices on-demand in response to events such as user requests.
+
 We leverage C4 model to describe our proposed software architecture.
+
 
 ##### a. System Context Diagram
 
@@ -274,7 +278,7 @@ Our solution sacrifices flexibility/portability for simplicity/feasibility. Ampl
 
 ### c. Reporting & Business Intelligence (BI)
 
-We will use AWS Sagemaker to create models as well as for recommendations and predictions. These will be based on the processes that are currently defined and allow others yet to be defined to be modeled as required.
+We will use AWS Sagemaker to create models, as well as for recommendations and predictions. These will be based on the processes that are currently defined and allow others yet to be defined to be modeled as required.
 
 Initially, these models will be trained with test data, but the models will be retrained as users use the system and refinements will be made based on system usage. This will allow the models to become more accurate as the system is used.
 
@@ -287,7 +291,9 @@ The atomic data sources we intend to use are:
 
 *NOTE:* We will augment user data with geolocation data obtained through Amplify for more geo-specific recommendations.
 
-Interactive reports for the data will be built using Vuejs templates and D3 visualizations.
+Interactive reports for the data will be built using Vuejs templates. D3 will be utilized for presenting data visualizations, and in particular to make data-interactive experiences. These may include force-directed graphs to visualize connectivity tissue between parties, geographic heat maps, or the more familiar graph and circle charts. 
+
+Simply displaying data isn’t enough. The data needs to be interactive, clickable, and most importantly tell a story. Relevant data should be clearly presented throughout the products workflows to help visually guide the users, and not simply be a side-reporting engine. This amongst other technical reasons was why we chose d3, over external BI products.
 
 ### d. Deployments
 
@@ -329,11 +335,13 @@ User interface wireframes will be expanded should this proposal be selected for 
   <img src="docs/ui-mockup/list_view.png" width="200" />
   <img src="docs/ui-mockup/map_view.png" width="200" />
   <img src="docs/ui-mockup/non_profit_edit_profile.png" width="200" />
+  <img src="docs/ui-mockup/notification.png" width="200" />
 </p>
 
 ### h. Editable/Markdown fields
 
-Editable/Markdown fields will be expanded should this proposal be selected. When the schema and data fields are created, we'll work with the stakeholders to define which fields require rich editing capabilities and utilize visual markdown editors and viewers as much as possible and where appropriate.
+
+Editable fields will allow for a reduced subset of markdown text (see UI wireframes 'non-profit edit profile'). In particular edit fields will each come with the ability to edit markdown fields, with optional hints and editor functions, and markdown will be used in the presentation layer to present markdown-enabled fields. In the case of a field which is not markdown-friendly, we will restrict the markdown ability appropriately by not making the editor available, and to ensure no confusion, filter and present a textual warning on the UI in case someone tries to directly edit a field in markdown which does not support it. The precise nature of which fields will support markdown is an implementation phase concern, and will be addressed at that time on a case-by case basis taking into account business process requirements. As such when the schema and data fields are created, we'll work with the stakeholders to define which fields require rich editing capabilities and utilize visual markdown editors and viewers as much as possible and where appropriate.
 
 ### i. Backlog
 
@@ -356,6 +364,19 @@ Epics with some known stories to be created should this proposal be selected, wi
 | [ADR 0003](ADR/ADR%200003-Process%20Modeling.md) | Process Modeling |
 | [ADR 0004](ADR/ADR%200004-Observability.md) | Observability |
 | [ADR 0005](ADR/ADR%200005-Amplify.md) | Amplify |
+| [ADR 0006](ADR/ADR%200006-Markdown.mdd) | Markdown |
+
+### k. Risks and Mitigations
+
+1. Vendor Lock-in: leveraging AWS Amplify and Serverless introduces the risk of vendor lock-in. We believe the benefits outweight the risks, as both services significantly reduce the operation cost, and free the development team from setting up the infrastructure and the DevOps toolkit.
+  - To mitigate the risk of lock-in, we recommend coding the application using the vendor-agnostic blocks, and not using Amplify-specific modules.
+
+2. Third-Party Library Updates: Amplify and frontend libraries require frequent security updates to mitigate the exploitation of security vulnerabilities. 
+  - To mitigate this risk, we recommend leveraging a DevSecOps pipeline, as well as enabling certain AWS security measures.  
+
+3. Staff Training and Industry Knowledge
+  - Mitigations: creating a well-designed website/app is crucial to ensure users (including staff) can quickly learn how to use it. The Vendor shall provide a video demo on how to use the tool, in the case of major UI/workflow changes.
+
 
 ---
 
