@@ -44,7 +44,7 @@ As such, we have concluded that serverless options should be explored as a defau
 
 ![Architecture Styles Worksheet](../docs/architecture-styles-worksheet.png)
 
-Using the Architectural Characteristics that we have prioritised, as well as the Architecture Styles Worksheet created by [Mark Richards](https://www.developertoarchitect.com/downloads/worksheets.html), we noticed that serverless (which is a combination of microservices and event driven architecture) is the best suited architecture style to be used. The only downside is cost, which seems to be a drawback with both the microservices and event driven architecture styles. This, however, is mitigated with the fact that serverless typically involves the use of third-party hosted services, which can reduce operational and infrastructure costs.
+Using the Architectural Characteristics that we have prioritised, as well as the Architecture Styles Worksheet created by [Mark Richards](https://www.developertoarchitect.com/downloads/worksheets.html), we noticed that serverless (which is a combination of microservices and event driven architecture) is the most suit ble architectural style. The only downside is cost, which seems to be a drawback with both the microservices and event driven architecture styles. This, however, is mitigated with the fact that serverless typically involves the use of third-party hosted services, which reduces operational and infrastructure costs.
 
 We **will** prioritize the choice of serverless components of solutions before choosing to run infrastructure.
 
