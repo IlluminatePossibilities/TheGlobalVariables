@@ -376,10 +376,11 @@ Epics with some known stories to be created should this proposal be selected, wi
 ### k. Risks and Mitigations
 
 1. Vendor Lock-in: leveraging AWS Amplify and Serverless introduces the risk of vendor lock-in. We believe the benefits outweight the risks, as both services significantly reduce the operation cost, and free the development team from setting up the infrastructure and the DevOps toolkit.
-  - To mitigate the risk of lock-in, we recommend coding the application using the vendor-agnostic blocks, and not using Amplify-specific modules.
+  - To mitigate the risk of lock-in, we recommend identifying which amplify-specific modules are in use, in case a future migration is required
+  - In particular, the cognito backend deployed by amplify will require significant efforts to migrate local users and permissions. This is a problem that is particular to all major identity and authentication systems.
 
 2. Third-Party Library Updates: Amplify and frontend libraries require frequent security updates to mitigate the exploitation of security vulnerabilities. 
-  - To mitigate this risk, we recommend leveraging a DevSecOps pipeline, as well as enabling certain AWS security measures.  
+  - There is no need to mitigate this risk. The velocity increase from utilizing these pre-made or partially made components to accelerate development are deferred to a later date if migration is required.
 
 3. Staff Training and Industry Knowledge
   - Mitigations: creating a well-designed website/app is crucial to ensure users (including staff) can quickly learn how to use it. The Vendor shall provide a video demo on how to use the tool, in the case of major UI/workflow changes.
