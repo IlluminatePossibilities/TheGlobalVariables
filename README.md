@@ -328,6 +328,8 @@ Two CI/CD pipelines are proposed to facilitate updates to the infrastructure and
 
 Updates will be triggered on commit, and the tools will be triggered via webhook.
 
+NOTE: Security scanning could be incorporated in the AWS Amplify build process, to provide a DevSecOps pipline to identify critical and major security risks in the frontend and backend components.
+
 ### e. Sequence Diagram
 
 ![Diagram](docs/sequence_diagram.jpg)
