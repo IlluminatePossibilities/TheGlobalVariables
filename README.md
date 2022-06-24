@@ -427,7 +427,7 @@ The primary ongoing development costs not related to feature development on this
 | [ADR 0003](ADR/ADR%200003-Process%20Modeling.md) | Process Modeling |
 | [ADR 0004](ADR/ADR%200004-Observability.md) | Observability |
 | [ADR 0005](ADR/ADR%200005-Amplify.md) | Amplify |
-| [ADR 0006](ADR/ADR%200006-Markdown.mdd) | Markdown |
+| [ADR 0006](ADR/ADR%200006-Markdown.md) | Markdown |
 
 ### l. Risks and Mitigations
 
