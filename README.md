@@ -231,7 +231,7 @@ The candidate's career path and progress, as well as non-profit information, are
 
 ### a. Overview & Value Proposition
 
-The Spotlight App project aims to solve two issues that are faced by any non-profit organization: minimizing the operating cost, and increasing the visibility of available services.
+The Spotlight App project aims to solve two issues that are faced by any non-profit organization: minimizing the operating cost and increasing the visibility of available services.
 
 Many non-profits choose to minimize their operating costs by cutting the budget of anything other than direct program expenses or to “support the cause”. Most often, this causes non-profits to experience slow growth or an inability to become sustainable due to [a lack of investment in infrastructure and management](https://ssir.org/articles/entry/the_nonprofit_starvation_cycle). In many cases, the non-profit is left with a few volunteers to shoulder much of the work.
 
@@ -255,7 +255,7 @@ For a detailed breakout of components from the HLD, and their handling, see [her
 
 We choose the serverless microservices architectural style to design and run the Spotlight application.
 
-Given the Architectural Characteristics that were identified, as well as the Architecture Styles Worksheet created by [Mark Richards](https://www.developertoarchitect.com/downloads/worksheets.html), we noticed that serverless microservices (which is a combination of microservices and event-driven architecture) is the most suitable architectural style.
+Given the Architectural Characteristics that were identified, as well as the Architecture Styles Worksheet created by [Mark Richards](https://www.developertoarchitect.com/downloads/worksheets.html), we determined that serverless microservices (which is a combination of microservices and event-driven architecture) is the most suitable architectural style.
 
 ![Architecture Styles Worksheet](docs/architecture-styles-worksheet.png)
 
@@ -263,8 +263,7 @@ The only downside is cost, which seems to be a drawback with both the microservi
 
 #### iii. C4 Diagrams
 
-We leverage C4 model to describe our proposed software architecture.
-
+We leverage the C4 model to describe our proposed software architecture.
 
 ##### a. System Context Diagram
 
@@ -277,13 +276,13 @@ We leverage C4 model to describe our proposed software architecture.
 #### iii. Tradeoffs
 
 **Serverless vs Container**
-Our solution sacrifices portability/deployability for elasticity/cost. We understand that containers provide greater portability and broad deployability. However, due to budget concerns (in terms of both infrastructure and maintenance), our decision was to leverage serverless, even though it introduces the risk of vendor lock-in.
+Our solution sacrifices portability/deployability for elasticity/cost. We understand that containers provide greater portability and broad deployability. However, due to budget concerns (in terms of both infrastructure and maintenance), we decided to leverage serverless, even though it introduces the risk of vendor lock-in.
 
 **D3/Vue.js**
 On the frontend technology stack, we sacrifice flexibility/productivity for cost/maintainability. React.js provides a lot of flexibility that allows creation of more complex logic and UIs. Vue shines when it comes to small applications: it is easy to use, and Vue templates make everything fast. Since the Spotlight app is fairly simple, and the cost (both development and maintenance) is a driving factor, our natural selection was D3/Vue. Vue also offers options for mobile application development such as [Vue Native](https://vue-native.io/) and [NativeScript](https://nativescript.org/).
 
 **Amplify**
-Our solution sacrifices flexibility/portability for simplicity/feasibility. Amplify is a fully-managed cloud service that allows developers to quickly build, deploy and scale web applications. Amplify provides many features out of the box, such as data layer APIs, CI/CD pipelines, Vue/D3 modules for frontend, among others. Leveraging Amplify, however, introduces the risk of vendor lock-in.
+Our solution sacrifices flexibility/portability for simplicity/feasibility. Amplify is a fully-managed cloud service that allows developers to quickly build, deploy and scale web applications. Amplify provides many features out of the box, such as data layer APIs, CI/CD pipelines, Vue/D3 modules for the front-end, among others. Leveraging Amplify, however, introduces the risk of vendor lock-in.
 
 ### c. Reporting & Business Intelligence (BI)
 
@@ -300,9 +299,9 @@ The atomic data sources we intend to use are:
 
 *NOTE:* We will augment user data with geolocation data obtained through Amplify for more geo-specific recommendations.
 
-Interactive reports for the data will be built using Vuejs templates. D3 will be utilized for presenting data visualizations, and in particular to make data-interactive experiences. These may include force-directed graphs to visualize connectivity tissue between parties, geographic heat maps, or the more familiar graph and circle charts. 
+Interactive reports for the data will be built using Vuejs templates. D3 will be utilized for presenting data visualizations, and in particular to make data-interactive experiences. These may include force-directed graphs to visualize connectivity tissue between parties, geographic heat maps, or the more familiar graph and circle charts.
 
-Simply displaying data isn’t enough. The data needs to be interactive, clickable, and most importantly tell a story. Relevant data should be clearly presented throughout the products workflows to help visually guide the users, and not simply be a side-reporting engine. This amongst other technical reasons was why we chose d3, over external BI products.
+Simply displaying data isn’t enough. The data needs to be interactive, clickable, and most importantly tell a story. Relevant data should be clearly presented throughout the product's workflows to help visually guide the users, and not simply be a side-reporting engine. This amongst other technical reasons was why we chose d3, over external BI products.
 
 ### d. Deployments
 
@@ -349,12 +348,11 @@ User interface wireframes will be expanded should this proposal be selected for 
 
 ### h. Editable/Markdown fields
 
-
-Editable fields will allow for a reduced subset of markdown text (see UI wireframes 'non-profit edit profile'). In particular edit fields will each come with the ability to edit markdown fields, with optional hints and editor functions, and markdown will be used in the presentation layer to present markdown-enabled fields. In the case of a field which is not markdown-friendly, we will restrict the markdown ability appropriately by not making the editor available, and to ensure no confusion, filter and present a textual warning on the UI in case someone tries to directly edit a field in markdown which does not support it. The precise nature of which fields will support markdown is an implementation phase concern, and will be addressed at that time on a case-by case basis taking into account business process requirements. As such when the schema and data fields are created, we'll work with the stakeholders to define which fields require rich editing capabilities and utilize visual markdown editors and viewers as much as possible and where appropriate.
+Editable fields will allow for a reduced subset of markdown text (see UI wireframes 'non-profit edit profile'). In particular 'edit' fields will each come with the ability to edit markdown fields, with optional hints and editor functions, and markdown will be used in the presentation layer to present markdown-enabled fields. In the case of a field that is not markdown-friendly, we will restrict the markdown ability appropriately by not making the editor available, and to ensure no confusion, filter and present a textual warning on the UI in case someone tries to directly edit a field in markdown which does not support it. The precise nature of which fields will support markdown is an implementation phase concern and will be addressed at that time on a case-by-case basis taking into account business process requirements. As such when the schema and data fields are created, we'll work with the stakeholders to define which fields require rich editing capabilities and utilize visual markdown editors and viewers as much as possible and where appropriate.
 
 ### i. Backlog
 
-Creation and refinement of a Backlog of tasks to be performed is a key step and needs to be performed very early on should this proposal be selected.
+The creation and refinement of a Backlog of tasks to be performed is a key step and needs to be performed very early on should this proposal be selected.
 
 #### a. Epics & Milestones
 
@@ -362,7 +360,7 @@ To be defined based on the backlog and other needs where appropriate.
 
 #### b. Defined User Stories & Epics
 
-Epics with some known stories to be created should this proposal be selected, with further refinement occuring a milestone start and sprint start basis, milestone by milestone and sprint by sprint.
+Epics with some known stories to be created should this proposal be selected, with further refinement occurring at the start of milestones and the start sprints. They will be reevaluated milestone by milestone and sprint by sprint.
 
 ### j. Architectural Decision Records (ADRs)
 
