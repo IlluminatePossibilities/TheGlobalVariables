@@ -24,6 +24,7 @@ Presented by
     - [a. Team Name](#a-team-name)
     - [b. Tagline](#b-tagline)
     - [c. Technology Proposal Summary](#c-technology-proposal-summary)
+    - [d. Resources](#d-resources)
   - [4. Captured Requirements](#4-captured-requirements)
     - [a. Users Personas & Cohorts](#a-users-personas--cohorts)
     - [b. Platform Feature Characteristics](#b-platform-feature-characteristics)
@@ -134,6 +135,13 @@ Illuminate Possibilities
 ### c. Technology Proposal Summary
 
 A technology solution that serves the purpose of enhancing visibility, support, and collaboration of non-profits serving similar needs in the community and operates as a candidate case management platform.
+
+### d. Resources
+
+| Resource |
+|---|
+| [Slides](aux-resources/Diversity%20Cyber%20Council%20Proposal%20-%20TheGlobalVariables.pdf) |
+| [Video of slides and voice](aux-resources/Spotlight%20App%20-%20TheGlobalVariables.mp4?raw=true) |
 
 ---
 
