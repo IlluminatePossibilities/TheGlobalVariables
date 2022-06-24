@@ -32,20 +32,23 @@ Presented by
     - [a. Usability](#a-usability)
     - [b. Responsiveness](#b-responsiveness)
     - [c. Feasibility](#c-feasibility)
-      - [i. Operational Costs](#i-operational-costs)
-      - [ii. Infrastructure & Cloud Costs](#ii-infrastructure--cloud-costs)
-      - [iii. Security Update Costs](#iii-security-update-costs)
+      - [I. Operational Costs](#i-operational-costs)
+      - [II. Infrastructure & Cloud Costs](#ii-infrastructure--cloud-costs)
+      - [III. Security Update Costs](#iii-security-update-costs)
     - [d. Elasticity](#d-elasticity)
     - [e. Security](#e-security)
     - [f. Privacy](#f-privacy)
-    - [g. Interoperability](#d-interoperability)
-    - [h. Data Integrity](#f-data-integrity)
+    - [g. Interoperability](#g-interoperability)
+    - [h. Data Integrity](#h-data-integrity)
   - [6. Proposed Solution](#6-proposed-solution)
     - [a. Overview & Value Proposition](#a-overview--value-proposition)
     - [b. High-Level Architecture Diagram](#b-high-level-architecture-diagram)
       - [i. HLD Components](#i-hld-components)
       - [ii. Architecture Style](#ii-architecture-style)
       - [iii. C4 Diagrams](#iii-c4-diagrams)
+        - [a. System Context Diagram](#a-system-context-diagram)
+        - [b. Container Diagram](#b-container-diagram)
+      - [iii. Tradeoffs](#iii-tradeoffs)
     - [c. Reporting & Business Intelligence (BI)](#c-reporting--business-intelligence-bi)
     - [d. Deployments](#d-deployments)
     - [e. Sequence Diagram](#e-sequence-diagram)
@@ -53,9 +56,9 @@ Presented by
     - [g. UI Wireframes](#g-ui-wireframes)
     - [h. Editable/Markdown fields](#h-editablemarkdown-fields)
     - [i. Backlog](#i-backlog)
-      - [a. Epics & Milestones](#i-epics--milestones)
-      - [b. Defined User Stories & Epics](#ii-defined-user-stories--epics)
-    - [j. Architectural Decision Records (ADRs)](#h-architectural-decision-records-adrs)
+      - [a. Epics & Milestones](#a-epics--milestones)
+      - [b. Defined User Stories & Epics](#b-defined-user-stories--epics)
+    - [j. Architectural Decision Records (ADRs)](#j-architectural-decision-records-adrs)
     - [k. Risks and Mitigations](#k-risks-and-mitigations)
   - [7. Definitions / Glossary](#7-definitions--glossary)
     - [501c3 Non-Profit](#501c3-non-profit)
@@ -70,6 +73,7 @@ Presented by
     - [Total Cost of Ownership](#total-cost-of-ownership)
     - [User Interface](#user-interface)
     - [User Story](#user-story)
+    - [3PP](#3pp)
 
 ---
 
@@ -247,25 +251,26 @@ To reduce the cost of infrastructure, we introduced Serverless along with an aff
 
 For a detailed breakout of components from the HLD, and their handling, see [here](docs/Components.md).
 
-
 #### ii. Architecture Style
-We choose the serverless microservices architecture to design and run the Spotlight application. 
 
-Using the Architectural Characteristics that we have prioritised, as well as the Architecture Styles Worksheet created by [Mark Richards](https://www.developertoarchitect.com/downloads/worksheets.html), we noticed that serverless microservices (which is a combination of microservices and event driven architecture) is the best suited architecture style to be used. 
+We choose the serverless microservices architectural style to design and run the Spotlight application.
+
+Given the Architectural Characteristics that were identified, as well as the Architecture Styles Worksheet created by [Mark Richards](https://www.developertoarchitect.com/downloads/worksheets.html), we noticed that serverless microservices (which is a combination of microservices and event-driven architecture) is the most suitable architectural style.
 
 ![Architecture Styles Worksheet](docs/architecture-styles-worksheet.png)
 
-The only downside is cost, which seems to be a drawback with both the microservices and event driven architecture styles. This, however, is mitigated with the fact that serverless typically involves the use of third-party hosted services, which can reduce operational and infrastructure costs.
-
+The only downside is cost, which seems to be a drawback with both the microservices and event-driven architectural styles. This, however, is mitigated by the fact that serverless architectures typically involve the use of third-party hosted services, which can reduce operational and infrastructure costs.
 
 #### iii. C4 Diagrams
 
 We leverage C4 model to describe our proposed software architecture.
 
 ##### a. System Context Diagram
+
 ![System Context Diagram](docs/system-context.jpg)
 
 ##### b. Container Diagram
+
 ![Container Diagram](docs/container-diagram.jpg)
 
 #### iii. Tradeoffs
@@ -429,4 +434,5 @@ Any means that a user may use to interact with a system.
 An explanation of a software feature written from the perspective of a user persona.
 
 ### 3PP
+
 A Third-Party Product(3PP) is a reusable software component developed to be either freely distributed or sold by an entity other than the original vendor of the development platform.
