@@ -56,9 +56,9 @@ Presented by
     - [g. UI Wireframes](#g-ui-wireframes)
     - [h. Editable/Markdown fields](#h-editablemarkdown-fields)
     - [i. Backlog](#i-backlog)
-      - [a. Milestones](#i-milestones)
-      - [b. Epics](#i-epics)
-      - [c. Defined User Stories & Epics](#ii-defined-user-stories--epics)
+      - [a. Milestones](#a-milestones)
+      - [a. Epics](#a-epics)
+      - [c. Defined User Stories & Epics](#c-defined-user-stories--epics)
     - [j. Architectural Decision Records (ADRs)](#j-architectural-decision-records-adrs)
     - [k. Risks and Mitigations](#k-risks-and-mitigations)
   - [7. Definitions / Glossary](#7-definitions--glossary)
@@ -75,7 +75,6 @@ Presented by
     - [User Interface](#user-interface)
     - [User Story](#user-story)
     - [3PP](#3pp)
-
 ---
 
 ## 1. Overview
