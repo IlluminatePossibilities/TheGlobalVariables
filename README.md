@@ -56,8 +56,9 @@ Presented by
     - [g. UI Wireframes](#g-ui-wireframes)
     - [h. Editable/Markdown fields](#h-editablemarkdown-fields)
     - [i. Backlog](#i-backlog)
-      - [a. Epics & Milestones](#a-epics--milestones)
-      - [b. Defined User Stories & Epics](#b-defined-user-stories--epics)
+      - [a. Milestones](#i-milestones)
+      - [b. Epics](#i-epics)
+      - [c. Defined User Stories & Epics](#ii-defined-user-stories--epics)
     - [j. Architectural Decision Records (ADRs)](#j-architectural-decision-records-adrs)
     - [k. Risks and Mitigations](#k-risks-and-mitigations)
   - [7. Definitions / Glossary](#7-definitions--glossary)
@@ -368,15 +369,43 @@ Editable fields will allow for a reduced subset of markdown text (see UI wirefra
 
 ### i. Backlog
 
-The creation and refinement of a Backlog of tasks to be performed is a key step and needs to be performed very early on should this proposal be selected.
+The creation and refinement of a Backlog of tasks to be performed is a key step and needs to be performed very early on should this proposal be selected. Milestones are a "living document" throughout the project. These Milestones and Epics shown here act provide a starting point for likely major product architectural milestones.
+      
+#### a. Milestones
 
-#### a. Epics & Milestones
+The initial set of milestones are placeholders, and actual user feedback and soliciting feedback from every milestone and partial milestone will modify this list, the description, and the priority.
 
-To be defined based on the backlog and other needs where appropriate.
+| Milestone | Description |
+|---|---|
+| Architectural | Complete architectural planning, business requirements and signoff |
+| Platform | Automate and deploy the initial platform |
+| Application development | MVP of the application (signups, initial schema, vue libraries, etc) |
+| Application development rich editing | Comprehensive editing capabilities and all fields |
+| Application connectivity | Learning, connecting users and organizations |
+| Reporting and data richness | Reports, data overlays, and interactive and data driven pages |
 
-#### b. Defined User Stories & Epics
+#### a. Epics
 
-Epics with some known stories to be created should this proposal be selected, with further refinement occurring at the start of milestones and the start sprints. They will be reevaluated milestone by milestone and sprint by sprint.
+The initial set of epics only broadly cover some of the high level aspects around the architecture. Not captured here are numerous epics related to the application implementation beyond the archicture, nor the operational aspects of keeping the app running.
+
+| Epic | Description |
+|---|---|
+| Amplify frontend | Create automation and deploy initial amplify frontend project(s) for at least production & staging |
+| Amplify backend | Create automation and deploy initial amplify backend project, connect to frontends |
+| Data models | Map out schema for initial dynamodb models including fields, S3 storage, graphql statements |
+| Identify providers | Implement 3rd party identity providers with Cognito |
+| Vue processes | Implement the application workflows and processes within the vue framework provided with graphql and s3 data interfaces |
+| Credential helpers | Implement credential storage and helpers, including lambdas to maintain resets/syncs |
+| Data model permissions | Overlay permissioning models for application admins, users, and organizations |
+| Compliance reporting | Work with legal to define and implement appropriate initial required compliance reports |
+| ML, data enhancement | Make use of sagemaker and other data enhancers to backfeed in connectivity between data nodes, estimates, and predictions |
+| Observability | Deploy X-ray, alerting/alarming on cloudwatch metrics |
+| Backups | Implement basic non-airgap data layers backups (dynamodb, cognito, etc) |
+
+#### c. Defined User Stories & Epics
+
+This task has been deferred to post finalist selection, given the varied nature and significant number of details that may be required collaboratively with the interested parties in making the majority of these decissions. We would recommend a "sprint 0" backlog refining review to go over the implication of all design decisions before extensive planning takes place on any particular epic, especially before they are broken down into user stories and functional requirements.
+
 
 ### j. Architectural Decision Records (ADRs)
 
