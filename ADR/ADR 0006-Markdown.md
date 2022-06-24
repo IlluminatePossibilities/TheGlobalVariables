@@ -32,4 +32,4 @@ Negative Impact:
 
 ## References
 
-1. [https://aws.amazon.com/amplify/features/?nc=sn&loc=3&dn=5](https://github.com/markdown-it/markdown-it)](https://github.com/markdown-it/markdown-it)
+1. [https://github.com/markdown-it/markdown-it](https://github.com/markdown-it/markdown-it)
