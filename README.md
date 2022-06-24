@@ -57,7 +57,7 @@ Presented by
     - [h. Editable/Markdown fields](#h-editablemarkdown-fields)
     - [i. Backlog](#i-backlog)
       - [a. Milestones](#a-milestones)
-      - [a. Epics](#a-epics)
+      - [b. Epics](#b-epics)
       - [c. Defined User Stories & Epics](#c-defined-user-stories--epics)
     - [j. Architectural Decision Records (ADRs)](#j-architectural-decision-records-adrs)
     - [k. Risks and Mitigations](#k-risks-and-mitigations)
@@ -383,7 +383,7 @@ The initial set of milestones are placeholders, and actual user feedback and sol
 | Application connectivity | Learning, connecting users and organizations |
 | Reporting and data richness | Reports, data overlays, and interactive and data driven pages |
 
-#### a. Epics
+#### b. Epics
 
 The initial set of epics only broadly cover some of the high level aspects around the architecture. Not captured here are numerous epics related to the application implementation beyond the archicture, nor the operational aspects of keeping the app running.
 
