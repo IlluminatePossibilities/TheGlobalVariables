@@ -103,7 +103,7 @@ Our goal is to establish a sustainable and diverse talent pipeline that extends 
 
 ### a. Program Name
 
-Spotlight App/Platform
+The Spotlight App/Platform
 
 ### b. Program Summary
 
@@ -115,7 +115,7 @@ The Spotlight App Project is a sustained effort to amass a coalition of non-prof
 
 ### c. Technology Solution Description
 
-Nonprofit Networking Hub & Diverse Candidate Career Case Management Tool
+Non-profit Networking Hub & Diverse Candidate Career Case Management Tool
 
 ---
 
@@ -184,7 +184,7 @@ The end users are not tech-savvy; therefore the success of this product depends 
 
 ### b. Responsiveness
 
-Since Spotlight is a user-facing application, it is important to ensure the system responds to end-user requests promptly. All user interactions *MUST* be coded in such a way as to provide some form of feedback for all actions. This feedback must occur within the [Doherty Threshold of 400ms](https://www.uxtoast.com/ux-laws/doherty-threshold).
+Since the Spotlight App is a user-facing application, it is important to ensure the system responds to end-user requests promptly. All user interactions *MUST* be coded in such a way as to provide some form of feedback for all actions. This feedback must occur within the [Doherty Threshold of 400ms](https://www.uxtoast.com/ux-laws/doherty-threshold).
 
 ### c. Feasibility
 
@@ -193,15 +193,15 @@ The total cost of ownership comprises a significant number of factors. In this p
 
 #### I. Operational Costs
 
-Generally the people costs, by way of employees, consultants, or services firms. The subsequent phase, if applicable and if chosen for the semifinals, will provide an expected high-level budget of operational costs and expected expenses in this category.
+Generally the people costs, by way of employees, consultants, or services firms. Subsequent analysis will provide an expected high-level budget of operational costs and expected expenses in this category.
 
 #### II. Infrastructure & Cloud Costs
 
-Generally, these would include all the infrastructure, cloud, services, licenses, API subscriptions, and other costs associated with running the application frontend and backend, excluding development. The subsequent phase, if applicable and if chosen for the semifinals, will provide an expected high-level budget of operational costs and expected expenses in this category. The budget will be created utilizing example scenarios, or, more precise numbers if real-world expected user figures are available. A cost breakdown of services will be provided.
+Generally, these would include all the infrastructure, cloud, services, licenses, API subscriptions, and other costs associated with running the application frontend and backend, excluding development. In a subsequent phase, an expected high-level budget of operational costs and expected expenses in this category will be performed. The budget will be created utilizing example scenarios, or, more precise numbers if real-world expected user figures are available. A cost breakdown of services would also be an expected deliverable.
 
 #### III. Security Update Costs
 
-The primary ongoing development costs not related to feature development on this platform, in addition to responding to events and the infrastructure itself, will be the updates to the application libraries to address ongoing security concerns. The application frontend is by far the most vulnerable part of this system in terms of security and will require ongoing updates. The subsequent phase, if applicable and if chosen for the semifinals, will provide an expected high-level budget of operational costs and expected expenses in this category.
+The primary ongoing development costs not related to feature development on this platform, in addition to responding to events and the infrastructure itself, will be the updates to the application libraries to address ongoing security concerns. The application frontend is by far the most vulnerable part of this system in terms of security and will require ongoing updates. Subsequent phases should focus on creating an expected high-level budget of operational costs and expected expenses in this category.
 
 ### d. Elasticity
 
@@ -215,11 +215,11 @@ The application is exposed on the web which always has the risk of cyberattacks;
 
 ### f. Privacy
 
-The system needs to handle the PII of candidates. Personal information must be accessed by authorized administrators, mentors, and non-profit representatives.
+The system needs to handle the [PII](#personally-identifiable-information) of candidates. Personal information must be accessed by authorized administrators, mentors, and non-profit representatives.
 
 ### g. Interoperability
 
-The purpose of this product is to facilitate collaboration between non-profits. To achieve this goal, Spotlight needs to communicate with external systems (such as childcare/housing services) and legacy systems.
+The purpose of this product is to facilitate collaboration between non-profits. To achieve this goal, the Spotlight App needs to communicate with external systems (such as childcare/housing services) and legacy systems.
 
 ### h. Data Integrity
 
@@ -231,17 +231,17 @@ The candidate's career path and progress, as well as non-profit information, are
 
 ### a. Overview & Value Proposition
 
-The Spotlight App project aims to solve two issues that are faced by any non-profit organization: minimizing the operating cost and increasing the visibility of available services.
+The Spotlight App project aims to solve two issues that are faced by any non-profit organization: minimizing the operating cost, and increasing the visibility of available services.
 
 Many non-profits choose to minimize their operating costs by cutting the budget of anything other than direct program expenses or to “support the cause”. Most often, this causes non-profits to experience slow growth or an inability to become sustainable due to [a lack of investment in infrastructure and management](https://ssir.org/articles/entry/the_nonprofit_starvation_cycle). In many cases, the non-profit is left with a few volunteers to shoulder much of the work.
 
 On the other hand, the lack of visibility of non-profits and their offerings creates a barrier to access for the people who can benefit most from these programs. The decentralization and lack of support between non-profits create gaps in service and overall impact.
 
-Our proposed solution tackles the lack of visibility by enabling Spotlight App to be a central hub where non-profits are empowered to identify their service capabilities and publicize their offerings. The Spotlight App also enables the candidates to find services by providing smart recommendations based on the information provided by users and their geographical preferences. Moreover, the notification service enables non-profits to advertise their new offerings to candidates, based on their location/desired services. The Spotlight Mobile App brings the non-profit services closer to the candidates, as [85% of Americans currently own a smartphone](https://www.pewresearch.org/internet/fact-sheet/mobile/). The map view of the non-profit offerings makes it convenient for candidates to locate the services closest to their desired locations (school, home, work). In addition, the prediction capability of our solution helps non-profits identify the offering gaps, and predict the future desirable career paths. Our solution leverages AWS Pinpoint to collect usage data which essentially provides meaningful metrics to guide administrators and non-profits to improve their offerings and the application usability.
+Our proposed solution tackles the lack of visibility by enabling the Spotlight App to be a central hub where non-profits are empowered to identify their service capabilities and publicize their offerings. The Spotlight App also enables the candidates to find services by providing smart recommendations based on the information provided by users and their geographical preferences. Moreover, the notification service enables non-profits to advertise their new offerings to candidates, based on their location/desired services. The Spotlight Mobile App brings the non-profit services closer to the candidates, as [85% of Americans currently own a smartphone](https://www.pewresearch.org/internet/fact-sheet/mobile/). The map view of the non-profit offerings makes it convenient for candidates to locate the services closest to their desired locations (school, home, work). In addition, the prediction capability of our solution helps non-profits identify the offering gaps, and predict the future desirable services. Our solution leverages AWS Pinpoint to collect usage data which essentially provides meaningful metrics to guide administrators and non-profits to improve their offerings and the application usability.
 
-During the design process, we prioritized finding a cost-effective solution, without compromising the efficiency or the usability of the product. Our proposed solution reduces the cost of human resources by automating most of the manual processes that are typically performed by volunteers and employees. This frees them to focus on what is the most important for non-profits (conducting fundraising events, meeting candidates and nonprofits). Calendly is used to replace the traditional means of communication (such as phone calls and emails) for scheduling meetings. A recommendation engine is used to simplify the interview process by taking the candidate's profile and needs as inputs and providing smart initial recommendations for a career roadmap.
+During the design process, we prioritized finding a cost-effective solution, without compromising the efficiency or the usability of the product. Our proposed solution reduces the cost of human resources by automating most of the manual processes that are typically performed by volunteers and employees. This frees them to focus on what is the most important for non-profits (conducting fundraising events, meeting candidates and non-profits). Calendly is used to replace the traditional means of communication (such as phone calls and emails) for scheduling meetings. A recommendation engine is used to simplify the interview process by taking the candidate's profile and needs as inputs and providing smart initial recommendations for a career roadmap.
 
-To reduce the cost of infrastructure, we introduced Serverless along with an affordable technology stack (such as D3, Vuejs, AWS Amplify). The use of serverless means that the development team does not need to spend time building, securing and maintaining servers. By using D3 and Vuejs for the frontend development, and AWS Amplify for the backend development, the Spotlight App can be developed and deployed faster and within a reasonable budget.
+To reduce the cost of infrastructure, we introduced a Serverless architecture along with an affordable technology stack (such as D3, Vuejs, AWS Amplify). The use of serverless means that the development team does not need to spend time building, securing and maintaining servers. By using D3 and Vuejs for the frontend development, and AWS Amplify for the backend development, the Spotlight App can be developed and deployed faster and within a reasonable budget.
 
 ### b. High-Level Architecture Diagram
 
@@ -265,6 +265,7 @@ The only downside is cost, which seems to be a drawback with both the microservi
 
 We leverage C4 model to describe our proposed software architecture.
 
+
 ##### a. System Context Diagram
 
 ![System Context Diagram](docs/system-context.jpg)
@@ -279,14 +280,14 @@ We leverage C4 model to describe our proposed software architecture.
 Our solution sacrifices portability/deployability for elasticity/cost. We understand that containers provide greater portability and broad deployability. However, due to budget concerns (in terms of both infrastructure and maintenance), our decision was to leverage serverless, even though it introduces the risk of vendor lock-in.
 
 **D3/Vue.js**
-On the frontend technology stack, we sacrifice flexibility/productivity for cost/maintainability. React.js provides a lot of flexibility that allows creation of more complex logic and UIs. Vue shines when it comes to small applications: it is easy to use, and Vue templates make everything fast. Since Spotlight app is fairly simple, and the cost (both development and maintenance) is a driving factor, our natural selection was D3/Vue. Vue also offers options for mobile application development such as [Vue Native](https://vue-native.io/) and [NativeScript](https://nativescript.org/).
+On the frontend technology stack, we sacrifice flexibility/productivity for cost/maintainability. React.js provides a lot of flexibility that allows creation of more complex logic and UIs. Vue shines when it comes to small applications: it is easy to use, and Vue templates make everything fast. Since the Spotlight app is fairly simple, and the cost (both development and maintenance) is a driving factor, our natural selection was D3/Vue. Vue also offers options for mobile application development such as [Vue Native](https://vue-native.io/) and [NativeScript](https://nativescript.org/).
 
 **Amplify**
 Our solution sacrifices flexibility/portability for simplicity/feasibility. Amplify is a fully-managed cloud service that allows developers to quickly build, deploy and scale web applications. Amplify provides many features out of the box, such as data layer APIs, CI/CD pipelines, Vue/D3 modules for frontend, among others. Leveraging Amplify, however, introduces the risk of vendor lock-in.
 
 ### c. Reporting & Business Intelligence (BI)
 
-We will use AWS Sagemaker to create models as well as for recommendations and predictions. These will be based on the processes that are currently defined and allow others yet to be defined to be modeled as required.
+We will use AWS Sagemaker to create models, as well as for recommendations and predictions. These will be based on the processes that are currently defined and allow others yet to be defined to be modeled as required.
 
 Initially, these models will be trained with test data, but the models will be retrained as users use the system and refinements will be made based on system usage. This will allow the models to become more accurate as the system is used.
 
@@ -299,7 +300,9 @@ The atomic data sources we intend to use are:
 
 *NOTE:* We will augment user data with geolocation data obtained through Amplify for more geo-specific recommendations.
 
-Interactive reports for the data will be built using Vuejs templates and D3 visualizations.
+Interactive reports for the data will be built using Vuejs templates. D3 will be utilized for presenting data visualizations, and in particular to make data-interactive experiences. These may include force-directed graphs to visualize connectivity tissue between parties, geographic heat maps, or the more familiar graph and circle charts. 
+
+Simply displaying data isn’t enough. The data needs to be interactive, clickable, and most importantly tell a story. Relevant data should be clearly presented throughout the products workflows to help visually guide the users, and not simply be a side-reporting engine. This amongst other technical reasons was why we chose d3, over external BI products.
 
 ### d. Deployments
 
@@ -320,20 +323,20 @@ Updates will be triggered on commit, and the tools will be triggered via webhook
 
 Below we have provided three Value Stream Mappings (VSM) for the candidate and non-profit registration, as well as the user data purging.
 
-Candidate Registration
+**Candidate Registration**
 ![Diagram](docs/value-stream-mapping/candidate-vsm.jpg)
 
-Non-profit Registration
+**Non-profit Registration**
 ![Diagram](docs/value-stream-mapping/non-profit-vsm.jpg)
 
-Purging User data
+**Purging User data**
 ![Diagram](docs/value-stream-mapping/user-data-purging-vsm.jpg)
 
 Eventually, in the build-out phase, we will have (potentially) multiple VSMs (one VSM per individual flow). Process descriptions, steps, and individual flow diagrams will be refined significantly with stakeholder feedback.
 
 ### g. UI Wireframes
 
-User interface wireframes will be expanded should this proposal be selected for the finals, and refined significantly with stakeholder feedback rounds as required.
+User interface wireframes will be expanded should this proposal be selected for the finals, and refined iteratively with stakeholder feedback as required.
 
 <p float="center">
   <img src="docs/ui-mockup/login.png" width="200" />
@@ -341,23 +344,25 @@ User interface wireframes will be expanded should this proposal be selected for 
   <img src="docs/ui-mockup/list_view.png" width="200" />
   <img src="docs/ui-mockup/map_view.png" width="200" />
   <img src="docs/ui-mockup/non_profit_edit_profile.png" width="200" />
+  <img src="docs/ui-mockup/notification.png" width="200" />
 </p>
 
 ### h. Editable/Markdown fields
 
-Editable/Markdown fields will be expanded should this proposal be selected for the semifinals. When the schema and data fields are created, we'll work with the stakeholders to define which fields require rich editing capabilities and utilize visual markdown editors and viewers as much as possible and where appropriate.
+
+Editable fields will allow for a reduced subset of markdown text (see UI wireframes 'non-profit edit profile'). In particular edit fields will each come with the ability to edit markdown fields, with optional hints and editor functions, and markdown will be used in the presentation layer to present markdown-enabled fields. In the case of a field which is not markdown-friendly, we will restrict the markdown ability appropriately by not making the editor available, and to ensure no confusion, filter and present a textual warning on the UI in case someone tries to directly edit a field in markdown which does not support it. The precise nature of which fields will support markdown is an implementation phase concern, and will be addressed at that time on a case-by case basis taking into account business process requirements. As such when the schema and data fields are created, we'll work with the stakeholders to define which fields require rich editing capabilities and utilize visual markdown editors and viewers as much as possible and where appropriate.
 
 ### i. Backlog
 
-The Backlog refinement and entries will begin if this proposal endures itself into the semifinals, with refinement at each stage into the and past the finals.
+Creation and refinement of a Backlog of tasks to be performed is a key step and needs to be performed very early on should this proposal be selected.
 
 #### a. Epics & Milestones
 
-To be defined if a semifinalist, if appropriate.
+To be defined based on the backlog and other needs where appropriate.
 
 #### b. Defined User Stories & Epics
 
-Epics with some known stories to be flushed out in the semifinalist stage, with additional refinement post-finalist, if appropriate, and then on a milestone start and sprint start basis, milestone by milestone and sprint by sprint.
+Epics with some known stories to be created should this proposal be selected, with further refinement occuring a milestone start and sprint start basis, milestone by milestone and sprint by sprint.
 
 ### j. Architectural Decision Records (ADRs)
 
@@ -368,6 +373,7 @@ Epics with some known stories to be flushed out in the semifinalist stage, with 
 | [ADR 0003](ADR/ADR%200003-Process%20Modeling.md) | Process Modeling |
 | [ADR 0004](ADR/ADR%200004-Observability.md) | Observability |
 | [ADR 0005](ADR/ADR%200005-Amplify.md) | Amplify |
+| [ADR 0006](ADR/ADR%200006-Markdown.mdd) | Markdown |
 
 ### k. Risks and Mitigations
 
