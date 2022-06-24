@@ -193,15 +193,29 @@ The total cost of ownership comprises a significant number of factors. In this p
 
 #### I. Operational Costs
 
-Generally the people costs, by way of employees, consultants, or services firms. Subsequent analysis will provide an expected high-level budget of operational costs and expected expenses in this category.
+Generally the people costs, by way of employees, consultants, or services firms. The architecture relies heavily on PaaS and SaaS platforms, and the vast majority of components are either self-healing or extremely low maintenance during normal operations periods when not undergoing configuration changes and application upgrades. As such, the number of incidents per month/year would be low, especially as compared to traditional server based or container based architectures, which can require a considerable amount of attention simply to keep on top of regular security updates.
+
+With that in mind the majority of operational costs for upgrades shift from a burden of "updating the OS/servers/platform" to a burden of updating the applications core libraries, which is a cost that is not avoided in a traditional architecture, as the vast majority of applications will rely on 3rd party libraries.
+
+However, where incidents do occur requiring data recovery, redeployment, or deeper investigationst the skillsets are relatively rare. The technology stack is unique enough that it is not familiar with all architects, even those who operate at the cutting edge within the AWS ecosystem. As such, when events do arise they can be expected to run high, depending on the region the technical resource is located within. A solution architect can run over [$110 USD per hour](https://www.payscale.com/research/CA/Skill=Cloud_Computing/Hourly_Rate), and that can easily double or triple for an emergency call. Incidents may be quick to resolve (1h or less), but can sometimes take a day or more to resolve if it involves data loss.
 
 #### II. Infrastructure & Cloud Costs
 
 Generally, these would include all the infrastructure, cloud, services, licenses, API subscriptions, and other costs associated with running the application frontend and backend, excluding development. In a subsequent phase, an expected high-level budget of operational costs and expected expenses in this category will be performed. The budget will be created utilizing example scenarios, or, more precise numbers if real-world expected user figures are available. A cost breakdown of services would also be an expected deliverable.
 
+As the platform is elastic in both capacity and pricing on every single service it utilizes, there are very few upfront costs, and the costs scale very linearly with users, dependent on user traffic. For simplicity, the types of cohorts and personas are simply referred to as "users".
+
+We've calculated the architectural minimum footprint for a running, but low-utilization (e.g., <10 users) to be under $100 USD per month, excluding operational costs and backup retentions, as the RTO (Recovery time objective) and RPO (Recovery point objective) are not known. We've also made some assumptions, that a standard user session would visit under 20 screens/pages, and that any particular page would, with caching, average 160kb or less.
+
+To that end we've additionally calculated, again making some assumptions around usage of the data layer on a particular page/screen, and the data storage requirements and access requirements of users on average being 2 sessions per month, that the cost to scale users could be as low as <$0.01 USD per month per user, and in some scenarios approach <$0.002 USD. The maximum scenario, assuming very rich data, significant data enrichment, plentiful queries, and the assumption that all pages required heavy interaction and that users hit the application numerous times per month did not bring the cost above $0.10 USD per month per user.
+
+Finding the correct costs will depend on collecting additional inputs, including expected user profiles, defining the data models, defining the final interaction processes in the application, and other topical areas that we simply dont have the underlying data to make good assumptions around at this time.
+
+We've deferred the cost breakdown per service in liu of the cost per user calculation given the highly variable nature, and low cost per user.
+
 #### III. Security Update Costs
 
-The primary ongoing development costs not related to feature development on this platform, in addition to responding to events and the infrastructure itself, will be the updates to the application libraries to address ongoing security concerns. The application frontend is by far the most vulnerable part of this system in terms of security and will require ongoing updates. Subsequent phases should focus on creating an expected high-level budget of operational costs and expected expenses in this category.
+The primary ongoing development costs not related to feature development on this platform, in addition to responding to events and the infrastructure itself, will be the updates to the application libraries to address ongoing security concerns. The application frontend is by far the most vulnerable part of this system in terms of security and will require ongoing updates. Our ultimate conclusion with regards to security costs is that they will in fact not be a burden more than a traditional application. All applications, or any recently built application, rely heavily on 3rd party components. This is true even for traditional server-based monolithic applications. These are costs that a borne regardless of the architecture.
 
 ### d. Elasticity
 
